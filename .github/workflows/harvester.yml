@@ -1,0 +1,30 @@
+name: 📻 Radio Harvester 25K
+
+on:
+  schedule:
+    - cron: '0 4 * * *' # Se ejecuta automáticamente todos los días (4 AM UTC)
+  workflow_dispatch:    # Te permite ejecutarlo manualmente con un clic en GitHub
+
+jobs:
+  build-database:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Permite a GitHub guardar el archivo JSON en tu repo
+
+    steps:
+      - name: 📥 Clonar repositorio
+        uses: actions/checkout@v4
+
+      - name: 🐍 Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: ⚙️ Ejecutar Harvester
+        run: python scripts/build_database.py
+
+      - name: 💾 Commit y Push de la Base de Datos
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "⚡ Auto-Update: 25,000 estaciones sincronizadas"
+          file_pattern: data/global_db.json
