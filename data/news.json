@@ -1,5 +1,19 @@
 [
   {
+    "title": "Graham Coxon lanzará un disco inédito grabado en 2011",
+    "tag": "MÚSICA",
+    "date": "Tue, 21 Apr 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/04/Graham-Coxon.webp",
+    "url": "https://indiehoy.com/noticias/graham-coxon-lanzara-un-disco-inedito-grabado-en-2011/"
+  },
+  {
+    "title": "Máze busca exorcizarse en vivo junto a su público",
+    "tag": "MÚSICA",
+    "date": "Tue, 21 Apr 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/04/maze.jpg",
+    "url": "https://indiehoy.com/descubrir/maze-busca-exorcizarse-en-vivo-junto-su-publico/"
+  },
+  {
     "title": "Qué ver en Prime Video: 4 películas que engañan desde el principio",
     "tag": "MÚSICA",
     "date": "Mon, 20 Apr 2026",
@@ -56,20 +70,6 @@
     "url": "https://indiehoy.com/historias/5-discos-que-se-grabaron-en-menos-de-una-semana/"
   },
   {
-    "title": "Martin Scorsese presenta en el Vaticano el documental sobre el Papa Francisco",
-    "tag": "MÚSICA",
-    "date": "Mon, 20 Apr 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/04/scorsese-francisco.webp",
-    "url": "https://indiehoy.com/cine/martin-scorsese-presenta-en-el-vaticano-el-documental-sobre-el-papa-francisco/"
-  },
-  {
-    "title": "Qué ver en Netflix: 4 series donde alguien está atrapado",
-    "tag": "MÚSICA",
-    "date": "Mon, 20 Apr 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/04/netflix-series-atrapados.webp",
-    "url": "https://indiehoy.com/series/que-ver-en-netflix-4-series-donde-alguien-esta-atrapado/"
-  },
-  {
     "title": "¡Que la última no sea la última! La última peda tour de Grupo Firme empezó en Colombia",
     "tag": "TENDENCIAS",
     "date": "Mon, 20 Apr 2026",
@@ -112,6 +112,13 @@
     "url": "https://es.rollingstone.com/arg-rata-blanca-vuelve-a-movistar-arena-fecha-entradas-y-mas/"
   },
   {
+    "title": "Confirmado: Quilmes Rock tendrá una nueva edición en 2027",
+    "tag": "TENDENCIAS",
+    "date": "Mon, 20 Apr 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/arg-confirmado-quilmes-rock-tendra-una-nueva-edicion-en-2027/"
+  },
+  {
     "title": "Samper, con los ojos bien abiertos",
     "tag": "TENDENCIAS",
     "date": "Mon, 20 Apr 2026",
@@ -131,12 +138,5 @@
     "date": "Sat, 18 Apr 2026",
     "img": "https://es.rollingstone.com/wp-content/uploads/2026/04/Conoce-a-la-Familia-Superman-celebrando-el-Superman-Day-2.jpg",
     "url": "https://es.rollingstone.com/conoce-a-la-familia-superman-celebrando-el-superman-day/"
-  },
-  {
-    "title": "Resumen semanal: así va la carrera electoral 2026 ",
-    "tag": "TENDENCIAS",
-    "date": "Fri, 17 Apr 2026",
-    "img": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f9f9.png",
-    "url": "https://es.rollingstone.com/resumen-semanal-asi-va-la-carrera-electoral-2026-2/"
   }
 ]
