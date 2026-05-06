@@ -1,5 +1,33 @@
 [
   {
+    "title": "Paul McCartney anuncia su primera canción solista junto a Ringo Starr",
+    "tag": "MÚSICA",
+    "date": "Wed, 06 May 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2024/05/paul-mccartney-ringo-starr.jpg",
+    "url": "https://indiehoy.com/noticias/paul-mccartney-anuncia-su-primera-cancion-solista-junto-a-ringo-starr/"
+  },
+  {
+    "title": "10 discos clave de 1969: un punto de inflexión para la contracultura",
+    "tag": "MÚSICA",
+    "date": "Wed, 06 May 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/04/discos-1969.jpg",
+    "url": "https://indiehoy.com/indieayer/10-discos-clave-de-1969-un-punto-de-inflexion-para-la-contracultura/"
+  },
+  {
+    "title": "El significado de la nueva escultura de Banksy",
+    "tag": "MÚSICA",
+    "date": "Wed, 06 May 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/05/escultura-hombre-de-negro-con-una-bandera-negra.webp",
+    "url": "https://indiehoy.com/arte/el-significado-de-la-nueva-escultura-de-banksy/"
+  },
+  {
+    "title": "Mick Jagger contó cómo Robert Smith terminó en el nuevo disco de los Stones",
+    "tag": "MÚSICA",
+    "date": "Wed, 06 May 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/05/los-rolling-stones-y-robert-smith.webp",
+    "url": "https://indiehoy.com/noticias/mick-jagger-conto-como-robert-smith-termino-en-el-nuevo-disco-de-los-stones/"
+  },
+  {
     "title": "Qué ver en Netflix: 4 películas sobre familias disfuncionales",
     "tag": "MÚSICA",
     "date": "Tue, 05 May 2026",
@@ -42,32 +70,11 @@
     "url": "https://indiehoy.com/series/disney-lanzo-un-episodio-especial-de-the-bear-de-que-se-trata/"
   },
   {
-    "title": "La nueva versión de Hombre en llamas es furor en Netflix: De qué trata y quiénes actúan",
-    "tag": "MÚSICA",
-    "date": "Tue, 05 May 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/05/Yahya-Abdul-Mateen-II-en-una-escena-de-Hombre-en-llamas.webp",
-    "url": "https://indiehoy.com/series/la-nueva-version-de-hombre-en-llamas-es-furor-en-netflix/"
-  },
-  {
-    "title": "Los Natas vuelven a tocar en vivo: Fecha, lugar y entradas",
-    "tag": "MÚSICA",
-    "date": "Tue, 05 May 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/05/Walter-Broide-de-Los-Natas-tocando-la-bateria.webp",
-    "url": "https://indiehoy.com/recitales/los-natas-regresan-sin-sergio-ch-fecha-lugar-y-entradas-del-show/"
-  },
-  {
-    "title": "Foreign Tongues: Fecha de lanzamiento y primeros adelantos del nuevo disco de The Rolling Stones",
-    "tag": "MÚSICA",
-    "date": "Tue, 05 May 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/05/keith-richards-mick-jagger-y-ronnie-wood.webp",
-    "url": "https://indiehoy.com/noticias/foreign-tongues-el-nuevo-disco-de-the-rolling-stones/"
-  },
-  {
-    "title": "El Beatle favorito de Roger Waters: Siempre sentí una afinidad con él",
-    "tag": "MÚSICA",
-    "date": "Tue, 05 May 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/05/roger-waters-tocando-el-bajo.webp",
-    "url": "https://indiehoy.com/historias/el-beatle-favorito-de-roger-waters-siempre-senti-una-afinidad-con-el/"
+    "title": "Joaquina, la sensibilidad poética hecha música",
+    "tag": "TENDENCIAS",
+    "date": "Wed, 06 May 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/05/Joaquina-la-sensibilidad-poetica-hecha-musica-1.jpg",
+    "url": "https://es.rollingstone.com/joaquina-la-sensibilidad-poetica-hecha-musica/"
   },
   {
     "title": "Estrella de la noche a la mañana: Nadie les enseña a los artistas a recibir el éxito de manera abrupta",
@@ -131,12 +138,5 @@
     "date": "Tue, 05 May 2026",
     "img": "https://es.rollingstone.com/wp-content/uploads/2026/05/Sin-titulo-1-01-1024x616.jpg",
     "url": "https://es.rollingstone.com/mike-miller-captura-la-esencia-unica-de-carin-leon/"
-  },
-  {
-    "title": "Gilby Clarke: “Me fui de los Guns´n´Roses antes de que se pusiera feo de verdad”",
-    "tag": "TENDENCIAS",
-    "date": "Tue, 05 May 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/arg-gilby-clarke-me-fui-de-los-gunsnroses-antes-de-que-se-pusiera-feo-de-verdad/"
   }
 ]
