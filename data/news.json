@@ -1,5 +1,26 @@
 [
   {
+    "title": "Paul McCartney publica su primera canción solista junto a Ringo Starr",
+    "tag": "MÚSICA",
+    "date": "Fri, 08 May 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2024/05/paul-mccartney-ringo-starr.jpg",
+    "url": "https://indiehoy.com/noticias/paul-mccartney-anuncia-su-primera-cancion-solista-junto-a-ringo-starr/"
+  },
+  {
+    "title": "La historia detrás del logo de Aphex Twin",
+    "tag": "MÚSICA",
+    "date": "Fri, 08 May 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/05/aphex-twin-logo.webp",
+    "url": "https://indiehoy.com/historias/la-historia-detras-del-logo-de-aphex-twin/"
+  },
+  {
+    "title": "Qué ver en Netflix: 3 series de fantasía aclamadas por la crítica",
+    "tag": "MÚSICA",
+    "date": "Fri, 08 May 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2024/07/supacell.jpg",
+    "url": "https://indiehoy.com/series/que-ver-en-netflix-3-series-de-fantasia-aclamadas-por-la-critica/"
+  },
+  {
     "title": "5 discos punk esenciales de los años 80",
     "tag": "MÚSICA",
     "date": "Thu, 07 May 2026",
@@ -49,25 +70,11 @@
     "url": "https://indiehoy.com/noticias/kevin-parker-confirma-el-regreso-de-tame-impala-a-latinoamerica/"
   },
   {
-    "title": "Qué ver en HBO Max: 4 series y películas que son un éxito",
-    "tag": "MÚSICA",
-    "date": "Thu, 07 May 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/02/cumbres-borrascosas.webp",
-    "url": "https://indiehoy.com/cine/que-ver-en-hbo-max-4-series-y-peliculas-que-son-un-exito/"
-  },
-  {
-    "title": "Las ovejas detectives: Cómo es la película con Hugh Jackman que tiene a los críticos maravillados",
-    "tag": "MÚSICA",
-    "date": "Thu, 07 May 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/05/hugh-jackman-leyendo-en-la-pelicula-las-ovejas-detectives.webp",
-    "url": "https://indiehoy.com/cine/las-ovejas-detectives-como-es-la-pelicula-con-hugh-jackman-que-tiene-a-los-criticos-maravillados/"
-  },
-  {
-    "title": "The Bear confirmó la fecha de estreno de su quinta y última temporada",
-    "tag": "MÚSICA",
-    "date": "Thu, 07 May 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/05/jeremy-allen-white-y-Ayo-Edebiri-en-the-bear.webp",
-    "url": "https://indiehoy.com/series/the-bear-confirmo-la-fecha-de-estreno-de-su-quinta-y-ultima-temporada/"
+    "title": "Omar Courtz: el rookie que suena como un veterano",
+    "tag": "TENDENCIAS",
+    "date": "Fri, 08 May 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/05/Omar-Courtz-el-rookie-que-suena-como-un-veterano-1.jpg",
+    "url": "https://es.rollingstone.com/omar-courtz-el-rookie-que-suena-como-un-veterano/"
   },
   {
     "title": "Andrés Obregón y el arte de soltar en ‘Todo pasa’",
@@ -131,12 +138,5 @@
     "date": "Wed, 06 May 2026",
     "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
     "url": "https://es.rollingstone.com/los-rolling-stones-adelantan-su-album-foreign-tongues-con-in-the-stars-su-mas-reciente-sencillo/"
-  },
-  {
-    "title": "Con el nuevo tráiler de La Odisea Christopher Nolan amplía el viaje épico de Odiseo",
-    "tag": "TENDENCIAS",
-    "date": "Wed, 06 May 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/con-el-nuevo-trailer-de-la-odisea-christopher-nolan-amplia-el-viaje-epico-de-odiseo/"
   }
 ]
