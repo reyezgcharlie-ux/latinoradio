@@ -1,5 +1,68 @@
 [
   {
+    "title": "La condición de Duran Duran para tocar en Glastonbury",
+    "tag": "MÚSICA",
+    "date": "Wed, 13 May 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/05/duran-duran.webp",
+    "url": "https://indiehoy.com/noticias/la-condicion-de-duran-duran-para-tocar-en-glastonbury/"
+  },
+  {
+    "title": "La canción más extraña que escuchó John Lennon: Todos se equivocan",
+    "tag": "MÚSICA",
+    "date": "Wed, 13 May 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2023/03/john-lennon.jpg",
+    "url": "https://indiehoy.com/historias/cancion-mas-extrana-john-lennon-escucho-todos-se-equivocan/"
+  },
+  {
+    "title": "Pixies anuncia una reedición del disco recopilatorio Complete B-Sides: 1988-97",
+    "tag": "MÚSICA",
+    "date": "Wed, 13 May 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/05/pixies.webp",
+    "url": "https://indiehoy.com/noticias/pixies-anuncia-una-reedicion-del-disco-recopilatorio-complete-b-sides-1988-97/"
+  },
+  {
+    "title": "U2 convirtió las calles de Ciudad de México en su nuevo videoclip",
+    "tag": "MÚSICA",
+    "date": "Wed, 13 May 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/05/u2-arriba-de-un-colectivo.webp",
+    "url": "https://indiehoy.com/noticias/u2-convirtio-las-calles-de-ciudad-de-mexico-en-su-nuevo-videoclip/"
+  },
+  {
+    "title": "3 artistas que se burlaron de Bob Dylan en sus canciones",
+    "tag": "MÚSICA",
+    "date": "Wed, 13 May 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2021/06/bob-dylan-1.jpg",
+    "url": "https://indiehoy.com/historias/3-artistas-se-burlaron-de-bob-dylan-en-sus-canciones/"
+  },
+  {
+    "title": "Burger King lanza una colección inspirada en The Mandalorian",
+    "tag": "MÚSICA",
+    "date": "Wed, 13 May 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/05/la-coleccion-de-burger-king-basada-en-the-mandalorian.webp",
+    "url": "https://indiehoy.com/cine/burger-king-lanza-combos-y-objetos-inspirados-en-the-mandalorian/"
+  },
+  {
+    "title": "Foo Fighters presenta su primer Tiny Desk Concert: Miralo",
+    "tag": "MÚSICA",
+    "date": "Wed, 13 May 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/05/dave-grohl-en-el-tiny-desk-concert-de-foo-fighters.webp",
+    "url": "https://indiehoy.com/noticias/foo-fighters-presenta-su-primer-tiny-desk-concert-miralo/"
+  },
+  {
+    "title": "Qué ver en Netflix: 3 películas populares hoy",
+    "tag": "MÚSICA",
+    "date": "Wed, 13 May 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/05/Sally-Field-en-criaturas-luminosas.webp",
+    "url": "https://indiehoy.com/cine/que-ver-en-netflix-3-peliculas-populares-hoy/"
+  },
+  {
+    "title": "5 músicos que formaron parte de cuatro o más bandas",
+    "tag": "MÚSICA",
+    "date": "Wed, 13 May 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/05/dave-grohl-josh-homme.webp",
+    "url": "https://indiehoy.com/historias/5-musicos-que-formaron-parte-de-cuatro-o-mas-bandas/"
+  },
+  {
     "title": "Buenos Aires celebra el Día de los Museos con actividades gratuitas",
     "tag": "MÚSICA",
     "date": "Wed, 13 May 2026",
@@ -7,136 +70,73 @@
     "url": "https://indiehoy.com/noticias/buenos-aires-celebra-el-dia-de-los-museos-con-actividades-gratuitas/"
   },
   {
-    "title": "Qué ver en Prime Video: 3 miniseries recomendadas",
-    "tag": "MÚSICA",
+    "title": "Foo Fighters mezcla canciones nuevas y clásicos en su nuevo Tiny Desk",
+    "tag": "TENDENCIAS",
     "date": "Wed, 13 May 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/05/el-ferrocarril-subterraneo.webp",
-    "url": "https://indiehoy.com/series/que-ver-en-prime-video-3-miniseries-recomendadas/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/foo-fighters-mezcla-canciones-nuevas-y-clasicos-en-su-nuevo-tiny-desk/"
   },
   {
-    "title": "Entre los sueños y las distorsiones de Kill Flora",
-    "tag": "MÚSICA",
+    "title": "Los Red Hot Chili Peppers venden su catálogo de música grabada por más de 300 millones de dólares",
+    "tag": "TENDENCIAS",
     "date": "Wed, 13 May 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/05/kill-flora.jpg",
-    "url": "https://indiehoy.com/entrevistas/entre-suenos-distorsiones-kill-flora/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/los-red-hot-chili-peppers-venden-su-catalogo-de-musica-grabada-por-mas-de-300-millones-de-dolares/"
   },
   {
-    "title": "Paul McCartney elige las 10 canciones que definieron su vida",
-    "tag": "MÚSICA",
+    "title": "Todo lo que sabemos sobre Petal, el nuevo álbum de Ariana Grande",
+    "tag": "TENDENCIAS",
     "date": "Wed, 13 May 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/05/paul-mccartney-tocando-la-guitarra.webp",
-    "url": "https://indiehoy.com/noticias/paul-mccartney-elige-las-10-canciones-que-definieron-su-vida/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/todo-lo-que-sabemos-sobre-petal-el-nuevo-album-de-ariana-grande/"
   },
   {
-    "title": "Barbi Recanati y Lucy Patané hacen un cover de She-Devils",
-    "tag": "MÚSICA",
+    "title": "Crítica: Mi amigo el sol",
+    "tag": "TENDENCIAS",
     "date": "Wed, 13 May 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/05/lucy-patane-barbi-recanati.webp",
-    "url": "https://indiehoy.com/noticias/barbi-recanati-y-lucy-patane-hacen-un-cover-de-she-devils/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/critica-mi-amigo-el-sol/"
   },
   {
-    "title": "Netflix quiso “humillar” a Paul McCartney en un especial pero él se negó",
-    "tag": "MÚSICA",
+    "title": "Spider-Noir: sombras, secretos y antihéroes en el Nueva York más oscuro de Marvel",
+    "tag": "TENDENCIAS",
     "date": "Wed, 13 May 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/05/paul-mccartney-1.webp",
-    "url": "https://indiehoy.com/noticias/netflix-quiso-humillar-a-paul-mccartney-en-un-especial-pero-el-se-nego/"
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/05/Spider-Noir-sombras-secretos-y-antiheroes-en-el-Nueva-York-mas-oscuro-de-Marvel-2.jpg",
+    "url": "https://es.rollingstone.com/spider-noir-sombras-secretos-y-antiheroes-en-el-nueva-york-mas-oscuro-de-marvel/"
   },
   {
-    "title": "Odd Mami, Sunlid y Rosamonte se recomiendan discos, películas y libros",
-    "tag": "MÚSICA",
-    "date": "Tue, 12 May 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/05/odd-mami-sunlid-rosamonte-konex.jpg",
-    "url": "https://indiehoy.com/entrevistas/odd-mami-sunlid-rosamonte-se-recomiendan-discos-peliculas-libros/"
-  },
-  {
-    "title": "El bajista más influyente para Flea: Una energía imparable",
-    "tag": "MÚSICA",
-    "date": "Tue, 12 May 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/05/flea.webp",
-    "url": "https://indiehoy.com/historias/el-bajista-mas-influyente-para-flea-una-energia-imparable/"
-  },
-  {
-    "title": "10 grandes momentos de BIME Bogotá 2026",
-    "tag": "MÚSICA",
-    "date": "Tue, 12 May 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/05/bime-portada.jpg",
-    "url": "https://indiehoy.com/recitales/coberturas/10-grandes-momentos-de-bime-bogota-2026/"
-  },
-  {
-    "title": "Jamiroquai regresa a la Argentina: Fecha, lugar y entradas",
-    "tag": "MÚSICA",
-    "date": "Tue, 12 May 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/02/jamiroquai.webp",
-    "url": "https://indiehoy.com/recitales/jamiroquai-regresa-a-la-argentina-fecha-lugar-y-entradas/"
-  },
-  {
-    "title": "El corazón de Bogotá palpitó intensamente al ritmo de Kapo por segunda vez",
+    "title": "Así es la vida: el proyecto más personal de Codiciado",
     "tag": "TENDENCIAS",
-    "date": "Tue, 12 May 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/05/Sin-titulo-1-02-1.jpg",
-    "url": "https://es.rollingstone.com/el-corazon-de-bogota-palpito-intensamente-al-ritmo-de-kapo-por-segunda-vez/"
+    "date": "Wed, 13 May 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/05/Asi-es-la-vida-el-proyecto-mas-personal-de-Codiciado-2.jpg",
+    "url": "https://es.rollingstone.com/asi-es-la-vida-el-proyecto-mas-personal-de-codiciado/"
   },
   {
-    "title": "Sundance Film Festival regresó a la CDMX y esto fue lo que dejó",
+    "title": "Dentro de la BTS-manía: un día en la vida de las superestrellas del K-pop",
     "tag": "TENDENCIAS",
-    "date": "Mon, 11 May 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/sundance-film-festival-regreso-a-la-cdmx-y-esto-fue-lo-que-dejo/"
+    "date": "Wed, 13 May 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/05/Dentro-de-la-BTS-mania-un-dia-en-la-vida-de-las-superestrellas-del-K-pop-2.jpg",
+    "url": "https://es.rollingstone.com/dentro-de-la-bts-mania-un-dia-en-la-vida-de-las-superestrellas-del-k-pop/"
   },
   {
-    "title": "Crítica: Agon",
+    "title": "“Me sigo conociendo con cada paso que doy”: Queralt Lahoz",
     "tag": "TENDENCIAS",
-    "date": "Mon, 11 May 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/critica-agon/"
+    "date": "Wed, 13 May 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/05/Me-sigo-conociendo-con-cada-paso-que-doy-Queralt-Lahoz-2.jpg",
+    "url": "https://es.rollingstone.com/me-sigo-conociendo-con-cada-paso-que-doy-queralt-lahoz/"
   },
   {
-    "title": "Premios Nuestra Tierra 2026: lo mejor de la música colombiana ",
+    "title": "Andrés Wood y el peso de la memoria en La casa de los espíritus",
     "tag": "TENDENCIAS",
-    "date": "Mon, 11 May 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/premios-nuestra-tierra-2026-lo-mejor-de-la-musica-colombiana/"
+    "date": "Wed, 13 May 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/05/Andres-Wood-y-el-peso-de-la-memoria-en-La-casa-de-los-espiritus-2.jpg",
+    "url": "https://es.rollingstone.com/andres-wood-y-el-peso-de-la-memoria-en-la-casa-de-los-espiritus/"
   },
   {
-    "title": "Giulio Bertelli y el cuerpo como territorio de poder en AGON",
+    "title": "EL BAIFO: Quevedo regresa a casa para celebrar con los suyos",
     "tag": "TENDENCIAS",
-    "date": "Mon, 11 May 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/05/Giulio-Bertelli-y-el-cuerpo-como-territorio-de-poder-en-AGON-2.jpg",
-    "url": "https://es.rollingstone.com/giulio-bertelli-y-el-cuerpo-como-territorio-de-poder-en-agon/"
-  },
-  {
-    "title": "Crítica: ChaO: La sirena",
-    "tag": "TENDENCIAS",
-    "date": "Mon, 11 May 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/critica-chao-la-sirena/"
-  },
-  {
-    "title": "Resumen semanal: así va la carrera electoral 2026",
-    "tag": "TENDENCIAS",
-    "date": "Mon, 11 May 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/resumen-semanal-asi-va-la-carrera-electoral-2026-3/"
-  },
-  {
-    "title": "Steve Aoki apuesta de nuevo por la música latina con ‘Fotopaparazzi’",
-    "tag": "TENDENCIAS",
-    "date": "Mon, 11 May 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/05/Steve-Aoki-apuesta-de-nuevo-por-la-musica-latina-con-Fotopaparazzi-1.jpg",
-    "url": "https://es.rollingstone.com/steve-aoki-apuesta-de-nuevo-por-la-musica-latina-con-fotopaparazzi/"
-  },
-  {
-    "title": "Robert Plant repasó su carrera y recreó hits de Led Zeppelin en Buenos Aires",
-    "tag": "TENDENCIAS",
-    "date": "Mon, 11 May 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/05/PLANT-ADENTRO2-683x1024.jpg",
-    "url": "https://es.rollingstone.com/arg-robert-plant-repaso-su-carrera-y-recreo-hits-de-led-zeppelin-en-buenos-aires/"
-  },
-  {
-    "title": "Rels B muestra su amor y madurez en love love FLAKK",
-    "tag": "TENDENCIAS",
-    "date": "Mon, 11 May 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/rels-b-muestra-su-amor-y-madurez-en-love-love-flakk/"
+    "date": "Wed, 13 May 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/05/EL-BAIFO-Quevedo-regresa-a-casa-para-celebrar-con-los-suyos-2.jpg",
+    "url": "https://es.rollingstone.com/el-baifo-quevedo-regresa-a-casa-para-celebrar-con-los-suyos/"
   }
 ]
