@@ -1,33 +1,5 @@
 [
   {
-    "title": "Qué pasó en el show de Fito Páez: Silbidos, críticas y tensión",
-    "tag": "MÚSICA",
-    "date": "Thu, 21 May 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/05/fito-paez-1.jpg",
-    "url": "https://indiehoy.com/noticias/que-paso-en-el-show-de-fito-paez-silbidos-criticas-y-tension/"
-  },
-  {
-    "title": "Adidas lanza una colección inspirada en Toy Story",
-    "tag": "MÚSICA",
-    "date": "Thu, 21 May 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/05/adidas-toy-story.webp",
-    "url": "https://indiehoy.com/noticias/adidas-lanza-una-coleccion-inspirada-en-toy-story/"
-  },
-  {
-    "title": "Qué ver en HBO Max: 5 películas que ganaron premios Oscar",
-    "tag": "MÚSICA",
-    "date": "Thu, 21 May 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/05/sean-penn-en-rio-mistico.webp",
-    "url": "https://indiehoy.com/cine/que-ver-en-hbo-max-5-peliculas-que-ganaron-premios-oscar/"
-  },
-  {
-    "title": "Hayley Williams elige su mejor letra de canción",
-    "tag": "MÚSICA",
-    "date": "Thu, 21 May 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/05/hayley-williams.webp",
-    "url": "https://indiehoy.com/noticias/hayley-williams-elige-su-mejor-letra-de-cancion/"
-  },
-  {
     "title": "Wolf Alice: Tenemos que hablar mucho más sobre cómo apoyar a los artistas independientes",
     "tag": "MÚSICA",
     "date": "Thu, 21 May 2026",
@@ -42,101 +14,129 @@
     "url": "https://indiehoy.com/recitales/agenda-recitales-este-fin-de-semana-buenos-aires/"
   },
   {
-    "title": "Juana Aguirre recomienda 5 discos de lugares remotos",
+    "title": "Flea elige su canción favorita de los Red Hot Chili Peppers",
     "tag": "MÚSICA",
     "date": "Thu, 21 May 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/05/juana-aguirre-1.jpg",
-    "url": "https://indiehoy.com/entrevistas/juana-aguirre-recomienda-5-discos-de-lugares-remotos/"
+    "img": "https://indiehoy.com/wp-content/uploads/2024/09/flea-cancion-favorita-red-hot-chili-peppers.jpg",
+    "url": "https://indiehoy.com/historias/flea-elige-mejor-cancion-red-hot-chili-peppers/"
   },
   {
-    "title": "Crítica de Un poeta: Una fábula del fracaso",
+    "title": "La canción más alegre de Radiohead según Thom Yorke",
     "tag": "MÚSICA",
     "date": "Thu, 21 May 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/05/un-poeta-pelicula-.webp",
-    "url": "https://indiehoy.com/cine/critica-de-un-poeta-una-fabula-del-fracaso/"
+    "img": "https://indiehoy.com/wp-content/uploads/2024/09/cancion-mas-alegre-radiohead-segun-thom-yorke.jpg",
+    "url": "https://indiehoy.com/historias/cancion-mas-alegre-de-radiohead-segun-thom-yorke/"
   },
   {
-    "title": "Lauryn Hill explica por qué nunca hizo un segundo disco",
+    "title": "La canción que despertó a Stevie Wonder del coma",
     "tag": "MÚSICA",
     "date": "Thu, 21 May 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/05/lauryn-hill.webp",
-    "url": "https://indiehoy.com/noticias/lauryn-hill-explica-por-que-nunca-hizo-un-segundo-disco/"
+    "img": "https://indiehoy.com/wp-content/uploads/2024/08/cancion-desperto-a-stevie-wonder-del-coma.jpg",
+    "url": "https://indiehoy.com/historias/la-cancion-que-desperto-a-stevie-wonder-del-coma/"
   },
   {
-    "title": "5 canciones inspiradas en hechos paranormales",
+    "title": "4 películas que reescriben Frankenstein",
     "tag": "MÚSICA",
-    "date": "Wed, 20 May 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/05/black-sabbath.jpg",
-    "url": "https://indiehoy.com/historias/5-canciones-inspiradas-en-hechos-paranormales/"
+    "date": "Thu, 21 May 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2020/08/rocky-horror-picture-show.jpg",
+    "url": "https://indiehoy.com/cine/4-peliculas-que-reescriben-frankenstein/"
   },
   {
-    "title": "Grossa, el festival que mantiene la tradición platense del rock independiente",
+    "title": "The Boroughs: ciencia ficción y misterio en la nueva serie de Netflix",
+    "tag": "MÚSICA",
+    "date": "Thu, 21 May 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/05/the-boroughs-jubilacion-rebelde-netflix.webp",
+    "url": "https://indiehoy.com/series/the-boroughs-suspenso-ciencia-ficcion-y-misterio-en-la-nueva-serie-de-netflix/"
+  },
+  {
+    "title": "Robert Pattinson elige su personaje favorito de Friends",
+    "tag": "MÚSICA",
+    "date": "Thu, 21 May 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/05/robert-pattinson-y-el-elenco-de-friends.webp",
+    "url": "https://indiehoy.com/series/robert-pattinson-elige-su-personaje-favorito-de-friends/"
+  },
+  {
+    "title": "El Reino Unido lanzó monedas inspiradas en El Señor de los Anillos",
+    "tag": "MÚSICA",
+    "date": "Thu, 21 May 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/05/monedas-senor-de-los-anillos.jpg",
+    "url": "https://indiehoy.com/noticias/el-reino-unido-lanzo-monedas-inspiradas-en-el-senor-de-los-anillos/"
+  },
+  {
+    "title": "Qué ver en Prime Video: 5 películas premiadas",
+    "tag": "MÚSICA",
+    "date": "Thu, 21 May 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2024/03/the-zone-of-interest-critica-.jpg",
+    "url": "https://indiehoy.com/cine/que-ver-en-prime-video-5-peliculas-premiadas/"
+  },
+  {
+    "title": "Neutro Shorty redefine su universo musical con EL DISCO DE SALSA",
+    "tag": "TENDENCIAS",
+    "date": "Fri, 22 May 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/05/NEUTRO-SHORTY-EL-DISCO-DE-SALSA-tracklist.jpg",
+    "url": "https://es.rollingstone.com/neutro-shorty-redefine-su-universo-musical-con-el-disco-de-salsa/"
+  },
+  {
+    "title": "“Hoy Takashi es el fokin chef”: Álvaro Díaz presenta Omakase",
+    "tag": "TENDENCIAS",
+    "date": "Thu, 21 May 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/05/Hoy-Takashi-es-el-fokin-chef-Alvaro-Diaz-presenta-Omakase-2.jpg",
+    "url": "https://es.rollingstone.com/hoy-takashi-es-el-fokin-chef-alvaro-diaz-presenta-omakase/"
+  },
+  {
+    "title": "Leo Rizzi encuentra refugio en La Belleza de las Flores",
+    "tag": "TENDENCIAS",
+    "date": "Thu, 21 May 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/05/Leo-Rizzi-encuentra-refugio-en-La-Belleza-de-las-Flores-2.jpg",
+    "url": "https://es.rollingstone.com/leo-rizzi-encuentra-refugio-en-la-belleza-de-las-flores/"
+  },
+  {
+    "title": "Crítica: Uma Musume: Pretty Derby – Beginning of a New Era (Umamusume Puritî Dâbî Shinjidai no Tobira)",
     "tag": "TENDENCIAS",
     "date": "Thu, 21 May 2026",
     "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/arg-grossa-el-festival-que-mantiene-la-tradicion-platense-del-rock-independiente/"
+    "url": "https://es.rollingstone.com/critica-uma-musume-pretty-derby-beginning-of-a-new-era-umamusume-puriti-dabi-shinjidai-no-tobira/"
   },
   {
-    "title": "La sátira continua: South Park anuncia la fecha del estreno de la temporada 29",
+    "title": "Taxi Driver podría tener una secuela en donde Travis Bickle tendría una novia creada con IA",
     "tag": "TENDENCIAS",
     "date": "Thu, 21 May 2026",
     "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/la-satira-continua-south-park-anuncia-la-fecha-del-estreno-de-la-temporada-29/"
+    "url": "https://es.rollingstone.com/taxi-driver-podria-tener-una-secuela-en-donde-travis-bickle-tendria-una-novia-creada-con-ia/"
   },
   {
-    "title": "Crítica: Star Wars: The Mandalorian and Grogu",
+    "title": "La Portuaria presenta ‘La vida en la Tierra’: Un elegante ejercicio pop",
     "tag": "TENDENCIAS",
-    "date": "Wed, 20 May 2026",
+    "date": "Thu, 21 May 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/05/LA-PORTUARIA-ADENTRO-1024x616.jpg",
+    "url": "https://es.rollingstone.com/arg-la-portuaria-presenta-la-vida-en-la-tierra-un-elegante-ejercicio-pop/"
+  },
+  {
+    "title": "Escucha aquí ‘Hexagons’, el nuevo sencillo de Muse",
+    "tag": "TENDENCIAS",
+    "date": "Thu, 21 May 2026",
     "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/critica-star-wars-the-mandalorian-and-grogu/"
+    "url": "https://es.rollingstone.com/escucha-aqui-hexagons-el-nuevo-sencillo-de-muse/"
   },
   {
-    "title": "Crítica: Foo Fighters – ‘Your Favorite Toy’",
+    "title": "Everybody Else Is Doing It, So Why Can’t We? : 33 años después, The Cranberries revive su debut entre la felicidad, el recuerdo y la nostalgia ",
     "tag": "TENDENCIAS",
-    "date": "Wed, 20 May 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/05/grohl-1.jpg",
-    "url": "https://es.rollingstone.com/arg-critica-foo-fighters-your-favorite-toy/"
+    "date": "Thu, 21 May 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/05/Everybody-Else-Is-Doing-It-So-Why-Cant-We-33-anos-despues-The-Cranberries-2.jpg",
+    "url": "https://es.rollingstone.com/everybody-else-is-doing-it-so-why-cant-we-33-anos-despues-the-cranberries-revive-su-debut-entre-la-felicidad-el-recuerdo-y-la-nostalgia/"
   },
   {
-    "title": "Conocé a Balta, la revelación uruguaya: “Escuchamos a Rubén Rada, pero también a Kendrick Lamar”",
+    "title": "Sudoku, pantallas y abucheos: Fito Páez vs. la atención fragmentada",
     "tag": "TENDENCIAS",
-    "date": "Wed, 20 May 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/05/BALTA-2-1-1024x616.jpg",
-    "url": "https://es.rollingstone.com/arg-conoce-a-balta-la-revelacion-uruguaya-escuchamos-a-ruben-rada-pero-tambien-a-kendrick-lamar/"
+    "date": "Thu, 21 May 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/05/FITO-2-1024x616.jpg",
+    "url": "https://es.rollingstone.com/arg-sudoku-pantallas-y-abucheos-fito-paez-vs-la-atencion-fragmentada/"
   },
   {
-    "title": "Cómo se gestó el Tiny Desk de Milo J: de Morón al mundo entero",
+    "title": "‘Me levanté de la cama’: el encuentro entre la sensibilidad de Arath Herce y Kevin Kaarl en vivo desde la Ciudad de México",
     "tag": "TENDENCIAS",
-    "date": "Wed, 20 May 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/05/MILO-TINY-2-683x1024.jpg",
-    "url": "https://es.rollingstone.com/arg-como-se-gesto-el-tiny-desk-de-milo-j-de-moron-al-mundo-entero/"
-  },
-  {
-    "title": "Crítica: Pasajero (Pillion)",
-    "tag": "TENDENCIAS",
-    "date": "Wed, 20 May 2026",
+    "date": "Thu, 21 May 2026",
     "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/critica-pasajero-pillion/"
-  },
-  {
-    "title": "Julieta Venegas explora su relación con la música en Norteña",
-    "tag": "TENDENCIAS",
-    "date": "Wed, 20 May 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/05/Julieta-Venegas-explora-su-relacion-con-la-musica-en-Nortena-3.jpg",
-    "url": "https://es.rollingstone.com/julieta-venegas-explora-su-relacion-con-la-musica-en-nortena/"
-  },
-  {
-    "title": "Jon Favreau y el salto de The Mandalorian al cine: “Queríamos que la gente sintiera que debía verla en pantalla grande”",
-    "tag": "TENDENCIAS",
-    "date": "Wed, 20 May 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/05/Jon-Favreau-y-el-salto-de-The-Mandalorian-al-cine-2.jpg",
-    "url": "https://es.rollingstone.com/jon-favreau-y-el-salto-de-the-mandalorian-al-cine-queriamos-que-la-gente-sintiera-que-debia-verla-en-pantalla-grande/"
-  },
-  {
-    "title": "Yan Block ya no quiere explicar su música",
-    "tag": "TENDENCIAS",
-    "date": "Wed, 20 May 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/05/Yan-Block-ya-no-quiere-explicar-su-musica-2.jpg",
-    "url": "https://es.rollingstone.com/yan-block-ya-no-quiere-explicar-su-musica/"
+    "url": "https://es.rollingstone.com/me-levante-de-la-cama-el-encuentro-entre-la-sensibilidad-de-arath-herce-y-kevin-kaarl-en-vivo-desde-la-ciudad-de-mexico/"
   }
 ]
