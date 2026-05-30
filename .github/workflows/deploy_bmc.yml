@@ -1,4 +1,4 @@
-name: Rollback synapthub
+name: Rollback synapthub with bindings
 on:
   workflow_dispatch:
 jobs:
@@ -7,8 +7,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: npm install -g wrangler
-      - name: Deploy rollback
+      - name: Deploy with D1 binding
         env:
           CLOUDFLARE_EMAIL: ${{ secrets.CF_EMAIL }}
           CLOUDFLARE_API_KEY: ${{ secrets.CF_KEY }}
-        run: wrangler deploy scripts/synapthub_rollback.js --name synapthub --compatibility-date 2024-01-01 --no-bundle
+        run: |
+          wrangler deploy --config wrangler_synapthub.toml --no-bundle
