@@ -1,4 +1,4 @@
-name: Deploy synapthub v3
+name: Rollback synapthub
 on:
   workflow_dispatch:
 jobs:
@@ -7,8 +7,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: npm install -g wrangler
-      - name: Deploy
+      - name: Deploy rollback
         env:
           CLOUDFLARE_EMAIL: ${{ secrets.CF_EMAIL }}
           CLOUDFLARE_API_KEY: ${{ secrets.CF_KEY }}
-        run: wrangler deploy scripts/synapthub_final3.js --name synapthub --compatibility-date 2024-01-01 --no-bundle
+        run: wrangler deploy scripts/synapthub_rollback.js --name synapthub --compatibility-date 2024-01-01 --no-bundle
