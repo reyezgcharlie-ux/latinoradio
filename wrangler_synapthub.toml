@@ -1,0 +1,9 @@
+name = "synapthub"
+main = "scripts/synapthub_rollback.js"
+compatibility_date = "2024-01-01"
+account_id = "9cd06a9cb40a471bc7a2adb149d1df5a"
+
+[[d1_databases]]
+binding = "SYNAPT_NEWS_DB"
+database_name = "synapt-news-db"
+database_id = "6d41a7e0-6e76-45de-96e7-4b022329eb0e"
