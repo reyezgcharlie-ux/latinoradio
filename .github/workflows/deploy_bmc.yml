@@ -1,0 +1,14 @@
+name: Deploy BMC synapthub
+on:
+  workflow_dispatch:
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm install -g wrangler
+      - name: Deploy
+        env:
+          CLOUDFLARE_EMAIL: ${{ secrets.CF_EMAIL }}
+          CLOUDFLARE_API_KEY: ${{ secrets.CF_KEY }}
+        run: wrangler deploy scripts/synapthub_bmc.js --name synapthub --compatibility-date 2024-01-01 --no-bundle
