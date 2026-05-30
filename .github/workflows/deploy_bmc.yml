@@ -1,4 +1,4 @@
-name: Deploy BMC synapthub
+name: Deploy synapthub final2
 on:
   workflow_dispatch:
 jobs:
@@ -11,4 +11,4 @@ jobs:
         env:
           CLOUDFLARE_EMAIL: ${{ secrets.CF_EMAIL }}
           CLOUDFLARE_API_KEY: ${{ secrets.CF_KEY }}
-        run: wrangler deploy scripts/synapthub_bmc.js --name synapthub --compatibility-date 2024-01-01 --no-bundle
+        run: wrangler deploy scripts/synapthub_final2.js --name synapthub --compatibility-date 2024-01-01 --no-bundle
