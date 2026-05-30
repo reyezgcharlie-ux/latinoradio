@@ -1,0 +1,16 @@
+name: Deploy ads.txt Workers
+on:
+  workflow_dispatch:
+jobs:
+  deploy-synapthub:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install wrangler
+        run: npm install -g wrangler
+      - name: Deploy synapthub
+        env:
+          CLOUDFLARE_EMAIL: ${{ secrets.CF_EMAIL }}
+          CLOUDFLARE_API_KEY: ${{ secrets.CF_KEY }}
+        run: |
+          wrangler deploy scripts/synapthub_final.js --name synapthub --compatibility-date 2024-01-01 --no-bundle
