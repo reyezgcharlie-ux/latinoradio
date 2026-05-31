@@ -1,0 +1,26 @@
+name: Deploy SYNAPT Events Worker
+
+on:
+  push:
+    paths:
+      - "workers/synapt-events/**"
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Deploy to Cloudflare Workers
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Deploy Worker via Wrangler
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: 9cd06a9cb40a471bc7a2adb149d1df5a
+          workingDirectory: workers/synapt-events
+          secrets: |
+            SYNC_TOKEN
+        env:
+          SYNC_TOKEN: ${{ secrets.SYNAPT_SYNC_TOKEN }}
+
