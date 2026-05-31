@@ -1,13 +1,9 @@
 name = "synapt-events"
-main = "workers/synapt-events/index.js"
+main = "index.js"
 compatibility_date = "2024-09-23"
-compatibility_flags = ["nodejs_compat"]
 
 [[d1_databases]]
 binding = "EVENTS_DB"
 database_name = "synapt-events-db"
 database_id = "25c5e283-cf2e-4d2c-a954-b6eba025bdc9"
-
-[vars]
-SYNC_TOKEN = ""
 
