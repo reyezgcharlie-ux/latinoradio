@@ -1,0 +1,243 @@
+# ============================================================
+# SYNAPT.LIVE — GitHub Actions: Auto-sync Events
+# Corre cada 6 horas automaticamente — tu no haces nada
+# APIs: Ticketmaster + TMDB + TheSportsDB + TVMaze
+# Deposita en Cloudflare D1 via Worker /api/sync
+# ============================================================
+# SECRETS requeridos en GitHub Settings → Secrets:
+#   TICKETMASTER_API_KEY  → developer.ticketmaster.com (gratis)
+#   TMDB_API_KEY          → ya tienes: 14c15425ed275359fc0fc82fbbda1e62
+#   SYNAPT_SYNC_TOKEN     → crea uno: cualquier string largo aleatorio
+#   SYNAPT_WORKER_URL     → https://synapt.live (o tu dominio events)
+# ============================================================
+
+name: SYNAPT Events Auto-Sync
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # cada 6 horas
+  workflow_dispatch:          # también manual desde GitHub Actions
+
+jobs:
+  sync-events:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Fetch & sync all event sources
+        env:
+          TM_KEY:       ${{ secrets.TICKETMASTER_API_KEY }}
+          TMDB_KEY:     ${{ secrets.TMDB_API_KEY }}
+          SYNC_TOKEN:   ${{ secrets.SYNAPT_SYNC_TOKEN }}
+          WORKER_URL:   ${{ secrets.SYNAPT_WORKER_URL }}
+        run: |
+          python3 << 'PYEOF'
+          import urllib.request, urllib.parse, json, sys, os
+          from datetime import datetime, timedelta
+
+          TM_KEY     = os.environ["TM_KEY"]
+          TMDB_KEY   = os.environ["TMDB_KEY"]
+          SYNC_TOKEN = os.environ["SYNC_TOKEN"]
+          WORKER_URL = os.environ["WORKER_URL"].rstrip("/")
+
+          all_events = []
+
+          # ── helper ──────────────────────────────────────────
+          def fetch(url, timeout=10):
+              try:
+                  req = urllib.request.Request(url, headers={"User-Agent": "SYNAPT/1.0"})
+                  with urllib.request.urlopen(req, timeout=timeout) as r:
+                      return json.loads(r.read())
+              except Exception as e:
+                  print(f"  warn: {url[:80]}... -> {e}")
+                  return None
+
+          def slug(s):
+              import re
+              s = s.lower().replace(" ", "-")
+              s = re.sub(r"[^a-z0-9\-]", "", s)
+              return s[:80]
+
+          today     = datetime.utcnow().strftime("%Y-%m-%dT00:00:00Z")
+          in90days  = (datetime.utcnow() + timedelta(days=90)).strftime("%Y-%m-%dT00:00:00Z")
+
+          # ── 1. TICKETMASTER — Bay Area concerts & sports ────
+          print("Fetching Ticketmaster...")
+          TM_SEARCHES = [
+              {"classificationName": "Music",  "city": "San Jose",     "stateCode": "CA"},
+              {"classificationName": "Sports", "city": "San Francisco","stateCode": "CA"},
+              {"classificationName": "Music",  "city": "San Francisco","stateCode": "CA"},
+              {"classificationName": "Sports", "city": "Los Angeles",  "stateCode": "CA"},
+              {"classificationName": "Arts",   "city": "San Jose",     "stateCode": "CA"},
+          ]
+          for s in TM_SEARCHES:
+              params = urllib.parse.urlencode({
+                  "apikey": TM_KEY, "size": 20, "sort": "date,asc",
+                  "startDateTime": today, "endDateTime": in90days,
+                  **s
+              })
+              d = fetch(f"https://app.ticketmaster.com/discovery/v2/events.json?{params}")
+              if not d: continue
+              items = d.get("_embedded", {}).get("events", [])
+              for ev in items:
+                  try:
+                      venue   = ev.get("_embedded", {}).get("venues", [{}])[0]
+                      seg     = ev.get("classifications", [{}])[0].get("segment", {}).get("name", "").lower()
+                      genre   = ev.get("classifications", [{}])[0].get("genre", {}).get("name", "")
+                      imgs    = ev.get("images", [])
+                      img_url = next((i["url"] for i in imgs if i.get("width", 0) >= 640), imgs[0]["url"] if imgs else "")
+                      date_info = ev.get("dates", {}).get("start", {})
+                      cat     = "musica" if seg == "music" else ("deportes" if seg == "sports" else ("teatro" if "arts" in seg else "otros"))
+                      # Build affiliate link (Ticketmaster affiliate wraps the event URL)
+                      ticket_url = ev.get("url", "")
+
+                      all_events.append({
+                          "title":        ev.get("name", ""),
+                          "category":     cat,
+                          "subcategory":  genre,
+                          "venue":        venue.get("name", ""),
+                          "city":         venue.get("city", {}).get("name", ""),
+                          "state":        venue.get("state", {}).get("stateCode", "CA"),
+                          "event_date":   date_info.get("localDate", ""),
+                          "event_time":   date_info.get("localTime", ""),
+                          "image_url":    img_url,
+                          "ticket_url":   ticket_url,
+                          "affiliate_url": ticket_url,  # reemplaza con tu link de afiliado
+                          "price_min":    ev.get("priceRanges", [{}])[0].get("min") if ev.get("priceRanges") else None,
+                          "price_max":    ev.get("priceRanges", [{}])[0].get("max") if ev.get("priceRanges") else None,
+                          "source":       "ticketmaster",
+                          "external_id":  ev.get("id", ""),
+                      })
+                  except Exception as ex:
+                      print(f"  skip tm event: {ex}")
+
+          print(f"  Ticketmaster: {len(all_events)} events so far")
+
+          # ── 2. TMDB — Upcoming movies & releases ────────────
+          print("Fetching TMDB upcoming movies...")
+          tmdb_today = datetime.utcnow().strftime("%Y-%m-%d")
+          tmdb_60    = (datetime.utcnow() + timedelta(days=60)).strftime("%Y-%m-%d")
+          tmdb_params = urllib.parse.urlencode({
+              "api_key": TMDB_KEY, "language": "es-US",
+              "region": "US", "page": 1,
+              "primary_release_date.gte": tmdb_today,
+              "primary_release_date.lte": tmdb_60,
+              "sort_by": "popularity.desc"
+          })
+          td = fetch(f"https://api.themoviedb.org/3/movie/upcoming?{tmdb_params}")
+          if td:
+              for mv in (td.get("results") or [])[:20]:
+                  if not mv.get("release_date"): continue
+                  img = f"https://image.tmdb.org/t/p/w780{mv['poster_path']}" if mv.get("poster_path") else ""
+                  all_events.append({
+                      "title":        mv.get("title", ""),
+                      "category":     "cine",
+                      "subcategory":  "Estreno",
+                      "venue":        "Cines cercanos",
+                      "city":         "Bay Area",
+                      "state":        "CA",
+                      "event_date":   mv.get("release_date", ""),
+                      "event_time":   "",
+                      "image_url":    img,
+                      "ticket_url":   f"https://www.fandango.com/search?q={urllib.parse.quote(mv.get('title',''))}",
+                      "affiliate_url": f"https://www.fandango.com/search?q={urllib.parse.quote(mv.get('title',''))}",
+                      "price_min":    15,
+                      "price_max":    None,
+                      "source":       "tmdb",
+                      "external_id":  f"tmdb-{mv.get('id', '')}",
+                  })
+          print(f"  TMDB: added movies — total {len(all_events)}")
+
+          # ── 3. THESPORTSDB — NBA, MLB, MLS fixtures ─────────
+          print("Fetching TheSportsDB fixtures...")
+          LEAGUES = [
+              ("4387", "NBA",    "deportes"),
+              ("4424", "MLB",    "deportes"),
+              ("4346", "MLS",    "deportes"),
+              ("4391", "NFL",    "deportes"),
+          ]
+          for league_id, league_name, cat in LEAGUES:
+              sd = fetch(f"https://www.thesportsdb.com/api/v1/json/3/eventsnextleague.php?id={league_id}")
+              if not sd: continue
+              for ev in (sd.get("events") or [])[:10]:
+                  thumb = ev.get("strThumb") or ev.get("strBanner") or ""
+                  all_events.append({
+                      "title":        f"{ev.get('strHomeTeam','')} vs {ev.get('strAwayTeam','')}",
+                      "category":     cat,
+                      "subcategory":  league_name,
+                      "venue":        ev.get("strVenue", ""),
+                      "city":         "Bay Area",
+                      "state":        "CA",
+                      "event_date":   ev.get("dateEvent", ""),
+                      "event_time":   ev.get("strTime", ""),
+                      "image_url":    thumb,
+                      "ticket_url":   f"https://www.stubhub.com/secure/search/?q={urllib.parse.quote(ev.get('strEvent',''))}",
+                      "affiliate_url": f"https://www.stubhub.com/secure/search/?q={urllib.parse.quote(ev.get('strEvent',''))}",
+                      "price_min":    None,
+                      "price_max":    None,
+                      "source":       "thesportsdb",
+                      "external_id":  ev.get("idEvent", ""),
+                  })
+          print(f"  TheSportsDB: added — total {len(all_events)}")
+
+          # ── 4. TVMAZE — TV schedules ─────────────────────────
+          print("Fetching TVMaze schedule...")
+          for days_ahead in [0, 1, 2, 3]:
+              dt = (datetime.utcnow() + timedelta(days=days_ahead)).strftime("%Y-%m-%d")
+              tv = fetch(f"https://api.tvmaze.com/schedule/web?date={dt}&country=US")
+              if not tv: continue
+              for ep in (tv or [])[:8]:
+                  show = ep.get("show") or ep.get("_links", {})
+                  name = show.get("name", "") if isinstance(show, dict) else ""
+                  img  = (show.get("image") or {}).get("medium", "") if isinstance(show, dict) else ""
+                  if not name: continue
+                  all_events.append({
+                      "title":        f"{name} — {ep.get('name','')}",
+                      "category":     "tv",
+                      "subcategory":  show.get("type", "TV") if isinstance(show, dict) else "TV",
+                      "venue":        show.get("network", {}).get("name", "Streaming") if isinstance(show, dict) else "Streaming",
+                      "city":         "Nacional",
+                      "state":        "US",
+                      "event_date":   dt,
+                      "event_time":   ep.get("airtime", ""),
+                      "image_url":    img,
+                      "ticket_url":   show.get("url", "") if isinstance(show, dict) else "",
+                      "affiliate_url": show.get("url", "") if isinstance(show, dict) else "",
+                      "price_min":    None,
+                      "price_max":    None,
+                      "source":       "tvmaze",
+                      "external_id":  f"tvmaze-{ep.get('id','')}",
+                  })
+          print(f"  TVMaze: added — total {len(all_events)}")
+
+          # ── FILTER: only events with a date ─────────────────
+          all_events = [e for e in all_events if e.get("event_date")]
+          all_events.sort(key=lambda e: e.get("event_date", ""))
+
+          print(f"\nTotal events to sync: {len(all_events)}")
+
+          # ── POST to Cloudflare Worker in batches of 50 ───────
+          BATCH = 50
+          total_inserted = 0
+          for i in range(0, len(all_events), BATCH):
+              batch = all_events[i:i+BATCH]
+              payload = json.dumps({"events": batch}).encode()
+              req = urllib.request.Request(
+                  f"{WORKER_URL}/api/sync",
+                  data=payload,
+                  method="POST",
+                  headers={
+                      "Content-Type": "application/json",
+                      "Authorization": f"Bearer {SYNC_TOKEN}",
+                  }
+              )
+              try:
+                  with urllib.request.urlopen(req, timeout=15) as r:
+                      res = json.loads(r.read())
+                      total_inserted += res.get("inserted", 0)
+                      print(f"  Batch {i//BATCH + 1}: {res}")
+              except Exception as e:
+                  print(f"  Error batch {i//BATCH + 1}: {e}")
+
+          print(f"\nSync complete. Total inserted: {total_inserted}")
+          PYEOF
