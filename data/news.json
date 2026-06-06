@@ -1,5 +1,12 @@
 [
   {
+    "title": "4 canciones compuestas durante una gira",
+    "tag": "MÚSICA",
+    "date": "Sat, 06 Jun 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2021/04/soda-stereo.jpg",
+    "url": "https://indiehoy.com/historias/4-canciones-compuestas-durante-una-gira/"
+  },
+  {
     "title": "Los 5 recitales más épicos del Indio Solari y sus bandas",
     "tag": "MÚSICA",
     "date": "Fri, 05 Jun 2026",
@@ -63,11 +70,11 @@
     "url": "https://indiehoy.com/historias/5-frases-indio-solari-quedaron-en-la-memoria-popular/"
   },
   {
-    "title": "Las mejores canciones de The Rolling Stones según Bruce Springsteen y Tom Petty",
-    "tag": "MÚSICA",
-    "date": "Fri, 05 Jun 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/06/tom-petty-bruce-springsteen.webp",
-    "url": "https://indiehoy.com/historias/las-mejores-canciones-de-the-rolling-stones-segun-bruce-springsteen-y-tom-petty/"
+    "title": "El adiós al Indio Solari en Plaza de Mayo: Todos los pogos, el pogo",
+    "tag": "TENDENCIAS",
+    "date": "Sat, 06 Jun 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/06/INDIO-PLAZA-1024x616.jpg",
+    "url": "https://es.rollingstone.com/arg-el-adios-al-indio-solari-en-plaza-de-mayo-todos-los-pogos-el-pogo/"
   },
   {
     "title": "Indio Solari: 10 canciones fundamentales de su carrera solista",
@@ -131,12 +138,5 @@
     "date": "Fri, 05 Jun 2026",
     "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
     "url": "https://es.rollingstone.com/critica-tabu-egon-schiele/"
-  },
-  {
-    "title": "Crítica: Hokum: La maldición de la bruja",
-    "tag": "TENDENCIAS",
-    "date": "Fri, 05 Jun 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/critica-hokum-la-maldicion-de-la-bruja/"
   }
 ]
