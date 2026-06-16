@@ -1,5 +1,33 @@
 [
   {
+    "title": "5 duplas de padres e hijos que triunfaron en la música",
+    "tag": "MÚSICA",
+    "date": "Mon, 15 Jun 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/06/frank-y-nancy-sinatra.webp",
+    "url": "https://indiehoy.com/historias/5-duplas-de-padres-e-hijos-que-triunfaron-en-la-musica/"
+  },
+  {
+    "title": "El himno de Queen que generó dudas: Era muy engreído",
+    "tag": "MÚSICA",
+    "date": "Mon, 15 Jun 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2023/06/queen.jpg",
+    "url": "https://indiehoy.com/historias/el-himno-de-queen-que-genero-dudas-era-muy-engreido/"
+  },
+  {
+    "title": "La canción de Foo Fighters que Bob Dylan admira: Es un gran tema",
+    "tag": "MÚSICA",
+    "date": "Mon, 15 Jun 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/06/foo-fighters-bob-dylan.webp",
+    "url": "https://indiehoy.com/historias/la-cancion-de-foo-fighters-que-bob-dylan-admira-es-un-gran-tema/"
+  },
+  {
+    "title": "Oliver Tree y su última voluntad: Quiero que todo mi dinero sea para los artistas”",
+    "tag": "MÚSICA",
+    "date": "Mon, 15 Jun 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/06/1.jpg",
+    "url": "https://indiehoy.com/noticias/oliver-tree-y-su-ultima-voluntad-quiero-que-todo-mi-dinero-sea-para-los-artistas/"
+  },
+  {
     "title": "La canción que Kurt Cobain se arrepintió de escribir: Le hizo daño al disco",
     "tag": "MÚSICA",
     "date": "Mon, 15 Jun 2026",
@@ -42,32 +70,39 @@
     "url": "https://indiehoy.com/historias/la-banda-mas-peculiar-de-norteamerica-segun-heart-como-ninguna-otra/"
   },
   {
-    "title": "La canción que The Beatles se negaron a publicar: No podemos cantar eso",
-    "tag": "MÚSICA",
-    "date": "Sun, 14 Jun 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2025/03/the-beatles-6.jpg",
-    "url": "https://indiehoy.com/historias/la-cancion-que-the-beatles-se-negaron-a-publicar-no-podemos-cantar-eso/"
+    "title": "Feid viaja a la época dorada del hip hop neoyorquino en El moco verde",
+    "tag": "TENDENCIAS",
+    "date": "Mon, 15 Jun 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/feid-viaja-a-la-epoca-dorada-del-hip-hop-neoyorquino-en-el-moco-verde/"
   },
   {
-    "title": "5 canciones que llevan el nombre de otras bandas y artistas",
-    "tag": "MÚSICA",
-    "date": "Sun, 14 Jun 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/06/olivia-rodrigo-the-cure.webp",
-    "url": "https://indiehoy.com/historias/5-canciones-que-llevan-el-nombre-de-otras-bandas-y-artistas/"
+    "title": "The Warning reflexiona sobre el autosabotaje en ‘Ritual’, su nueva canción",
+    "tag": "TENDENCIAS",
+    "date": "Mon, 15 Jun 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/the-warning-reflexiona-sobre-el-autosabotaje-en-ritual-su-nueva-cancion/"
   },
   {
-    "title": "Murió Oliver Tree a los 32 años en un accidente aéreo en Brasil",
-    "tag": "MÚSICA",
-    "date": "Sun, 14 Jun 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/06/oliver-tree-1.jpg",
-    "url": "https://indiehoy.com/noticias/murio-oliver-tree-a-los-32-anos-en-un-accidente-aereo-en-brasil/"
+    "title": "Olivia Rodrigo cuenta una hermosa y desgarradora historia de amor",
+    "tag": "TENDENCIAS",
+    "date": "Mon, 15 Jun 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/olivia-rodrigo-cuenta-una-hermosa-y-desgarradora-historia-de-amor/"
   },
   {
-    "title": "El origen del título Revolver, uno de los discos más importantes de The Beatles",
-    "tag": "MÚSICA",
-    "date": "Sun, 14 Jun 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/06/the-beatles-2.webp",
-    "url": "https://indiehoy.com/historias/el-origen-del-titulo-revolver-uno-de-los-discos-mas-importantes-de-the-beatles/"
+    "title": "El músico Oliver Tree muere en un accidente aéreo en Brasil",
+    "tag": "TENDENCIAS",
+    "date": "Mon, 15 Jun 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/el-musico-oliver-tree-muere-en-un-accidente-aereo-en-brasil/"
+  },
+  {
+    "title": "Fito Páez realizó una serie de conciertos deslumbrantes en Colombia ",
+    "tag": "TENDENCIAS",
+    "date": "Mon, 15 Jun 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/06/Fito-Paez-realizo-una-serie-de-conciertos-deslumbrantes-en-Colombia-2.jpg",
+    "url": "https://es.rollingstone.com/fito-paez-realizo-una-serie-de-conciertos-deslumbrantes-en-colombia/"
   },
   {
     "title": "Maná celebrará 40 años de trayectoria con un concierto en el Estadio GNP Seguros de Ciudad de México",
@@ -103,40 +138,5 @@
     "date": "Fri, 12 Jun 2026",
     "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
     "url": "https://es.rollingstone.com/arg-indio-solari-el-emotivo-mensaje-de-agradecimiento-de-su-familia/"
-  },
-  {
-    "title": "Gabriel Mascaro: “La vitalidad no es la certeza, es la capacidad de seguir viviendo con dudas”",
-    "tag": "TENDENCIAS",
-    "date": "Fri, 12 Jun 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/06/Gabriel-Mascaro-La-vitalidad-no-es-la-certeza-es-la-capacidad-de-seguir-viviendo-con-dudas-2.jpg",
-    "url": "https://es.rollingstone.com/gabriel-mascaro-la-vitalidad-no-es-la-certeza-es-la-capacidad-de-seguir-viviendo-con-dudas/"
-  },
-  {
-    "title": "Beret es puesto en libertad provisional tras ser detenido por presunta agresión sexual",
-    "tag": "TENDENCIAS",
-    "date": "Fri, 12 Jun 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/beret-es-puesto-en-libertad-provisional-tras-ser-detenido-por-presunta-agresion-sexual/"
-  },
-  {
-    "title": "Crítica: ‘El día de la revelación’, la vuelta de Spielberg a los extraterrestres",
-    "tag": "TENDENCIAS",
-    "date": "Fri, 12 Jun 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/arg-critica-el-dia-de-la-revelacion-spielberg/"
-  },
-  {
-    "title": "El último pogo sobre el asfalto: la historia del mural del Indio Solari que se volvió viral",
-    "tag": "TENDENCIAS",
-    "date": "Fri, 12 Jun 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-11-at-11.49.33-1-771x1024.jpeg",
-    "url": "https://es.rollingstone.com/arg-la-historia-del-mural-del-indio-solari-que-se-volvio-viral/"
-  },
-  {
-    "title": "Maestros Joyeros expande su legado con una exclusiva boutique en Los Ángeles",
-    "tag": "TENDENCIAS",
-    "date": "Thu, 11 Jun 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/06/Maestros-Joyeros-expande-su-legado-con-una-exclusiva-boutique-en-Los-Angeles-2-1.jpg",
-    "url": "https://es.rollingstone.com/maestros-joyeros-expande-su-legado-con-una-exclusiva-boutique-en-los-angeles/"
   }
 ]
