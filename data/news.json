@@ -1,5 +1,61 @@
 [
   {
+    "title": "4 películas de terror liminal imperdibles",
+    "tag": "MÚSICA",
+    "date": "Tue, 16 Jun 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2023/11/Skinamarink.jpg",
+    "url": "https://indiehoy.com/cine/4-peliculas-de-terror-liminal/"
+  },
+  {
+    "title": "Es Elvis, es Dylan: El músico que estaba infravalorado según Bruce Springsteen",
+    "tag": "MÚSICA",
+    "date": "Tue, 16 Jun 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2025/05/bruce-springsteen-2.jpg",
+    "url": "https://indiehoy.com/historias/musico-que-estaba-infravalorado-segun-bruce-springsteen/"
+  },
+  {
+    "title": "8 covers espectaculares de Jack White",
+    "tag": "MÚSICA",
+    "date": "Tue, 16 Jun 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2025/05/jack-white.jpg",
+    "url": "https://indiehoy.com/historias/8-covers-espectaculares-de-jack-white/"
+  },
+  {
+    "title": "Pulp anuncia su película What Do You Do For An Encore?",
+    "tag": "MÚSICA",
+    "date": "Tue, 16 Jun 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/06/pulp-buenos-aires-argentina.jpg",
+    "url": "https://indiehoy.com/noticias/pulp-anuncia-su-pelicula-what-do-you-do-for-an-encore/"
+  },
+  {
+    "title": "El músico que Keith Richards adora: Trabajaría con él en el infierno o en el cielo",
+    "tag": "MÚSICA",
+    "date": "Tue, 16 Jun 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2025/05/keith-richards-1.jpg",
+    "url": "https://indiehoy.com/historias/musico-keith-richards-adora/"
+  },
+  {
+    "title": "Las 6 mejores películas de acción de los últimos seis años",
+    "tag": "MÚSICA",
+    "date": "Tue, 16 Jun 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2020/06/tenet.jpg",
+    "url": "https://indiehoy.com/cine/las-6-mejores-peliculas-de-accion-de-los-ultimos-seis-anos/"
+  },
+  {
+    "title": "10 lanzamientos para escuchar esta semana",
+    "tag": "MÚSICA",
+    "date": "Tue, 16 Jun 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/06/lanzamientos-semanales-indiehoy.jpg",
+    "url": "https://indiehoy.com/noticias/10-lanzamientos-para-escuchar-esta-semana-2026-06-16/"
+  },
+  {
+    "title": "5 videos musicales para recordar a Lucas Vignale",
+    "tag": "MÚSICA",
+    "date": "Tue, 16 Jun 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/06/lucas-vignale.webp",
+    "url": "https://indiehoy.com/noticias/5-videos-musicales-para-recordar-a-lucas-vignale/"
+  },
+  {
     "title": "Qué ver en Prime Video: 4 películas de fútbol",
     "tag": "MÚSICA",
     "date": "Tue, 16 Jun 2026",
@@ -14,60 +70,60 @@
     "url": "https://indiehoy.com/cine/que-ver-en-netflix-5-peliculas-de-futbol/"
   },
   {
-    "title": "A 40 años de The Queen Is Dead: 5 curiosidades sobre el emblemático disco de The Smiths",
-    "tag": "MÚSICA",
+    "title": "Crítica: Toy Story 5",
+    "tag": "TENDENCIAS",
     "date": "Tue, 16 Jun 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/06/the-smiths-the-queen-is-dead.webp",
-    "url": "https://indiehoy.com/noticias/a-40-anos-de-the-queen-is-dead-5-curiosidades-sobre-el-emblematico-disco-de-the-smiths/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/critica-toy-story-5/"
   },
   {
-    "title": "Los beneficios de esta semana en la Comunidad Indie Hoy",
-    "tag": "MÚSICA",
+    "title": "Un escenario sobre ruedas: Volvo presenta el EX60",
+    "tag": "TENDENCIAS",
     "date": "Tue, 16 Jun 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2024/06/comunidad-indie-hoy.jpg",
-    "url": "https://indiehoy.com/recitales/beneficios-comunidad-indie-hoy-esta-semana/"
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/06/Un-escenario-sobre-ruedas-Volvo-presenta-el-EX60-2.jpg",
+    "url": "https://es.rollingstone.com/un-escenario-sobre-ruedas-volvo-presenta-el-ex60/"
   },
   {
-    "title": "Tom Holland saluda a Julián Álvarez: Serías un gran Spider-Man",
-    "tag": "MÚSICA",
+    "title": "Estados Unidos e Irán llegan a un acuerdo preliminar para poner fin a la guerra",
+    "tag": "TENDENCIAS",
     "date": "Tue, 16 Jun 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/06/Tom-Holland-y-Julian-Alvarez.webp",
-    "url": "https://indiehoy.com/cine/tom-holland-saluda-a-julian-alvarez-serias-un-gran-spider-man/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/estados-unidos-e-iran-llegan-a-un-acuerdo-preliminar-para-poner-fin-a-la-guerra/"
   },
   {
-    "title": "Michael se convierte en la biopic musical más taquillera de la historia",
-    "tag": "MÚSICA",
+    "title": "Trueno: “Cantar afuera es como jugar en la Selección, sentís que estás representando al país”",
+    "tag": "TENDENCIAS",
     "date": "Tue, 16 Jun 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/06/michael.webp",
-    "url": "https://indiehoy.com/cine/michael-se-convierte-en-la-biopic-musical-mas-taquillera-de-la-historia/"
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/06/62A0205.jpg",
+    "url": "https://es.rollingstone.com/arg-trueno-cantar-afuera-es-como-jugar-en-la-seleccion-sentis-que-estas-representando-al-pais/"
   },
   {
-    "title": "Daniel Melingo: Mi ADN está compuesto por una diversidad de músicas",
-    "tag": "MÚSICA",
+    "title": "Crítica: Día de la revelación (Disclosure Day)",
+    "tag": "TENDENCIAS",
     "date": "Tue, 16 Jun 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/06/daniel-melingo.jpg",
-    "url": "https://indiehoy.com/entrevistas/daniel-melingo-mi-adn-esta-compuesto-por-una-diversidad-de-musicas/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/critica-dia-de-la-revelacion-disclosure-day/"
   },
   {
-    "title": "John Fogerty de Creedence Clearwater Revival elige al actor para su biopic",
-    "tag": "MÚSICA",
+    "title": "Crítica: Scary Movie 6: Terroríficamente incorrecta",
+    "tag": "TENDENCIAS",
     "date": "Tue, 16 Jun 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/06/john-fogerty.webp",
-    "url": "https://indiehoy.com/noticias/john-fogerty-de-creedence-clearwater-revival-elige-al-actor-para-su-biopic/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/critica-scary-movie-6-terrorificamente-incorrecta/"
   },
   {
-    "title": "El azar no existe en tu pantalla y la tecnología lo simula mejor de lo que pensás",
-    "tag": "MÚSICA",
+    "title": "40 años de ‘The Queen Is Dead’: el disco que coronó a The Smiths y cambió para siempre el rock británico",
+    "tag": "TENDENCIAS",
     "date": "Tue, 16 Jun 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/06/8e371fce-27e2-4cf0-853f-bc097770fbca-1.webp",
-    "url": "https://indiehoy.com/especiales/el-azar-no-existe-en-tu-pantalla-y-la-tecnologia-lo-simula-mejor-de-lo-que-pensas/"
+    "img": "https://indiehoy.com/wp-content/uploads/2011/04/The-Smiths-The-Queen-Is-Dead.jpg",
+    "url": "https://es.rollingstone.com/arg-40-anos-de-the-queen-is-dead-the-smiths/"
   },
   {
-    "title": "5 duplas de padres e hijos que triunfaron en la música",
-    "tag": "MÚSICA",
-    "date": "Mon, 15 Jun 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/06/frank-y-nancy-sinatra.webp",
-    "url": "https://indiehoy.com/historias/5-duplas-de-padres-e-hijos-que-triunfaron-en-la-musica/"
+    "title": "La FIFA se retracta: el español recupera su lugar en el Mundial 2026",
+    "tag": "TENDENCIAS",
+    "date": "Tue, 16 Jun 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/la-fifa-se-retracta-el-espanol-recupera-su-lugar-en-el-mundial-2026/"
   },
   {
     "title": "Feid viaja a la época dorada del hip hop neoyorquino en El moco verde",
@@ -82,61 +138,5 @@
     "date": "Mon, 15 Jun 2026",
     "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
     "url": "https://es.rollingstone.com/the-warning-reflexiona-sobre-el-autosabotaje-en-ritual-su-nueva-cancion/"
-  },
-  {
-    "title": "Olivia Rodrigo cuenta una hermosa y desgarradora historia de amor",
-    "tag": "TENDENCIAS",
-    "date": "Mon, 15 Jun 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/olivia-rodrigo-cuenta-una-hermosa-y-desgarradora-historia-de-amor/"
-  },
-  {
-    "title": "El músico Oliver Tree muere en un accidente aéreo en Brasil",
-    "tag": "TENDENCIAS",
-    "date": "Mon, 15 Jun 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/el-musico-oliver-tree-muere-en-un-accidente-aereo-en-brasil/"
-  },
-  {
-    "title": "Fito Páez realizó una serie de conciertos deslumbrantes en Colombia ",
-    "tag": "TENDENCIAS",
-    "date": "Mon, 15 Jun 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/06/Fito-Paez-realizo-una-serie-de-conciertos-deslumbrantes-en-Colombia-2.jpg",
-    "url": "https://es.rollingstone.com/fito-paez-realizo-una-serie-de-conciertos-deslumbrantes-en-colombia/"
-  },
-  {
-    "title": "Maná celebrará 40 años de trayectoria con un concierto en el Estadio GNP Seguros de Ciudad de México",
-    "tag": "TENDENCIAS",
-    "date": "Fri, 12 Jun 2026",
-    "img": "https://s.w.org/images/core/emoji/17.0.2/72x72/2122.png",
-    "url": "https://es.rollingstone.com/mana-celebrara-40-anos-de-trayectoria-con-un-concierto-en-el-estadio-gnp-seguros-de-ciudad-de-mexico/"
-  },
-  {
-    "title": "Roger Taylor recuerda la belleza del mundo en Violence Insane In A Beautiful World",
-    "tag": "TENDENCIAS",
-    "date": "Fri, 12 Jun 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/roger-taylor-recuerda-la-belleza-del-mundo-en-violence-insane-in-a-beautiful-world/"
-  },
-  {
-    "title": "Jhay P muestra su faceta más romántica en ‘Fue culpa suya’",
-    "tag": "TENDENCIAS",
-    "date": "Fri, 12 Jun 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/jhay-p-muestra-su-faceta-mas-romantica-en-fue-culpa-suya/"
-  },
-  {
-    "title": "Chase Infiniti: “Interpretar a Agnes me recordó por qué no podemos dejar de defender nuestros derechos”",
-    "tag": "TENDENCIAS",
-    "date": "Fri, 12 Jun 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/06/Chase-Infiniti-Interpretar-a-Agnes-me-recordo-por-que-no-podemos-dejar-de-defender-nuestros-derechos-2.jpg",
-    "url": "https://es.rollingstone.com/chase-infiniti-interpretar-a-agnes-me-recordo-por-que-no-podemos-dejar-de-defender-nuestros-derechos/"
-  },
-  {
-    "title": "Indio Solari: el emotivo mensaje de agradecimiento de su familia",
-    "tag": "TENDENCIAS",
-    "date": "Fri, 12 Jun 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/arg-indio-solari-el-emotivo-mensaje-de-agradecimiento-de-su-familia/"
   }
 ]
