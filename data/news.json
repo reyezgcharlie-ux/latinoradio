@@ -1,5 +1,26 @@
 [
   {
+    "title": "El primer disco punk rock en vender 10 millones de copias",
+    "tag": "MÚSICA",
+    "date": "Sat, 20 Jun 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2023/01/vinilo.jpg",
+    "url": "https://indiehoy.com/historias/el-primer-disco-punk-rock-en-vender-10-millones-de-copias/"
+  },
+  {
+    "title": "5 discos nuevos para escuchar hoy",
+    "tag": "MÚSICA",
+    "date": "Sat, 20 Jun 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/06/discos-nuevos-1.jpg",
+    "url": "https://indiehoy.com/noticias/5-discos-nuevos-para-escuchar-hoy-sara-hebe-graham-coxon-y-mas/"
+  },
+  {
+    "title": "Crítica de You Seem Pretty Sad For A Girl So In Love: Olivia Rodrigo y el dolor como parte inseparable del amor",
+    "tag": "MÚSICA",
+    "date": "Sat, 20 Jun 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/06/olivia-rodrigo-you-seem-pretty-sad-for-a-girl-so-in-love.jpg",
+    "url": "https://indiehoy.com/discos/critica-you-seem-pretty-sad-for-a-girl-so-in-love-olivia-rodrigo-dolor-como-parte-inseparable-del-amor/"
+  },
+  {
     "title": "5 canciones de The Rolling Stones donde brilla Ronnie Wood",
     "tag": "MÚSICA",
     "date": "Fri, 19 Jun 2026",
@@ -49,25 +70,11 @@
     "url": "https://indiehoy.com/series/la-serie-que-stephen-king-considera-mejor-que-widows-bay-como-si-hitchcock-hubiera-vuelto/"
   },
   {
-    "title": "5 discos nuevos para escuchar hoy",
-    "tag": "MÚSICA",
-    "date": "Fri, 19 Jun 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/06/discos-nuevos-1.jpg",
-    "url": "https://indiehoy.com/noticias/5-discos-nuevos-para-escuchar-hoy-sara-hebe-graham-coxon-y-mas/"
-  },
-  {
-    "title": "Quién fue el Mozart de la guitarra según Joe Perry: Así de brillante",
-    "tag": "MÚSICA",
-    "date": "Fri, 19 Jun 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/06/joe-perry.webp",
-    "url": "https://indiehoy.com/historias/quien-fue-el-mozart-de-la-guitarra-segun-joe-perry/"
-  },
-  {
-    "title": "La primera canción no romántica de The Beatles en llegar al número 1",
-    "tag": "MÚSICA",
-    "date": "Fri, 19 Jun 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/01/beatles.webp",
-    "url": "https://indiehoy.com/historias/la-primera-cancion-no-romantica-de-the-beatles-en-llegar-al-numero-1/"
+    "title": "Madrid se sirve a la mesa: el renacer gastronómico del Marriott Princesa Plaza",
+    "tag": "TENDENCIAS",
+    "date": "Sat, 20 Jun 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/06/Madrid-se-sirve-a-la-mesa-el-renacer-gastronomico-del-Marriott-Princesa-Plaza-2.jpg",
+    "url": "https://es.rollingstone.com/madrid-se-sirve-a-la-mesa-el-renacer-gastronomico-del-marriott-princesa-plaza/"
   },
   {
     "title": "Crítica: La vida es",
@@ -131,12 +138,5 @@
     "date": "Thu, 18 Jun 2026",
     "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
     "url": "https://es.rollingstone.com/critica-invincible-temporadas-1-4/"
-  },
-  {
-    "title": "Bruce Dickinson habla sobre los vocalistas que continúan cantando con voces deterioradas",
-    "tag": "TENDENCIAS",
-    "date": "Thu, 18 Jun 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/bruce-dickinson-habla-sobre-los-vocalistas-que-continuan-cantando-con-voces-deterioradas/"
   }
 ]
