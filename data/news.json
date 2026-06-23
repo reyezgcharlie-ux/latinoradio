@@ -1,5 +1,40 @@
 [
   {
+    "title": "10 lanzamientos para escuchar esta semana",
+    "tag": "MÚSICA",
+    "date": "Mon, 22 Jun 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/06/lanza.jpg",
+    "url": "https://indiehoy.com/noticias/10-lanzamientos-para-escuchar-esta-semana-2026-06-22/"
+  },
+  {
+    "title": "Crítica de 76 89 23: La reivindicación de una película ignorada por las masas",
+    "tag": "MÚSICA",
+    "date": "Mon, 22 Jun 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/06/BENOIT-RODANDO.webp",
+    "url": "https://indiehoy.com/cine/critica-de-76-89-23-la-reivindicacion-de-una-pelicula-ignorada-por-las-masas/"
+  },
+  {
+    "title": "Oasis podría volver a Sudamérica en 2027",
+    "tag": "MÚSICA",
+    "date": "Mon, 22 Jun 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2025/11/oasis-en-argentina-11.jpg",
+    "url": "https://indiehoy.com/noticias/oasis-podria-volver-a-sudamerica-en-2027/"
+  },
+  {
+    "title": "Quentin Tarantino regresa a la actuación",
+    "tag": "MÚSICA",
+    "date": "Mon, 22 Jun 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2023/06/quentin-tarantino.jpg",
+    "url": "https://indiehoy.com/cine/quentin-tarantino-regresa-a-la-actuacion/"
+  },
+  {
+    "title": "El guitarrista que Kiss rechazó por su altura: Lo siento, no va a funcionar",
+    "tag": "MÚSICA",
+    "date": "Mon, 22 Jun 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2025/07/kiss.webp",
+    "url": "https://indiehoy.com/historias/guitarrista-que-kiss-rechazo-por-su-altura/"
+  },
+  {
     "title": "Los cambios de formación que tuvo Pink Floyd en su historia",
     "tag": "MÚSICA",
     "date": "Mon, 22 Jun 2026",
@@ -11,7 +46,7 @@
     "tag": "MÚSICA",
     "date": "Mon, 22 Jun 2026",
     "img": "https://indiehoy.com/wp-content/uploads/2026/06/remeras-rock.jpg",
-    "url": "https://indiehoy.com/noticias/que-banda-de-rock-tiene-la-remera-mas-vendida-de-la-historia/"
+    "url": "https://indiehoy.com/historias/que-banda-de-rock-tiene-la-remera-mas-vendida-de-la-historia/"
   },
   {
     "title": "Keith Richards no sabe si podrá salir de gira con The Rolling Stones",
@@ -35,39 +70,46 @@
     "url": "https://indiehoy.com/series/que-ver-en-disney-4-series-sobre-profesores/"
   },
   {
-    "title": "Kirk Hammett sufrió una caída en pleno show de Metallica",
-    "tag": "MÚSICA",
+    "title": "“Necesitamos conectar más a través de la emoción”, iLe",
+    "tag": "TENDENCIAS",
     "date": "Mon, 22 Jun 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2023/11/kirk-hammett.jpg",
-    "url": "https://indiehoy.com/noticias/kirk-hammett-sufrio-una-caida-en-pleno-show-de-metallica/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/necesitamos-conectar-mas-a-traves-de-la-emocion-ile/"
   },
   {
-    "title": "Los maestros indiscutidos de la contramelodía según Robert Downey Jr",
-    "tag": "MÚSICA",
+    "title": "Crítica: Madame Violet (Louise Violet)",
+    "tag": "TENDENCIAS",
     "date": "Mon, 22 Jun 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2023/11/robert-downey-jr.jpg",
-    "url": "https://indiehoy.com/cine/los-maestros-indiscutidos-de-la-contramelodia-segun-robert-downey-jr/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/critica-madame-violet-louise-violet/"
   },
   {
-    "title": "Qué ver en Netflix: 4 series sobre profesores",
-    "tag": "MÚSICA",
+    "title": "¿Qué nos anticipó el primer tráiler de Shrek 5?",
+    "tag": "TENDENCIAS",
     "date": "Mon, 22 Jun 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/06/el-profe-netflix.webp",
-    "url": "https://indiehoy.com/series/que-ver-en-netflix-4-series-sobre-profesores/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/que-nos-anticipo-el-primer-trailer-de-shrek-5/"
   },
   {
-    "title": "El icónico personaje de ficción que Matt Damon no soporta: Es un sociópata imperialista y misógino",
-    "tag": "MÚSICA",
+    "title": "Jim Carrey podría regresar a su icónico papel de El Grinch",
+    "tag": "TENDENCIAS",
     "date": "Mon, 22 Jun 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2022/07/matt-damon.jpg",
-    "url": "https://indiehoy.com/cine/el-iconico-personaje-de-ficcion-que-matt-damon-no-soporta-es-un-sociopata-imperialista-y-misogino/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/jim-carrey-podria-regresar-a-su-iconico-papel-de-el-grinch/"
   },
   {
-    "title": "Los beneficios de esta semana en la Comunidad Indie Hoy",
-    "tag": "MÚSICA",
+    "title": "Tiago PZK, entre vulnerabilidad y libertad ",
+    "tag": "TENDENCIAS",
     "date": "Mon, 22 Jun 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2024/06/comunidad-indie-hoy.jpg",
-    "url": "https://indiehoy.com/recitales/beneficios-comunidad-indie-hoy-esta-semana/"
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/06/Tiago-PZK-entre-vulnerabilidad-y-libertad-2.jpg",
+    "url": "https://es.rollingstone.com/tiago-pzk-entre-vulnerabilidad-y-libertad/"
+  },
+  {
+    "title": "Un Aguacero en el alma llanera de Llane: una triste realidad para renacer ",
+    "tag": "TENDENCIAS",
+    "date": "Mon, 22 Jun 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/un-aguacero-en-el-alma-llanera-de-llane-una-triste-realidad-para-renacer/"
   },
   {
     "title": "Trueno en Rolling Stone: la historia de la camiseta que usaron Charly García y Diego Maradona",
@@ -96,47 +138,5 @@
     "date": "Sat, 20 Jun 2026",
     "img": "https://es.rollingstone.com/wp-content/uploads/2026/06/SERU-MOVISTAR-2.jpg",
     "url": "https://es.rollingstone.com/arg-un-abrazo-sensible-como-fue-el-emotivo-primer-concierto-de-seru-giran-por-lebon-aznar/"
-  },
-  {
-    "title": "Madrid se sirve a la mesa: el renacer gastronómico del Marriott Princesa Plaza",
-    "tag": "TENDENCIAS",
-    "date": "Sat, 20 Jun 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/06/Madrid-se-sirve-a-la-mesa-el-renacer-gastronomico-del-Marriott-Princesa-Plaza-2.jpg",
-    "url": "https://es.rollingstone.com/madrid-se-sirve-a-la-mesa-el-renacer-gastronomico-del-marriott-princesa-plaza/"
-  },
-  {
-    "title": "Crítica: La vida es",
-    "tag": "TENDENCIAS",
-    "date": "Fri, 19 Jun 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/critica-la-vida-es/"
-  },
-  {
-    "title": "Crítica: Sauce ciego, mujer dormida (Saules Aveugles Femme Endormie)",
-    "tag": "TENDENCIAS",
-    "date": "Fri, 19 Jun 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/critica-sauce-ciego-mujer-dormida-saules-aveugles-femme-endormie/"
-  },
-  {
-    "title": "Willy Rodríguez: “Sentí la necesidad extrema de hacer música como un abrazo”",
-    "tag": "TENDENCIAS",
-    "date": "Fri, 19 Jun 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/06/Willy-Rodriguez-Senti-la-necesidad-extrema-de-hacer-musica-como-un-abrazo-3-1.jpg",
-    "url": "https://es.rollingstone.com/willy-rodriguez-senti-la-necesidad-extrema-de-hacer-musica-como-un-abrazo/"
-  },
-  {
-    "title": "Danny Ocean le da la bienvenida al verano con babylona blue",
-    "tag": "TENDENCIAS",
-    "date": "Fri, 19 Jun 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/danny-ocean-le-da-la-bienvenida-al-verano-con-babylona-blue/"
-  },
-  {
-    "title": "Artistas que debes conocer: Afro Legends",
-    "tag": "TENDENCIAS",
-    "date": "Fri, 19 Jun 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/artistas-que-debes-conocer-afro-legends/"
   }
 ]
