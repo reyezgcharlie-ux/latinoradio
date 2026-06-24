@@ -1,5 +1,40 @@
 [
   {
+    "title": "Un apagón obligó a Iron Maiden a interrumpir su concierto en París",
+    "tag": "MÚSICA",
+    "date": "Wed, 24 Jun 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/06/iron-maiden.jpg",
+    "url": "https://indiehoy.com/noticias/un-apagon-obligo-a-iron-maiden-a-interrumpir-su-concierto-en-paris/"
+  },
+  {
+    "title": "Qué ver en Apple TV: 4 series nuevas aclamadas por la crítica",
+    "tag": "MÚSICA",
+    "date": "Wed, 24 Jun 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/04/serie-margo-tiene-problemas-de-dinero.jpg",
+    "url": "https://indiehoy.com/noticias/que-ver-en-apple-tv-4-series-nuevas-aclamadas-por-la-critica/"
+  },
+  {
+    "title": "Por qué este año no habrá Glastonbury",
+    "tag": "MÚSICA",
+    "date": "Wed, 24 Jun 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2022/06/glastonbury.jpg",
+    "url": "https://indiehoy.com/noticias/por-que-este-ano-no-habra-glastonbury/"
+  },
+  {
+    "title": "El video que repasa los mejores momentos de la carrera de Tom Cruise",
+    "tag": "MÚSICA",
+    "date": "Wed, 24 Jun 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2025/03/tom-cruise.jpg",
+    "url": "https://indiehoy.com/cine/el-video-que-repasa-los-mejores-momentos-de-la-carrera-de-tom-cruise/"
+  },
+  {
+    "title": "Syncro Film Fest anuncia su cuarta edición: Fechas, lugar y entradas",
+    "tag": "MÚSICA",
+    "date": "Wed, 24 Jun 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/06/Los-mentirosos-—-Eduardo-Braun-Costa.webp",
+    "url": "https://indiehoy.com/cine/syncro-film-fest-anuncia-su-cuarta-edicion-fechas-lugar-y-entradas/"
+  },
+  {
     "title": "El Shakespeare del rock & roll” según Bob Dylan",
     "tag": "MÚSICA",
     "date": "Tue, 23 Jun 2026",
@@ -35,39 +70,11 @@
     "url": "https://indiehoy.com/cine/las-6-mejores-peliculas-de-terror-de-los-ultimos-seis-anos/"
   },
   {
-    "title": "5 discos emblemáticos que llevan el nombre de una ciudad",
-    "tag": "MÚSICA",
-    "date": "Tue, 23 Jun 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2025/02/the-clash-london-calling.jpg",
-    "url": "https://indiehoy.com/historias/5-discos-emblematicos-que-llevan-el-nombre-de-una-ciudad/"
-  },
-  {
-    "title": "Wednesday llega por primera vez a la Argentina: Fecha, lugar y entradas",
-    "tag": "MÚSICA",
-    "date": "Tue, 23 Jun 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/06/Wednesday.webp",
-    "url": "https://indiehoy.com/recitales/wednesday-llega-por-primera-vez-a-la-argentina-fecha-lugar-y-entradas/"
-  },
-  {
-    "title": "El riff de guitarra que era insuperable según George Harrison",
-    "tag": "MÚSICA",
-    "date": "Tue, 23 Jun 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2023/08/george-harrison-1.jpg",
-    "url": "https://indiehoy.com/historias/el-riff-de-guitarra-insuperable-segun-george-harrison/"
-  },
-  {
-    "title": "Se filtraron 11 canciones de Eros, el mítico disco inédito de Deftones",
-    "tag": "MÚSICA",
-    "date": "Tue, 23 Jun 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/06/deftones.webp",
-    "url": "https://indiehoy.com/noticias/se-filtraron-11-canciones-de-eros-el-mitico-disco-inedito-de-deftones/"
-  },
-  {
-    "title": "Las tres cosas que se necesitan para crear un éxito musical según Al Green",
-    "tag": "MÚSICA",
-    "date": "Tue, 23 Jun 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2025/07/al-green.webp",
-    "url": "https://indiehoy.com/noticias/tres-cosas-que-se-necesitan-para-crear-un-hit-segun-al-green/"
+    "title": "Alejandro Sanz: El eterno madrileño",
+    "tag": "TENDENCIAS",
+    "date": "Wed, 24 Jun 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/06/Alejandro-Sanz-El-eterno-madrileno-1.jpg",
+    "url": "https://es.rollingstone.com/alejandro-sanz-el-eterno-madrileno/"
   },
   {
     "title": "Bodine abraza la lentitud de los Adagios",
@@ -131,12 +138,5 @@
     "date": "Tue, 23 Jun 2026",
     "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
     "url": "https://es.rollingstone.com/arg-keith-richards-dice-que-los-rolling-stones-podrian-no-volver-a-salir-de-gira/"
-  },
-  {
-    "title": "The Madrid EDITION: lujo, exclusividad y confort ",
-    "tag": "TENDENCIAS",
-    "date": "Tue, 23 Jun 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/06/The-Madrid-EDITION-lujo-exclusividad-y-confort-1.jpg",
-    "url": "https://es.rollingstone.com/the-madrid-edition-lujo-exclusividad-y-confort/"
   }
 ]
