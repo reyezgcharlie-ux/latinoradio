@@ -1,8 +1,43 @@
 [
   {
+    "title": "The Hives estrena documental de su gira por Latinoamérica",
+    "tag": "MÚSICA",
+    "date": "Fri, 26 Jun 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/06/the-hives-latam.webp",
+    "url": "https://indiehoy.com/noticias/the-hives-estrena-documental-de-su-gira-por-latinoamerica/"
+  },
+  {
+    "title": "The Rolling Stones estrena su canción con Robert Smith: Divine Intervention",
+    "tag": "MÚSICA",
+    "date": "Fri, 26 Jun 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/05/los-rolling-stones-y-robert-smith.webp",
+    "url": "https://indiehoy.com/noticias/the-rolling-stones-estrena-su-cancion-con-robert-smith-divine-intervention/"
+  },
+  {
+    "title": "Qué ver en Netflix: 4 series corales",
+    "tag": "MÚSICA",
+    "date": "Fri, 26 Jun 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2025/05/las-cuatro-estaciones.jpg",
+    "url": "https://indiehoy.com/series/que-ver-en-netflix-4-series-corales/"
+  },
+  {
+    "title": "La agenda de recitales para este fin de semana en Buenos Aires",
+    "tag": "MÚSICA",
+    "date": "Fri, 26 Jun 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2024/11/recitales-4.jpg",
+    "url": "https://indiehoy.com/recitales/agenda-recitales-este-fin-de-semana-buenos-aires/"
+  },
+  {
+    "title": "El mejor disco de Babasónicos según la Comunidad Indie Hoy",
+    "tag": "MÚSICA",
+    "date": "Fri, 26 Jun 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2021/07/babasonicos.jpg",
+    "url": "https://indiehoy.com/noticias/el-mejor-disco-de-babasonicos-segun-la-comunidad-indie-hoy/"
+  },
+  {
     "title": "Crítica de La noche está marchándose ya: La fortaleza de lo colectivo",
     "tag": "MÚSICA",
-    "date": "Thu, 25 Jun 2026",
+    "date": "Fri, 26 Jun 2026",
     "img": "https://indiehoy.com/wp-content/uploads/2026/06/la-noche-esta-marchandose-ya-.webp",
     "url": "https://indiehoy.com/cine/critica-de-la-noche-esta-marchandose-ya-la-fortaleza-de-lo-colectivo/"
   },
@@ -35,38 +70,73 @@
     "url": "https://indiehoy.com/cine/los-10-mejores-documentales-sobre-the-beatles/"
   },
   {
-    "title": "Los 5 mejores covers de Something, la segunda canción más versionada de The Beatles",
-    "tag": "MÚSICA",
+    "title": "The Menzingers han dejado de vivir en el pasado",
+    "tag": "TENDENCIAS",
     "date": "Thu, 25 Jun 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2025/05/the-beatles-3.jpg",
-    "url": "https://indiehoy.com/historias/5-mejores-covers-de-something-the-beatles/"
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/06/The-Menzingers-han-dejado-de-vivir-en-el-pasado-1.jpg",
+    "url": "https://es.rollingstone.com/the-menzingers-han-dejado-de-vivir-en-el-pasado/"
   },
   {
-    "title": "Joy Division lanzará un box set con 16 discos en vivo",
-    "tag": "MÚSICA",
+    "title": "Las tres noches colombianas que el mundo no puede ignorar. Presentadas por Jägermeister",
+    "tag": "TENDENCIAS",
     "date": "Thu, 25 Jun 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2021/10/joy-division-banda.jpg",
-    "url": "https://indiehoy.com/noticias/joy-division-lanzara-un-box-set-con-16-discos-en-vivo/"
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/06/Las-tres-noches-colombianas-que-el-mundo-no-puede-ignorar-Presentadas-por-Jagermeister-1.jpg",
+    "url": "https://es.rollingstone.com/las-tres-noches-colombianas-que-el-mundo-no-puede-ignorar-presentadas-por-jagermeister/"
   },
   {
-    "title": "Supergirl llegó a los cines: Qué dicen las críticas sobre la película de DC",
-    "tag": "MÚSICA",
+    "title": "Cómo ayudar a las víctimas del doble terremoto en Venezuela desde cualquier país",
+    "tag": "TENDENCIAS",
     "date": "Thu, 25 Jun 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/06/supergirl.webp",
-    "url": "https://indiehoy.com/cine/supergirl-llego-a-los-cines-que-dicen-las-criticas-sobre-la-pelicula-de-dc/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/como-ayudar-a-las-victimas-del-doble-terremoto-en-venezuela-desde-cualquier-pais/"
   },
   {
-    "title": "4 referencias argentinas escondidas en películas y series de Hollywood",
-    "tag": "MÚSICA",
+    "title": "Se reportan más de 40.000 personas desaparecidas en Venezuela tras los terremotos que azotaron la región",
+    "tag": "TENDENCIAS",
     "date": "Thu, 25 Jun 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/06/stephen-king-tomando-mate-y-sarah-jessica-parker-con-una-revista-en-la-mano.jpg",
-    "url": "https://indiehoy.com/cine/4-referencias-argentinas-escondidas-en-peliculas-y-series-de-hollywood/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/se-reportan-mas-de-40-000-personas-desaparecidas-en-venezuela-tras-los-terremotos-que-azotaron-la-region/"
   },
   {
-    "title": "El mejor disco de Babasónicos según la Comunidad Indie Hoy",
-    "tag": "MÚSICA",
+    "title": "Confirmado: Los Fundamentalistas despiden el año en el Hipódromo de Tucumán",
+    "tag": "TENDENCIAS",
     "date": "Thu, 25 Jun 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2021/07/babasonicos.jpg",
-    "url": "https://indiehoy.com/noticias/el-mejor-disco-de-babasonicos-segun-la-comunidad-indie-hoy/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/arg-confirmado-los-fundamentalistas-despiden-el-ano-en-el-hipodromo-de-tucuman/"
+  },
+  {
+    "title": "El día en que el mundo escuchó: la historia detrás del Global Beatles Day",
+    "tag": "TENDENCIAS",
+    "date": "Thu, 25 Jun 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/el-dia-en-que-el-mundo-escucho-la-historia-detras-del-global-beatles-day/"
+  },
+  {
+    "title": "Danny Ocean, Joaquina, Lasso y más se pronuncian ante los terremotos de Venezuela",
+    "tag": "TENDENCIAS",
+    "date": "Thu, 25 Jun 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/danny-ocean-joaquina-lasso-y-mas-se-pronuncian-ante-los-terremotos-de-venezuela/"
+  },
+  {
+    "title": "Kase.O critica el estado del mundo e invita a no rendirse en Camisa de fuerza",
+    "tag": "TENDENCIAS",
+    "date": "Thu, 25 Jun 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/kase-o-critica-el-estado-del-mundo-e-invita-a-no-rendirse-en-camisa-de-fuerza/"
+  },
+  {
+    "title": "‘The Blair Witch Project’ regresará a los cines con un reboot en 2027: ¿cómo asustará en la era de TikTok?",
+    "tag": "TENDENCIAS",
+    "date": "Thu, 25 Jun 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/the-blair-witch-project-regresara-a-los-cines-con-un-reboot-en-2027-como-asustara-en-la-era-de-tiktok/"
+  },
+  {
+    "title": "Se filtra el álbum perdido de Deftones que la banda nunca quiso publicar",
+    "tag": "TENDENCIAS",
+    "date": "Thu, 25 Jun 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/se-filtra-el-album-perdido-de-deftones-que-la-banda-nunca-quiso-publicar/"
   }
 ]
