@@ -12,17 +12,19 @@ from datetime import datetime, timezone
 CF_ACCOUNT = "9cd06a9cb40a471bc7a2adb149d1df5a"
 D1_DB_ID = "0f5b7816-8fd3-437e-acaf-98322cad2d1a"
 R2_PUBLIC = "https://pub-f72a1045793847688e3debefd7b7d7b7.r2.dev"
+INTRO_URL = f"{R2_PUBLIC}/podcast/intro.mp3"  # mismo intro que usa el pipeline del podcast
 LOGO_URL = f"{R2_PUBLIC}/Webtools/file_000000000b6c71f58ab933c4beb14b43.png"
 VOICE = "es-MX-DaliaNeural"
 MAX_CARDS = 2  # por ejecución, para no saturar cuota diaria de plataformas
 FONT_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
+# Prioridad a México (mejor rendimiento de views), fuentes internacionales como respaldo
 RSS_FEEDS = [
     ("El Universal MX", "https://www.eluniversal.com.mx/arc/outboundfeeds/rss/", "rss"),
-    ("BBC Mundo", "https://feeds.bbci.co.uk/mundo/rss.xml", "rss"),
-    ("El País", "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada", "rss"),
+    ("Excélsior", "https://www.excelsior.com.mx/rss", "rss"),
     ("Google News MX", "https://news.google.com/rss?hl=es-419&gl=MX&ceid=MX:es-419", "google"),
-    ("Google News Latino", "https://news.google.com/rss?hl=es-419&gl=US&ceid=US:es-419", "google"),
+    ("Google News MX - Trending", "https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB?hl=es-419&gl=MX&ceid=MX:es-419", "google"),
+    ("El País", "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada", "rss"),
 ]
 
 
@@ -96,7 +98,7 @@ def wrap_title(title, width_chars=18):
 
 
 def generate_video(item, creds, tmp_dir):
-    """Video vertical 1080x1920, estilo noticiero clásico: banda negra inferior, texto blanco grande, acento rojo."""
+    """Video vertical 1080x1920 nivel PRO: intro + narracion 1min+, titulo bold con contorno, watermark grande."""
     img_path = os.path.join(tmp_dir, "bg.jpg")
     try:
         subprocess.run(["curl", "-sL", "-o", img_path, item["image"]], check=True, timeout=15)
@@ -109,8 +111,11 @@ def generate_video(item, creds, tmp_dir):
     logo_path = os.path.join(tmp_dir, "logo.png")
     subprocess.run(["curl", "-sL", "-o", logo_path, LOGO_URL], check=True, timeout=10)
 
-    # TTS: narra el título + primera parte de la descripción, voz natural gratis
-    narration = f"{item['title']}. {item['description'][:220]}"
+    intro_path = os.path.join(tmp_dir, "intro.mp3")
+    subprocess.run(["curl", "-sL", "-o", intro_path, INTRO_URL], check=True, timeout=15)
+
+    # Narración de 1min+: título completo + descripción larga (~900-1300 caracteres ≈ 60-80s en voz natural)
+    narration = f"{item['title']}. {item['description'][:1300]}"
     narration = re.sub(r"<[^>]+>", "", narration)
     tts_path = os.path.join(tmp_dir, "tts.mp3")
     subprocess.run(
@@ -118,34 +123,42 @@ def generate_video(item, creds, tmp_dir):
         check=True, capture_output=True, text=True,
     )
 
+    # Concatenar intro + narración (mismo patrón que el pipeline del podcast)
+    audio_path = os.path.join(tmp_dir, "audio.mp3")
+    list_file = os.path.join(tmp_dir, "list.txt")
+    with open(list_file, "w") as f:
+        f.write(f"file '{intro_path}'\n")
+        f.write(f"file '{tts_path}'\n")
+    subprocess.run(
+        ["ffmpeg", "-f", "concat", "-safe", "0", "-i", list_file, "-c:a", "libmp3lame", "-b:a", "128k", "-ar", "44100", "-y", audio_path],
+        check=True, capture_output=True, text=True,
+    )
+
     dur = subprocess.run(
-        ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", tts_path],
+        ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", audio_path],
         capture_output=True, text=True,
     )
     duration = float(dur.stdout.strip())
 
-    title_wrapped = wrap_title(item["title"])
+    title_wrapped = wrap_title(item["title"], width_chars=16)
     title_file = os.path.join(tmp_dir, "title.txt")
     with open(title_file, "w") as f:
         f.write(title_wrapped)
 
     output = os.path.join(tmp_dir, "newscard.mp4")
 
-    # Paso 1: imagen 1080x1920 real (no cuadrada) + banda negra inferior + título GRANDE + barra roja de acento
+    # Paso 1: imagen 1080x1920 + banda negra inferior + título BOLD con contorno grueso (look "pro")
     video_no_audio = os.path.join(tmp_dir, "v0.mp4")
     vf = (
         "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,"
-        # banda negra semitransparente cubriendo el tercio inferior
-        "drawbox=x=0:y=1330:w=1080:h=590:color=black@0.72:t=fill,"
-        # barra roja de acento justo arriba de la banda
-        "drawbox=x=0:y=1322:w=1080:h=8:color=red@0.95:t=fill,"
-        # título grande, blanco, centrado, multilinea
+        "drawbox=x=0:y=1280:w=1080:h=640:color=black@0.78:t=fill,"
+        "drawbox=x=0:y=1272:w=1080:h=10:color=red@0.95:t=fill,"
+        # título grande con borde negro grueso alrededor (borderw) — efecto "impactante" de portada
         f"drawtext=textfile={title_file}:fontfile={FONT_BOLD}:"
-        "fontsize=64:fontcolor=white:x=(w-text_w)/2:y=1400:line_spacing=14:"
-        "text_align=center,"
-        # etiqueta de marca en rojo, arriba de la banda de titulo
+        "fontsize=78:fontcolor=white:borderw=6:bordercolor=black:"
+        "x=(w-text_w)/2:y=1370:line_spacing=16:text_align=center,"
         "drawtext=text='INFOAMERICA.PRESS':fontfile=" + FONT_BOLD + ":"
-        "fontsize=34:fontcolor=red:x=(w-text_w)/2:y=1350"
+        "fontsize=36:fontcolor=red:borderw=2:bordercolor=black:x=(w-text_w)/2:y=1310"
     )
     step1 = [
         "ffmpeg", "-y", "-loop", "1", "-i", img_path,
@@ -154,22 +167,22 @@ def generate_video(item, creds, tmp_dir):
         "-t", str(int(duration) + 1),
         video_no_audio,
     ]
-    r1 = subprocess.run(step1, capture_output=True, text=True, timeout=120)
+    r1 = subprocess.run(step1, capture_output=True, text=True, timeout=150)
     if r1.returncode != 0:
         print("  ERROR ffmpeg paso1:", r1.stderr[-500:])
         return None, 0
 
-    # Paso 2: logo + audio
+    # Paso 2: watermark más grande (140x140) + audio (intro+narración)
     cmd = [
         "ffmpeg", "-y",
-        "-i", video_no_audio, "-loop", "1", "-i", logo_path, "-i", tts_path,
-        "-filter_complex", "[1:v]scale=90:90[logos];[0:v][logos]overlay=W-w-24:40[outv]",
+        "-i", video_no_audio, "-loop", "1", "-i", logo_path, "-i", audio_path,
+        "-filter_complex", "[1:v]scale=140:140[logos];[0:v][logos]overlay=W-w-28:36[outv]",
         "-map", "[outv]", "-map", "2:a",
         "-c:v", "libx264", "-preset", "ultrafast", "-crf", "26",
         "-c:a", "aac", "-b:a", "128k", "-pix_fmt", "yuv420p",
         "-shortest", output,
     ]
-    r2 = subprocess.run(cmd, capture_output=True, text=True, timeout=120)
+    r2 = subprocess.run(cmd, capture_output=True, text=True, timeout=150)
     if r2.returncode != 0:
         print("  ERROR ffmpeg paso2:", r2.stderr[-500:])
         return None, 0
@@ -185,7 +198,7 @@ def post_to_telegram(video_path, item, creds):
     if not bot_token or not chat_id:
         print("  ERROR: faltan TELEGRAM_BOT_TOKEN o TELEGRAM_CHAT_ID en .env")
         return False, None
-    caption = f"📰 {item['title'][:200]}\n\nFuente: {item['source']}"
+    caption = f"📰 {item['title'][:200]}\n\n🔴 INFOAMERICA.PRESS"
     cmd = [
         "curl", "-s", "-X", "POST",
         f"https://api.telegram.org/bot{bot_token}/sendVideo",
