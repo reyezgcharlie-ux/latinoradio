@@ -643,24 +643,29 @@ def main():
     print(f"   Articulos de fuentes directas disponibles para cruce: {len(direct_items)}")
 
     all_items = []
+    slow_path_attempts = 0
+    MAX_SLOW_PATH = 4  # limite de busquedas pesadas en Google News (cada una baja una pagina completa)
     for t in trending[:12]:
         key_check = t["term"].lower().strip()[:60]
         if key_check in existing:
             continue
-        # 1) Intentar cruzar la tendencia con un articulo real de fuente directa (foto+texto confiables)
+        # 1) Intentar cruzar la tendencia con un articulo real de fuente directa (rapido, ya en memoria)
         match = match_trend_to_direct_article(t["term"], direct_items)
         if match and match["title"].lower().strip()[:60] not in existing:
             match["_traffic"] = t["traffic"]
             match["trend_term"] = t["term"]
             all_items.append(match)
             continue
-        # 2) Si no hay coincidencia, usar Google News + imagen de marca como respaldo (sin descripcion basura)
+        # 2) Sin coincidencia directa: camino lento (Google News + descarga de pagina), limitado en cantidad
+        if slow_path_attempts >= MAX_SLOW_PATH:
+            continue
+        slow_path_attempts += 1
         news = find_news_for_trend(t["term"])
         if news and news["title"].lower().strip()[:60] not in existing:
             news["_traffic"] = t["traffic"]
             all_items.append(news)
 
-    print(f"   Candidatas disponibles: {len(all_items)}")
+    print(f"   Candidatas disponibles: {len(all_items)} (camino lento usado {slow_path_attempts}/{MAX_SLOW_PATH} veces)")
     if not all_items:
         print("Sin tendencias con contenido disponible en este momento.")
         return
