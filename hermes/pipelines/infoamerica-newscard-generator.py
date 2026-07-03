@@ -69,7 +69,7 @@ def parse_items(xml_text, source_name, is_google):
         if is_google:
             title = re.sub(r"\s*-\s*[^-]+$", "", title)
         if title and len(title) > 15:
-            items.append({"title": title, "description": desc or title, "image": img, "source": source_name})
+            items.append({"title": title, "description": desc, "image": img, "source": source_name})
     return items
 
 
@@ -136,12 +136,14 @@ def get_duration(path):
 
 
 def download_image(url, out_path):
+    ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
     try:
-        subprocess.run(["curl", "-sL", "-o", out_path, url], check=True, timeout=15)
+        subprocess.run(["curl", "-sL", "-A", ua, "--max-time", "15", "-o", out_path, url], check=True, timeout=18)
         chk = subprocess.run(["ffprobe", "-v", "error", out_path], capture_output=True, timeout=5)
         if chk.returncode != 0 or os.path.getsize(out_path) < 500:
-            raise Exception("imagen inválida")
-    except Exception:
+            raise Exception("imagen inválida o bloqueada")
+    except Exception as e:
+        print(f"   ⚠️ No se pudo descargar imagen de la noticia ({url[:70]}): {e} — usando logo de respaldo")
         subprocess.run(["curl", "-sL", "-o", out_path, LOGO_URL], check=True, timeout=10)
 
 
@@ -213,7 +215,14 @@ def generate_video(items, creds, tmp_dir):
     seg_video_durations = []
 
     for i, item in enumerate(items):
-        narration = re.sub(r"<[^>]+>", "", f"{item['title']}. {item['description'][:1300]}")
+        title_clean = item['title'].strip()
+        desc_clean = re.sub(r"<[^>]+>", "", item['description'] or "").strip()
+        # Evitar leer el titulo 2 veces: si la description esta vacia, es igual al titulo,
+        # o empieza igual que el titulo (patron comun de RSS que repite el encabezado), no la antepongas.
+        if not desc_clean or desc_clean.lower() == title_clean.lower() or desc_clean.lower().startswith(title_clean.lower()[:40]):
+            narration = f"{title_clean}."
+        else:
+            narration = f"{title_clean}. {desc_clean[:1300]}"
         tts_path = os.path.join(tmp_dir, f"tts{i}.mp3")
         tts_to_file(narration, tts_path)
         seg_dur = get_duration(tts_path)
@@ -519,7 +528,9 @@ def main():
 
         # Estimar si con 1 sola noticia llegamos al minuto; si no, agregar una 2a
         chosen = [item1]
-        est_narration = f"{item1['title']}. {item1['description'][:1300]}"
+        d1 = (item1['description'] or "").strip()
+        est_body = d1[:1300] if (d1 and d1.lower() != item1['title'].strip().lower()) else ""
+        est_narration = f"{item1['title']}. {est_body}"
         est_seconds = len(est_narration) / 14.5  # ~14.5 caracteres/seg en voz natural es-MX
         if est_seconds < MIN_SECONDS_SINGLE and idx < len(all_items):
             item2 = all_items[idx]; idx += 1
