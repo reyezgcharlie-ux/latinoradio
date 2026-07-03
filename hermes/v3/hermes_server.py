@@ -153,6 +153,46 @@ def cmd_write_file(params):
         f.write(content)
     return {"path": path, "bytes_written": len(content), "backup": backup_path}
 
+
+def cmd_ask_llm(params):
+    """Consulta a un LLM distinto via OpenRouter (el token vive en el .env del servidor,
+    nunca sale de aqui). Util para pedir una segunda opinion de razonamiento en problemas
+    dificiles, o delegar tareas que no necesitan la reflexion completa de Claude."""
+    import urllib.request as _ur
+    prompt = params.get("prompt", "")
+    if not prompt:
+        raise ValueError("falta el parametro prompt")
+    model = params.get("model", "deepseek/deepseek-v4-pro")
+    max_tokens = int(params.get("max_tokens", 1500))
+
+    or_key = ""
+    try:
+        with open(os.path.expanduser("~/.hermes/.env")) as f:
+            for line in f:
+                if line.startswith("OPENROUTER_KEY="):
+                    or_key = line.strip().split("=", 1)[1]
+                    break
+    except Exception as e:
+        raise ValueError(f"no se pudo leer OPENROUTER_KEY: {e}")
+    if not or_key:
+        raise ValueError("OPENROUTER_KEY no encontrada en el .env")
+
+    body = json.dumps({
+        "model": model,
+        "messages": [{"role": "user", "content": prompt}],
+        "max_tokens": max_tokens,
+    }).encode()
+    req = _ur.Request(
+        "https://openrouter.ai/api/v1/chat/completions", data=body, method="POST",
+        headers={"Authorization": f"Bearer {or_key}", "Content-Type": "application/json"},
+    )
+    resp = json.loads(_ur.urlopen(req, timeout=55).read())
+    if "choices" not in resp:
+        raise ValueError(f"respuesta inesperada de OpenRouter: {str(resp)[:300]}")
+    answer = resp["choices"][0]["message"]["content"]
+    usage = resp.get("usage", {})
+    return {"model": model, "answer": answer, "usage": usage}
+
 def cmd_notion_pending(params):
     # Consulta si hay algo dirigido a Hermes sin procesar (integración con memoria compartida)
     return {"note": "Hermes debe implementar esta consulta usando su NOTION_TOKEN local"}
@@ -170,9 +210,10 @@ COMMANDS = {
     "read_file":        (cmd_read_file,        False),  # solo lectura, con blacklist de secretos
     "crontab_list":     (cmd_crontab_list,     False),  # solo lectura
     "write_file":       (cmd_write_file,       True),   # DESTRUCTIVO — auto-backup obligatorio
+    "ask_llm":          (cmd_ask_llm,          False),  # consulta a otro LLM via OpenRouter, no destructivo
 }
 
-LONG_RUNNING = {"run_playbook"}  # estos siempre se ejecutan async con job_id
+LONG_RUNNING = {"run_playbook", "ask_llm"}  # estos siempre se ejecutan async con job_id
 
 def execute(cmd, params):
     fn, needs_confirm = COMMANDS[cmd]
@@ -201,7 +242,7 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         if self.path == "/":
-            self._json({"status": "ok", "agent": "hermes", "version": "3.5", "commands": list(COMMANDS.keys())})
+            self._json({"status": "ok", "agent": "hermes", "version": "3.6", "commands": list(COMMANDS.keys())})
         elif self.path.startswith("/job/"):
             job_id = self.path.split("/job/")[-1]
             with JOBS_LOCK:
