@@ -70,8 +70,35 @@ def get_trending_terms():
     return terms
 
 
+def fetch_page_image_and_text(url, min_chars=400):
+    """Descarga la pagina (o el redirect de Google News) y extrae og:image + texto de parrafos."""
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"})
+        html_raw = urllib.request.urlopen(req, timeout=15).read().decode("utf-8", errors="replace")
+    except Exception:
+        return None, None
+
+    img_m = re.search(r'<meta[^>]*property=["\']og:image["\'][^>]*content=["\']([^"\']+)["\']', html_raw)
+    if not img_m:
+        img_m = re.search(r'<meta[^>]*name=["\']twitter:image["\'][^>]*content=["\']([^"\']+)["\']', html_raw)
+    image_url = html.unescape(img_m.group(1)) if img_m else None
+    # Imagenes servidas por Google (googleusercontent) soportan pedir mayor resolucion via sufijo =s0-wN
+    if image_url and "googleusercontent.com" in image_url and "=s0-w" in image_url:
+        image_url = re.sub(r"=s0-w\d+", "=s0-w1080", image_url)
+
+    html_clean = re.sub(r"<(script|style|nav|footer|header)[^>]*>.*?</\1>", " ", html_raw, flags=re.S | re.I)
+    paragraphs = re.findall(r"<p[^>]*>(.*?)</p>", html_clean, re.S | re.I)
+    texts = [html.unescape(re.sub(r"<[^>]+>", "", p)).strip() for p in paragraphs]
+    texts = [t for t in texts if len(t) > 40]
+    full_text = " ".join(texts)
+    if len(full_text) < min_chars:
+        full_text = None
+    return image_url, full_text
+
+
 def find_news_for_trend(term):
-    """Busca en Google News el articulo real detras de una tendencia (contexto + foto)."""
+    """Busca en Google News el articulo real detras de una tendencia, luego visita
+    ese articulo para sacar la imagen real (og:image) y el texto completo."""
     url = GNEWS_SEARCH.format(q=urllib.parse.quote(term))
     xml_text = fetch_rss(url)
     if not xml_text:
@@ -83,13 +110,18 @@ def find_news_for_trend(term):
     title_m = re.search(r"<title>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</title>", block, re.S)
     desc_m = re.search(r"<description>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</description>", block, re.S)
     link_m = re.search(r"<link>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</link>", block, re.S)
-    img_m = re.search(r'<media:content[^>]*url="([^"]+)"', block) or re.search(r'<enclosure[^>]*url="([^"]+)"', block)
     title_full = html.unescape(re.sub(r"<[^>]+>", "", title_m.group(1))).strip() if title_m else term
-    title_full = re.sub(r"\s*-\s*[^-]+$", "", title_full)  # quitar " - Fuente" de Google News
+    title_full = re.sub(r"\s*-\s*[^-]+$", "", title_full)
     desc = html.unescape(re.sub(r"<[^>]+>", "", desc_m.group(1))).strip() if desc_m else ""
     link = html.unescape(re.sub(r"<[^>]+>", "", link_m.group(1))).strip() if link_m else ""
-    img = html.unescape(img_m.group(1)) if img_m else ""
-    return {"title": title_full, "description": desc, "image": img, "source": "Google Trends MX", "link": link, "trend_term": term}
+    if not link:
+        return None
+
+    image_url, full_text = fetch_page_image_and_text(link)
+    if not image_url:
+        return None
+    return {"title": title_full, "description": desc, "image": image_url, "source": "Google Trends MX",
+            "link": link, "trend_term": term, "full_body": full_text}
 
 
 
@@ -580,14 +612,14 @@ def main():
         # Se intenta traer el articulo completo; si sigue sin llegar al minuto, se SALTA
         # esta noticia (no se rellena ni se combina con otra distinta).
         print(f"\n🔎 Evaluando: {item1['title'][:70]}")
-        full_text = fetch_full_article(item1.get("link", ""))
-        if full_text:
-            item1["full_body"] = full_text
-            est_chars = len(item1["title"]) + len(full_text[:2200])
-        else:
+        # find_news_for_trend ya trajo el texto completo al visitar el articulo; solo se
+        # completa con fetch_full_article si por algun motivo no vino.
+        if not item1.get("full_body"):
+            item1["full_body"] = fetch_full_article(item1.get("link", ""))
+        if not item1.get("full_body"):
             d1 = (item1["description"] or "").strip()
             item1["full_body"] = d1 if (d1 and d1.lower() != item1["title"].strip().lower()) else ""
-            est_chars = len(item1["title"]) + len(item1["full_body"])
+        est_chars = len(item1["title"]) + len(item1["full_body"][:2200])
         est_seconds = est_chars / 14.5  # ~14.5 caracteres/seg en voz natural es-MX
 
         if est_seconds < MIN_SECONDS_SINGLE:
