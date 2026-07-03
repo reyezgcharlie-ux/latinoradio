@@ -65,7 +65,7 @@ def parse_items(xml_text, source_name, is_google):
         img_m = re.search(r'<media:content[^>]*url="([^"]+)"', block) or re.search(r'<enclosure[^>]*url="([^"]+)"', block)
         title = html.unescape(re.sub(r"<[^>]+>", "", title_m.group(1))).strip() if title_m else ""
         desc = html.unescape(re.sub(r"<[^>]+>", "", desc_m.group(1))).strip() if desc_m else ""
-        img = img_m.group(1) if img_m else ""
+        img = html.unescape(img_m.group(1)) if img_m else ""  # el RSS trae &amp; en vez de & en URLs firmadas
         if is_google:
             title = re.sub(r"\s*-\s*[^-]+$", "", title)
         if title and len(title) > 15:
@@ -401,19 +401,23 @@ def post_to_instagram(video_url, items, creds):
             print("  ❌ Instagram create:", resp.get("error", {}).get("message", result.stdout[:200])); return False, None
         container_id = resp["id"]
         finished = False
-        for _ in range(18):  # hasta 18*8=144s, video con Ken Burns+subtitulos tarda mas en procesar
+        last_status = None
+        for attempt in range(18):  # hasta 18*8=144s, video con Ken Burns+subtitulos tarda mas en procesar
             time.sleep(8)
             st = subprocess.run(["curl", "-s", f"https://graph.facebook.com/v22.0/{container_id}",
-                                  "-F", "fields=status_code", "-F", f"access_token={token}"],
+                                  "-F", "fields=status_code,status", "-F", f"access_token={token}"],
                                  capture_output=True, text=True, timeout=10)
             st_resp = json.loads(st.stdout)
-            if st_resp.get("status_code") == "FINISHED":
+            last_status = st_resp
+            code = st_resp.get("status_code")
+            print(f"     IG poll #{attempt+1}: {code} {st_resp.get('status','')[:80]}")
+            if code == "FINISHED":
                 finished = True
                 break
-            if st_resp.get("status_code") == "ERROR":
-                print("  ❌ Instagram procesando:", st_resp.get("status_detail")); return False, None
+            if code == "ERROR":
+                print("  ❌ Instagram procesando:", st_resp.get("status_detail") or st_resp); return False, None
         if not finished:
-            print("  ❌ Instagram: tiempo de procesamiento agotado, no publicado (contenedor sigue vivo, puede reintentarse)")
+            print(f"  ❌ Instagram: tiempo agotado. Ultimo estado visto: {last_status}")
             return False, None
         pub = subprocess.run(["curl", "-s", "-X", "POST", f"https://graph.facebook.com/v22.0/{ig_id}/media_publish",
                                "-F", f"creation_id={container_id}", "-F", f"access_token={token}"],
