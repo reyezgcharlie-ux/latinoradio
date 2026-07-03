@@ -13,9 +13,10 @@ CF_ACCOUNT = "9cd06a9cb40a471bc7a2adb149d1df5a"
 D1_DB_ID = "0f5b7816-8fd3-437e-acaf-98322cad2d1a"
 R2_PUBLIC = "https://pub-f72a1045793847688e3debefd7b7d7b7.r2.dev"
 INTRO_URL = f"{R2_PUBLIC}/podcast/intro.mp3"  # mismo intro que usa el pipeline del podcast
+BG_MUSIC_URL = "https://pub-f72a1045793847688e3debefd7b7d7b7.r2.dev/noticiasbackground%20.mp3"
 LOGO_URL = f"{R2_PUBLIC}/Webtools/file_000000000b6c71f58ab933c4beb14b43.png"
 VOICE = "es-MX-DaliaNeural"
-MAX_CARDS = 2  # por ejecución, para no saturar cuota diaria de plataformas
+MAX_CARDS = 1  # bajado temporalmente: pipeline ahora es mas pesado (zoom + subtitulos + musica)
 FONT_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
 # Prioridad a México (mejor rendimiento de views), fuentes internacionales como respaldo
@@ -97,8 +98,17 @@ def wrap_title(title, width_chars=18):
     return "\n".join(textwrap.wrap(title[:110], width=width_chars))
 
 
+
+def split_caption_chunks(text, words_per_chunk=7, max_chunks=24):
+    """Divide el texto de narracion en fragmentos cortos para subtitulos tipo TikTok.
+    Distribucion PROPORCIONAL en el tiempo total, no sincronizacion exacta por audio real."""
+    words = text.split()
+    chunks = [" ".join(words[i:i+words_per_chunk]) for i in range(0, len(words), words_per_chunk)]
+    return chunks[:max_chunks]
+
 def generate_video(item, creds, tmp_dir):
-    """Video vertical 1080x1920 nivel PRO: intro + narracion 1min+, titulo bold con contorno, watermark grande."""
+    """Video vertical 1080x1920 nivel PRO v3: intro + narracion 1min+, titulo bold con contorno,
+    watermark grande, Ken Burns (zoom lento), musica de fondo mezclada, subtitulos animados por fragmentos."""
     img_path = os.path.join(tmp_dir, "bg.jpg")
     try:
         subprocess.run(["curl", "-sL", "-o", img_path, item["image"]], check=True, timeout=15)
@@ -114,65 +124,108 @@ def generate_video(item, creds, tmp_dir):
     intro_path = os.path.join(tmp_dir, "intro.mp3")
     subprocess.run(["curl", "-sL", "-o", intro_path, INTRO_URL], check=True, timeout=15)
 
-    # Narración de 1min+: título completo + descripción larga (~900-1300 caracteres ≈ 60-80s en voz natural)
-    narration = f"{item['title']}. {item['description'][:1300]}"
-    narration = re.sub(r"<[^>]+>", "", narration)
+    bg_music_path = os.path.join(tmp_dir, "bgmusic.mp3")
+    subprocess.run(["curl", "-sL", "-o", bg_music_path, BG_MUSIC_URL], check=True, timeout=15)
+
+    intro_dur_r = subprocess.run(
+        ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", intro_path],
+        capture_output=True, text=True,
+    )
+    intro_duration = float(intro_dur_r.stdout.strip())
+
+    # Narración de 1min+: título completo + descripción larga
+    narration_text = f"{item['title']}. {item['description'][:1300]}"
+    narration_text = re.sub(r"<[^>]+>", "", narration_text)
     tts_path = os.path.join(tmp_dir, "tts.mp3")
     subprocess.run(
-        ["edge-tts", "--voice", VOICE, "--text", narration, "--write-media", tts_path],
+        ["edge-tts", "--voice", VOICE, "--text", narration_text, "--write-media", tts_path],
         check=True, capture_output=True, text=True,
     )
 
-    # Concatenar intro + narración (mismo patrón que el pipeline del podcast)
-    audio_path = os.path.join(tmp_dir, "audio.mp3")
+    # Concatenar intro + narración (voz)
+    voice_path = os.path.join(tmp_dir, "voice.mp3")
     list_file = os.path.join(tmp_dir, "list.txt")
     with open(list_file, "w") as f:
         f.write(f"file '{intro_path}'\n")
         f.write(f"file '{tts_path}'\n")
     subprocess.run(
-        ["ffmpeg", "-f", "concat", "-safe", "0", "-i", list_file, "-c:a", "libmp3lame", "-b:a", "128k", "-ar", "44100", "-y", audio_path],
+        ["ffmpeg", "-f", "concat", "-safe", "0", "-i", list_file, "-c:a", "libmp3lame", "-b:a", "128k", "-ar", "44100", "-y", voice_path],
         check=True, capture_output=True, text=True,
     )
 
     dur = subprocess.run(
-        ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", audio_path],
+        ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", voice_path],
         capture_output=True, text=True,
     )
     duration = float(dur.stdout.strip())
+
+    # Mezclar voz (volumen normal) + musica de fondo (bajo volumen, en loop hasta cubrir duracion)
+    audio_path = os.path.join(tmp_dir, "audio.mp3")
+    mix_cmd = [
+        "ffmpeg", "-y",
+        "-i", voice_path, "-stream_loop", "-1", "-i", bg_music_path,
+        "-filter_complex",
+        f"[1:a]volume=0.14,atrim=0:{duration}[bgt];[0:a][bgt]amix=inputs=2:duration=first:dropout_transition=0[aout]",
+        "-map", "[aout]", "-c:a", "libmp3lame", "-b:a", "128k",
+        audio_path,
+    ]
+    rmix = subprocess.run(mix_cmd, capture_output=True, text=True, timeout=60)
+    if rmix.returncode != 0:
+        print("  ERROR mezcla musica:", rmix.stderr[-400:])
+        audio_path = voice_path  # fallback: seguir sin musica de fondo en vez de fallar todo
 
     title_wrapped = wrap_title(item["title"], width_chars=16)
     title_file = os.path.join(tmp_dir, "title.txt")
     with open(title_file, "w") as f:
         f.write(title_wrapped)
 
+    # Fragmentos de subtitulos animados (proporcional en el tiempo de la NARRACION, no del intro)
+    chunks = split_caption_chunks(narration_text)
+    narr_duration = max(duration - intro_duration, 1.0)
+    chunk_dur = narr_duration / max(len(chunks), 1)
+    caption_filters = []
+    for idx, chunk in enumerate(chunks):
+        c_file = os.path.join(tmp_dir, f"cap{idx}.txt")
+        with open(c_file, "w") as f:
+            f.write(chunk)
+        start = intro_duration + idx * chunk_dur
+        end = start + chunk_dur
+        caption_filters.append(
+            f"drawtext=textfile={c_file}:fontfile={FONT_BOLD}:fontsize=52:fontcolor=white:"
+            f"borderw=5:bordercolor=black:x=(w-text_w)/2:y=760:"
+            f"enable='between(t,{start:.2f},{end:.2f})'"
+        )
+    captions_vf = "," + ",".join(caption_filters) if caption_filters else ""
+
     output = os.path.join(tmp_dir, "newscard.mp4")
 
-    # Paso 1: imagen 1080x1920 + banda negra inferior + título BOLD con contorno grueso (look "pro")
+    # Paso 1: Ken Burns (zoom lento) + banda inferior + título BOLD con contorno + subtítulos animados
     video_no_audio = os.path.join(tmp_dir, "v0.mp4")
+    total_frames = int((duration + 1) * 25)
     vf = (
-        "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,"
+        "scale=1350:2400:force_original_aspect_ratio=increase,crop=1350:2400,"
+        f"zoompan=z='min(zoom+0.0006,1.35)':d=1:s=1080x1920:fps=25,"
         "drawbox=x=0:y=1280:w=1080:h=640:color=black@0.78:t=fill,"
         "drawbox=x=0:y=1272:w=1080:h=10:color=red@0.95:t=fill,"
-        # título grande con borde negro grueso alrededor (borderw) — efecto "impactante" de portada
         f"drawtext=textfile={title_file}:fontfile={FONT_BOLD}:"
         "fontsize=78:fontcolor=white:borderw=6:bordercolor=black:"
         "x=(w-text_w)/2:y=1370:line_spacing=16:text_align=center,"
         "drawtext=text='INFOAMERICA.PRESS':fontfile=" + FONT_BOLD + ":"
         "fontsize=36:fontcolor=red:borderw=2:bordercolor=black:x=(w-text_w)/2:y=1310"
+        + captions_vf
     )
     step1 = [
         "ffmpeg", "-y", "-loop", "1", "-i", img_path,
-        "-vf", vf,
-        "-c:v", "libx264", "-preset", "ultrafast", "-crf", "26", "-pix_fmt", "yuv420p",
-        "-t", str(int(duration) + 1),
+        "-vf", vf, "-frames:v", str(total_frames),
+        "-c:v", "libx264", "-preset", "ultrafast", "-crf", "28", "-pix_fmt", "yuv420p",
         video_no_audio,
     ]
-    r1 = subprocess.run(step1, capture_output=True, text=True, timeout=150)
+    r1 = subprocess.run(step1, capture_output=True, text=True, timeout=200)
     if r1.returncode != 0:
         print("  ERROR ffmpeg paso1:", r1.stderr[-500:])
         return None, 0
 
-    # Paso 2: watermark más grande (140x140) + audio (intro+narración)
+    # Paso 2: watermark + audio final (voz + musica mezclada)
     cmd = [
         "ffmpeg", "-y",
         "-i", video_no_audio, "-loop", "1", "-i", logo_path, "-i", audio_path,
