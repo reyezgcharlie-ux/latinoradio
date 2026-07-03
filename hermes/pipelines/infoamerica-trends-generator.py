@@ -422,7 +422,12 @@ def generate_video(items, creds, tmp_dir):
     mix_cmd = [
         "ffmpeg", "-y", "-i", voice_path, "-stream_loop", "-1", "-i", bg_music_path,
         "-filter_complex",
-        f"[1:a]volume=0.14,atrim=0:{total_duration}[bgt];[0:a][bgt]amix=inputs=2:duration=first:dropout_transition=0[aout]",
+        # Ducking real: la musica de fondo (a volumen base mas alto, 0.35) se COMPRIME
+        # automaticamente usando la voz como señal de control (sidechaincompress) -> baja
+        # sola cuando hay narracion y sube en los silencios, como una mezcla profesional.
+        f"[1:a]volume=0.35,atrim=0:{total_duration}[bgvol];"
+        f"[bgvol][0:a]sidechaincompress=threshold=0.05:ratio=8:attack=15:release=300:makeup=1[bgducked];"
+        f"[0:a][bgducked]amix=inputs=2:duration=first:dropout_transition=0[aout]",
         "-map", "[aout]", "-c:a", "libmp3lame", "-b:a", "128k", audio_final,
     ]
     rmix = subprocess.run(mix_cmd, capture_output=True, text=True, timeout=60)
