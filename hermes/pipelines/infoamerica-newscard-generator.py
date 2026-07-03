@@ -313,6 +313,7 @@ def generate_video(items, creds, tmp_dir):
         "-map", "[outv]", "-map", "2:a",
         "-c:v", "libx264", "-preset", "ultrafast", "-crf", "26",
         "-c:a", "aac", "-b:a", "128k", "-pix_fmt", "yuv420p",
+        "-movflags", "+faststart",  # moov atom al inicio - requerido por Instagram para leer el video via URL
         "-shortest", output,
     ]
     r2 = subprocess.run(cmd, capture_output=True, text=True, timeout=150)
