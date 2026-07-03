@@ -207,7 +207,7 @@ def ensure_table(creds):
         "CREATE TABLE IF NOT EXISTS trendcards ("
         "id INTEGER PRIMARY KEY AUTOINCREMENT, title TEXT, title2 TEXT, source TEXT, "
         "video_key TEXT, telegram_msg_id TEXT, social_fb TEXT, social_tt TEXT, social_ig TEXT, social_yt TEXT, "
-        "posted_at TEXT)"
+        "transcript TEXT, posted_at TEXT)"
     )}).encode()
     req = urllib.request.Request(
         f"https://api.cloudflare.com/client/v4/accounts/{CF_ACCOUNT}/d1/database/{D1_DB_ID}/query",
@@ -216,7 +216,7 @@ def ensure_table(creds):
     )
     urllib.request.urlopen(req)
     # por si la tabla ya existia de una version anterior sin estas columnas
-    for col in ["title2", "social_fb", "social_tt", "social_ig", "social_yt"]:
+    for col in ["title2", "social_fb", "social_tt", "social_ig", "social_yt", "transcript"]:
         try:
             b2 = json.dumps({"sql": f"ALTER TABLE trendcards ADD COLUMN {col} TEXT"}).encode()
             r2 = urllib.request.Request(
@@ -271,17 +271,14 @@ def build_segment_video(img_path, title_text, caption_chunks, seg_duration, seg_
 
     caption_filters = []
     if caption_chunks:
-        chunk_dur = seg_duration / max(len(caption_chunks), 1)
         for idx, chunk in enumerate(caption_chunks):
             c_file = os.path.join(tmp_dir, f"{seg_name}_cap{idx}.txt")
             with open(c_file, "w") as f:
-                f.write(chunk)
-            start = idx * chunk_dur
-            end = start + chunk_dur
+                f.write(chunk["text"])
             caption_filters.append(
                 f"drawtext=textfile={c_file}:fontfile={FONT_BOLD}:fontsize=52:fontcolor=white:"
                 f"borderw=5:bordercolor=black:x=(w-text_w)/2:y=760:"
-                f"enable='between(t,{start:.2f},{end:.2f})'"
+                f"enable='between(t,{chunk['start']:.2f},{chunk['end']:.2f})'"
             )
     captions_vf = ("," + ",".join(caption_filters)) if caption_filters else ""
 
@@ -313,6 +310,51 @@ def build_segment_video(img_path, title_text, caption_chunks, seg_duration, seg_
         return None
     return output
 
+
+
+def transcribe_with_timestamps(audio_path):
+    """Usa el whisper AISLADO (venv propio, no comparte nada con el agente de Hermes)
+    para transcribir un audio y devolver texto completo + palabras con timestamp real.
+    Devuelve (texto_completo, [{"word":..., "start":..., "end":...}, ...]) o (None, [])
+    si falla, para que el pipeline pueda seguir con el metodo aproximado como respaldo."""
+    whisper_python = "/root/whisper-venv/bin/python3"
+    script = f'''
+import sys, json
+from faster_whisper import WhisperModel
+model = WhisperModel("small", device="cpu", compute_type="int8")
+segments, info = model.transcribe("{audio_path}", language="es", word_timestamps=True)
+words = []
+full_text = []
+for seg in segments:
+    full_text.append(seg.text.strip())
+    if seg.words:
+        for w in seg.words:
+            words.append({{"word": w.word.strip(), "start": round(w.start,2), "end": round(w.end,2)}})
+print(json.dumps({{"text": " ".join(full_text), "words": words}}))
+'''
+    try:
+        r = subprocess.run([whisper_python, "-c", script], capture_output=True, text=True, timeout=90)
+        if r.returncode != 0:
+            print("   ⚠️ Whisper fallo, usando subtitulos aproximados de respaldo:", r.stderr[-200:])
+            return None, []
+        data = json.loads(r.stdout.strip().splitlines()[-1])
+        return data["text"], data["words"]
+    except Exception as e:
+        print("   ⚠️ Whisper fallo, usando subtitulos aproximados de respaldo:", e)
+        return None, []
+
+
+def words_to_caption_chunks(words, chunk_size=4):
+    """Agrupa palabras con timestamp REAL en fragmentos cortos para subtitulos animados
+    perfectamente sincronizados (en vez de la distribucion proporcional aproximada)."""
+    chunks = []
+    for i in range(0, len(words), chunk_size):
+        group = words[i:i+chunk_size]
+        if not group:
+            continue
+        text = " ".join(w["word"] for w in group)
+        chunks.append({"text": text, "start": group[0]["start"], "end": group[-1]["end"]})
+    return chunks
 
 def generate_video(items, creds, tmp_dir):
     """items: lista de 1 o 2 noticias. Genera un solo video combinando ambas si son 2."""
@@ -356,7 +398,20 @@ def generate_video(items, creds, tmp_dir):
         img_path = os.path.join(tmp_dir, f"img{i}.jpg")
         download_image(item["image"], img_path)
 
-        chunks = split_caption_chunks(narration)
+        # Subtitulos con timing REAL via Whisper (sincronizados de verdad con el audio).
+        # Si Whisper falla por cualquier motivo, respaldo automatico al metodo proporcional.
+        full_transcript, words = transcribe_with_timestamps(tts_path)
+        if words:
+            chunks = words_to_caption_chunks(words)
+            print(f"   ✅ Subtitulos sincronizados con Whisper ({len(chunks)} fragmentos, timing real)")
+            item["transcript"] = full_transcript
+        else:
+            text_chunks = split_caption_chunks(narration)
+            chunk_dur = seg_dur / max(len(text_chunks), 1)
+            chunks = [{"text": t, "start": idx * chunk_dur, "end": (idx + 1) * chunk_dur}
+                      for idx, t in enumerate(text_chunks)]
+            item["transcript"] = narration
+
         seg_video = build_segment_video(img_path, item["title"], chunks, seg_dur, 0, tmp_dir, f"seg{i}")
         if seg_video:
             video_segments.append(seg_video)
@@ -589,7 +644,9 @@ def post_to_zernio(video_url, items, creds):
         },
         "youtubeSettings": {
             "title": items[0]["title"][:95],
-            "description": caption[:4900],
+            # Descripcion SEO: transcript real completo (mejor indexacion) + footer + hashtags,
+            # con respaldo al caption corto si por algun motivo no hay transcript disponible.
+            "description": ((items[0].get("transcript", "") or caption)[:4500] + f"\n\n{CAPTION_FOOTER}\n\n{HASHTAGS}")[:4900],
             "privacyStatus": "public",
             "madeForKids": False,
         },
@@ -611,13 +668,15 @@ def post_to_zernio(video_url, items, creds):
 
 
 def save_record(items, video_key, ids, creds):
+    transcript = items[0].get("transcript", "") or ""
     body = json.dumps({
         "sql": ("INSERT INTO trendcards (title, title2, source, video_key, telegram_msg_id, "
-                "social_fb, social_tt, social_ig, social_yt, posted_at) VALUES (?,?,?,?,?,?,?,?,?,?)"),
+                "social_fb, social_tt, social_ig, social_yt, transcript, posted_at) VALUES (?,?,?,?,?,?,?,?,?,?,?)"),
         "params": [
             items[0]["title"], items[1]["title"] if len(items) > 1 else None, items[0]["source"],
             video_key, str(ids.get("telegram") or ""), str(ids.get("fb") or ""),
             str(ids.get("tiktok") or ""), str(ids.get("ig") or ""), str(ids.get("youtube") or ""),
+            transcript[:4000],
             datetime.now(timezone.utc).isoformat(),
         ],
     }).encode()
