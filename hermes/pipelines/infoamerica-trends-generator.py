@@ -295,7 +295,13 @@ def generate_video(items, creds, tmp_dir):
         # full_body ya viene resuelto desde main(): texto del articulo completo si se pudo
         # extraer, o la description del RSS como respaldo. Misma proteccion anti-duplicado.
         body_clean = re.sub(r"<[^>]+>", "", item.get('full_body', '') or "").strip()
-        if not body_clean or body_clean.lower() == title_clean.lower() or body_clean.lower().startswith(title_clean.lower()[:40]):
+        # La proteccion anti-duplicado (titulo repetido al inicio) solo aplica a textos CORTOS
+        # tipo resumen de RSS. Un articulo completo real suele mencionar el tema del titulo
+        # en su primera linea sin que eso signifique que es un duplicado -> no descartarlo.
+        es_teaser_corto = len(body_clean) < 300
+        if not body_clean or body_clean.lower() == title_clean.lower():
+            narration = f"{title_clean}."
+        elif es_teaser_corto and body_clean.lower().startswith(title_clean.lower()[:40]):
             narration = f"{title_clean}."
         else:
             narration = f"{title_clean}. {body_clean[:2200]}"
