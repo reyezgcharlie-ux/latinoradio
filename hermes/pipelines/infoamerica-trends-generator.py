@@ -329,7 +329,7 @@ for seg in segments:
     full_text.append(seg.text.strip())
     if seg.words:
         for w in seg.words:
-            words.append({{"word": w.word.strip(), "start": round(w.start,2), "end": round(w.end,2)}})
+            words.append({{"word": w.word.strip(), "start": float(round(w.start,2)), "end": float(round(w.end,2))}})
 print(json.dumps({{"text": " ".join(full_text), "words": words}}))
 '''
     try:
