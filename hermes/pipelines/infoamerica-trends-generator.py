@@ -15,6 +15,7 @@ R2_MEDIA_PUBLIC = "https://pub-f72a1045793847688e3debefd7b7d7b7.r2.dev"  # bucke
 INTRO_URL = f"{R2_PUBLIC}/podcast/intro.mp3"
 BG_MUSIC_URL = "https://pub-f72a1045793847688e3debefd7b7d7b7.r2.dev/noticiasbackground%20.mp3"
 LOGO_URL = f"{R2_PUBLIC}/Webtools/file_000000000b6c71f58ab933c4beb14b43.png"
+TREND_FALLBACK_IMAGE = f"{R2_PUBLIC}/branding/trending_bg.jpg"  # fondo de marca para cuando no hay foto real del articulo
 VOICE = "es-MX-DaliaNeural"
 MAX_CARDS = 1  # videos generados por corrida (cada uno puede llevar 1 o 2 noticias adentro)
 MIN_SECONDS_SINGLE = 55  # si la 1a noticia narra menos que esto, se le agrega una 2a
@@ -119,7 +120,7 @@ def find_news_for_trend(term):
 
     image_url, full_text = fetch_page_image_and_text(link)
     if not image_url:
-        return None
+        image_url = TREND_FALLBACK_IMAGE  # sin foto real disponible -> usar fondo de marca en vez de descartar la tendencia
     return {"title": title_full, "description": desc, "image": image_url, "source": "Google Trends MX",
             "link": link, "trend_term": term, "full_body": full_text}
 
@@ -217,8 +218,8 @@ def download_image(url, out_path):
         if chk.returncode != 0 or os.path.getsize(out_path) < 500:
             raise Exception("imagen inválida o bloqueada")
     except Exception as e:
-        print(f"   ⚠️ No se pudo descargar imagen de la noticia ({url[:70]}): {e} — usando logo de respaldo")
-        subprocess.run(["curl", "-sL", "-o", out_path, LOGO_URL], check=True, timeout=10)
+        print(f"   ⚠️ No se pudo descargar imagen de la noticia ({url[:70]}): {e} — usando fondo de marca de respaldo")
+        subprocess.run(["curl", "-sL", "-o", out_path, TREND_FALLBACK_IMAGE], check=True, timeout=10)
 
 
 def build_segment_video(img_path, title_text, caption_chunks, seg_duration, seg_start_offset, tmp_dir, seg_name):
