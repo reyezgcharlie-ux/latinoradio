@@ -62,16 +62,41 @@ def parse_items(xml_text, source_name, is_google):
         block = m.group(1)
         title_m = re.search(r"<title>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</title>", block, re.S)
         desc_m = re.search(r"<description>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</description>", block, re.S)
+        link_m = re.search(r"<link>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</link>", block, re.S)
         img_m = re.search(r'<media:content[^>]*url="([^"]+)"', block) or re.search(r'<enclosure[^>]*url="([^"]+)"', block)
         title = html.unescape(re.sub(r"<[^>]+>", "", title_m.group(1))).strip() if title_m else ""
         desc = html.unescape(re.sub(r"<[^>]+>", "", desc_m.group(1))).strip() if desc_m else ""
+        link = html.unescape(re.sub(r"<[^>]+>", "", link_m.group(1))).strip() if link_m else ""
         img = html.unescape(img_m.group(1)) if img_m else ""  # el RSS trae &amp; en vez de & en URLs firmadas
         if is_google:
             title = re.sub(r"\s*-\s*[^-]+$", "", title)
         if title and len(title) > 15:
-            items.append({"title": title, "description": desc, "image": img, "source": source_name})
+            items.append({"title": title, "description": desc, "image": img, "source": source_name, "link": link})
     return items
 
+
+
+def fetch_full_article(url, min_chars=400):
+    """Descarga la pagina del articulo y extrae el texto real de los parrafos.
+    Devuelve None si falla o si el articulo resulta muy corto (no vale la pena)."""
+    if not url:
+        return None
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"})
+        html_raw = urllib.request.urlopen(req, timeout=12).read().decode("utf-8", errors="replace")
+    except Exception:
+        return None
+    html_clean = re.sub(r"<(script|style|nav|footer|header)[^>]*>.*?</\1>", " ", html_raw, flags=re.S | re.I)
+    paragraphs = re.findall(r"<p[^>]*>(.*?)</p>", html_clean, re.S | re.I)
+    texts = []
+    for p in paragraphs:
+        t = html.unescape(re.sub(r"<[^>]+>", "", p)).strip()
+        if len(t) > 40:  # ignora parrafos basura (menus, avisos legales cortos, etc.)
+            texts.append(t)
+    full_text = " ".join(texts)
+    if len(full_text) < min_chars:
+        return None
+    return full_text
 
 def get_recent_titles(creds, limit=300):
     body = json.dumps({"sql": f"SELECT title FROM newscards ORDER BY id DESC LIMIT {limit}"}).encode()
@@ -216,13 +241,13 @@ def generate_video(items, creds, tmp_dir):
 
     for i, item in enumerate(items):
         title_clean = item['title'].strip()
-        desc_clean = re.sub(r"<[^>]+>", "", item['description'] or "").strip()
-        # Evitar leer el titulo 2 veces: si la description esta vacia, es igual al titulo,
-        # o empieza igual que el titulo (patron comun de RSS que repite el encabezado), no la antepongas.
-        if not desc_clean or desc_clean.lower() == title_clean.lower() or desc_clean.lower().startswith(title_clean.lower()[:40]):
+        # full_body ya viene resuelto desde main(): texto del articulo completo si se pudo
+        # extraer, o la description del RSS como respaldo. Misma proteccion anti-duplicado.
+        body_clean = re.sub(r"<[^>]+>", "", item.get('full_body', '') or "").strip()
+        if not body_clean or body_clean.lower() == title_clean.lower() or body_clean.lower().startswith(title_clean.lower()[:40]):
             narration = f"{title_clean}."
         else:
-            narration = f"{title_clean}. {desc_clean[:1300]}"
+            narration = f"{title_clean}. {body_clean[:2200]}"
         tts_path = os.path.join(tmp_dir, f"tts{i}.mp3")
         tts_to_file(narration, tts_path)
         seg_dur = get_duration(tts_path)
@@ -531,21 +556,26 @@ def main():
             continue
         existing.add(key1)
 
-        # Estimar si con 1 sola noticia llegamos al minuto; si no, agregar una 2a
-        chosen = [item1]
-        d1 = (item1['description'] or "").strip()
-        est_body = d1[:1300] if (d1 and d1.lower() != item1['title'].strip().lower()) else ""
-        est_narration = f"{item1['title']}. {est_body}"
-        est_seconds = len(est_narration) / 14.5  # ~14.5 caracteres/seg en voz natural es-MX
-        if est_seconds < MIN_SECONDS_SINGLE and idx < len(all_items):
-            item2 = all_items[idx]; idx += 1
-            key2 = item2["title"].lower().strip()[:60]
-            if key2 not in existing:
-                existing.add(key2)
-                chosen.append(item2)
-                print(f"   (noticia corta, combinando con una 2a: {item2['title'][:50]})")
+        # Enfoque de UNA sola noticia con profundidad real (mejor retencion = mejor monetizacion).
+        # Se intenta traer el articulo completo; si sigue sin llegar al minuto, se SALTA
+        # esta noticia (no se rellena ni se combina con otra distinta).
+        print(f"\n🔎 Evaluando: {item1['title'][:70]}")
+        full_text = fetch_full_article(item1.get("link", ""))
+        if full_text:
+            item1["full_body"] = full_text
+            est_chars = len(item1["title"]) + len(full_text[:2200])
+        else:
+            d1 = (item1["description"] or "").strip()
+            item1["full_body"] = d1 if (d1 and d1.lower() != item1["title"].strip().lower()) else ""
+            est_chars = len(item1["title"]) + len(item1["full_body"])
+        est_seconds = est_chars / 14.5  # ~14.5 caracteres/seg en voz natural es-MX
 
-        print(f"\n🎙 Generando newscard: {item1['title'][:70]}")
+        if est_seconds < MIN_SECONDS_SINGLE:
+            print(f"   ⏭️  Contenido insuficiente para 1min+ ({est_seconds:.0f}s estimados), se salta esta noticia")
+            continue
+
+        chosen = [item1]
+        print(f"🎙 Generando newscard ({est_seconds:.0f}s estimados): {item1['title'][:70]}")
         with tempfile.TemporaryDirectory() as tmp:
             video_path, duration = generate_video(chosen, creds, tmp)
             if not video_path:
