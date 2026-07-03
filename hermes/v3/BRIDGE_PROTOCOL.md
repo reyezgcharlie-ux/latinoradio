@@ -58,3 +58,16 @@ Body: {"token":"...", "route":"cmd", "cmd":"health_check", "params":{}, "confirm
 2. Agregarla a COMMANDS{} con su flag de confirm.
 3. Documentarla aquí.
 4. Si tarda >5s, agregarla a LONG_RUNNING para que corra async.
+
+## v3.1 — Comandos de descubrimiento y edición de pipelines (2026-07-02)
+| cmd          | confirm | qué hace |
+|---|:---:|---|
+| list_dir     | no  | lista archivos en /root/, /etc/cron.d/, /etc/systemd/system/, /var/spool/cron/ |
+| read_file    | no  | lee un archivo completo (máx 300KB) dentro de esos prefijos. Bloqueado por nombre si contiene: .env, secret, token, key, credential, .ssh |
+| crontab_list | no  | lista crontab del usuario + todos los archivos de /etc/cron.d/ |
+| write_file   | SÍ  | escribe/sobreescribe un archivo SOLO dentro de /root/hermes-knowledge/ o /root/pipelines/. Hace backup automático del original en /root/backups/ antes de tocar nada, timestamped. |
+
+Uso previsto: localizar el pipeline real que inserta en podcast-db (list_dir + crontab_list),
+leer su código (read_file), diagnosticar el bug de orden de escritura (D1 antes que R2) y
+de deduplicación, y aplicar el fix con write_file solo tras backup y confirmación explícita
+de Charlie en la conversación.
