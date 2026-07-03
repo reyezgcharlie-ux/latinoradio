@@ -86,7 +86,7 @@ def cmd_run_playbook(params):
 
 
 def cmd_list_dir(params):
-    ALLOWED_PREFIXES = ["/root/", "/etc/cron.d/", "/etc/systemd/system/", "/var/spool/cron/"]
+    ALLOWED_PREFIXES = ["/root/", "/etc/cron.d/", "/etc/systemd/system/", "/var/spool/cron/", "/usr/local/lib/"]
     path = params.get("path", "/root/")
     if not any(path.startswith(p) for p in ALLOWED_PREFIXES):
         raise ValueError(f"path no permitido, debe empezar con: {ALLOWED_PREFIXES}")
@@ -103,7 +103,7 @@ def cmd_list_dir(params):
     return {"path": path, "entries": entries[:200]}
 
 def cmd_read_file(params):
-    ALLOWED_PREFIXES = ["/root/", "/etc/cron.d/", "/etc/systemd/system/", "/var/spool/cron/"]
+    ALLOWED_PREFIXES = ["/root/", "/etc/cron.d/", "/etc/systemd/system/", "/var/spool/cron/", "/usr/local/lib/"]
     DENY_SUBSTRINGS = [".env", "secret", "token", "key", "credential", ".ssh"]
     path = params.get("path", "")
     if not any(path.startswith(p) for p in ALLOWED_PREFIXES):
@@ -201,7 +201,7 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         if self.path == "/":
-            self._json({"status": "ok", "agent": "hermes", "version": "3.2", "commands": list(COMMANDS.keys())})
+            self._json({"status": "ok", "agent": "hermes", "version": "3.3", "commands": list(COMMANDS.keys())})
         elif self.path.startswith("/job/"):
             job_id = self.path.split("/job/")[-1]
             with JOBS_LOCK:
