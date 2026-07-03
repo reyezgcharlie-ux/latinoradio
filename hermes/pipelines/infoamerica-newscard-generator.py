@@ -178,8 +178,9 @@ def generate_video(item, creds, tmp_dir):
 
 
 def post_to_telegram(video_path, item, creds):
-    bot_token = creds.get("TELEGRAM_BOT_TOKEN", "")
-    chat_id = creds.get("TELEGRAM_CHAT_ID", "")
+    # Fallback al bot/canal compartido de SYNAPT si el .env de Hermes usa otro nombre de variable
+    bot_token = creds.get("TELEGRAM_BOT_TOKEN") or creds.get("TELEGRAM_TOKEN") or "8703293039:AAH0fhdqI9p-yEl3HGKIhcIRiLJGm6PGD8Q"
+    chat_id = creds.get("TELEGRAM_CHAT_ID") or creds.get("TELEGRAM_CHANNEL_ID") or "-1003835663170"
     if not bot_token or not chat_id:
         print("  ERROR: faltan TELEGRAM_BOT_TOKEN o TELEGRAM_CHAT_ID en .env")
         return False, None
