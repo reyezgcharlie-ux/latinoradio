@@ -391,16 +391,21 @@ def post_to_instagram(video_url, items, creds):
         if not resp.get("id"):
             print("  ❌ Instagram create:", resp.get("error", {}).get("message", result.stdout[:200])); return False, None
         container_id = resp["id"]
-        for _ in range(8):
-            time.sleep(5)
+        finished = False
+        for _ in range(18):  # hasta 18*8=144s, video con Ken Burns+subtitulos tarda mas en procesar
+            time.sleep(8)
             st = subprocess.run(["curl", "-s", f"https://graph.facebook.com/v22.0/{container_id}",
                                   "-F", "fields=status_code", "-F", f"access_token={token}"],
                                  capture_output=True, text=True, timeout=10)
             st_resp = json.loads(st.stdout)
             if st_resp.get("status_code") == "FINISHED":
+                finished = True
                 break
             if st_resp.get("status_code") == "ERROR":
                 print("  ❌ Instagram procesando:", st_resp.get("status_detail")); return False, None
+        if not finished:
+            print("  ❌ Instagram: tiempo de procesamiento agotado, no publicado (contenedor sigue vivo, puede reintentarse)")
+            return False, None
         pub = subprocess.run(["curl", "-s", "-X", "POST", f"https://graph.facebook.com/v22.0/{ig_id}/media_publish",
                                "-F", f"creation_id={container_id}", "-F", f"access_token={token}"],
                               capture_output=True, text=True, timeout=30)
