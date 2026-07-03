@@ -304,7 +304,7 @@ def build_segment_video(img_path, title_text, caption_chunks, seg_duration, seg_
     cmd = [
         "ffmpeg", "-y", "-loop", "1", "-i", img_path,
         "-vf", vf, "-frames:v", str(total_frames),
-        "-c:v", "libx264", "-preset", "ultrafast", "-crf", "28", "-pix_fmt", "yuv420p",
+        "-c:v", "libx264", "-preset", "ultrafast", "-crf", "30", "-pix_fmt", "yuv420p",
         output,
     ]
     r = subprocess.run(cmd, capture_output=True, text=True, timeout=200)
@@ -382,7 +382,7 @@ def generate_video(items, creds, tmp_dir):
     )
     r_promo = subprocess.run(
         ["ffmpeg", "-y", "-loop", "1", "-i", promo_img, "-vf", promo_vf, "-frames:v", str(promo_frames),
-         "-c:v", "libx264", "-preset", "ultrafast", "-crf", "28", "-pix_fmt", "yuv420p", promo_video],
+         "-c:v", "libx264", "-preset", "ultrafast", "-crf", "30", "-pix_fmt", "yuv420p", promo_video],
         capture_output=True, text=True, timeout=100,
     )
     if r_promo.returncode == 0:
@@ -436,8 +436,8 @@ def generate_video(items, creds, tmp_dir):
         "ffmpeg", "-y", "-i", video_concat, "-loop", "1", "-i", logo_path, "-i", audio_final,
         "-filter_complex", "[1:v]scale=140:140[logos];[0:v][logos]overlay=W-w-28:36[outv]",
         "-map", "[outv]", "-map", "2:a",
-        "-c:v", "libx264", "-preset", "ultrafast", "-crf", "26",
-        "-c:a", "aac", "-b:a", "128k", "-pix_fmt", "yuv420p",
+        "-c:v", "libx264", "-preset", "ultrafast", "-crf", "30",
+        "-c:a", "aac", "-b:a", "96k", "-pix_fmt", "yuv420p",
         "-movflags", "+faststart",  # moov atom al inicio - requerido por Instagram para leer el video via URL
         "-shortest", output,
     ]
