@@ -81,7 +81,7 @@ def cmd_run_playbook(params):
     path = f"/root/hermes-knowledge/playbooks/{name}.sh"
     if not os.path.isfile(path):
         raise ValueError(f"playbook no existe: {path}")
-    r = subprocess.run(["bash", path], capture_output=True, text=True, timeout=280)  # subido de 120 a 280s para pipelines pesados (video con zoom+musica+subtitulos)
+    r = subprocess.run(["bash", path], capture_output=True, text=True, timeout=480)  # RSS->TTS->video->uploads puede tardar 4-7min real
     return {"playbook": name, "stdout": r.stdout[-4000:], "stderr": r.stderr[-2000:], "returncode": r.returncode}
 
 
@@ -201,7 +201,7 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         if self.path == "/":
-            self._json({"status": "ok", "agent": "hermes", "version": "3.4", "commands": list(COMMANDS.keys())})
+            self._json({"status": "ok", "agent": "hermes", "version": "3.5", "commands": list(COMMANDS.keys())})
         elif self.path.startswith("/job/"):
             job_id = self.path.split("/job/")[-1]
             with JOBS_LOCK:
