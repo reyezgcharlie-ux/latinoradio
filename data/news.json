@@ -1,5 +1,33 @@
 [
   {
+    "title": "Qué ver en Netflix: 10 películas nuevas",
+    "tag": "MÚSICA",
+    "date": "Fri, 03 Jul 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/07/Millie-Bobby-Brown.webp",
+    "url": "https://indiehoy.com/cine/que-ver-en-netflix-10-peliculas-nuevas/"
+  },
+  {
+    "title": "Sakatumba: Todo parece ir hacia lo virtual y nosotros encontramos inspiración en lo contrario",
+    "tag": "MÚSICA",
+    "date": "Fri, 03 Jul 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/07/sakatumba.jpg",
+    "url": "https://indiehoy.com/entrevistas/sakatumba-todo-parece-ir-hacia-lo-virtual-y-nosotros-encontramos-inspiracion-en-lo-contrario/"
+  },
+  {
+    "title": "La agenda de recitales para este fin de semana en Buenos Aires",
+    "tag": "MÚSICA",
+    "date": "Fri, 03 Jul 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2024/11/recitales-4.jpg",
+    "url": "https://indiehoy.com/recitales/agenda-recitales-este-fin-de-semana-buenos-aires/"
+  },
+  {
+    "title": "5 obras de teatro para ver en julio en Buenos Aires",
+    "tag": "MÚSICA",
+    "date": "Fri, 03 Jul 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/07/el-proximo-furor-obra-de-teatro.webp",
+    "url": "https://indiehoy.com/teatro/5-obras-de-teatro-para-ver-en-julio-en-buenos-aires-2026/"
+  },
+  {
     "title": "La banda que disgustaba a George Harrison: Son egocéntricos",
     "tag": "MÚSICA",
     "date": "Thu, 02 Jul 2026",
@@ -42,32 +70,11 @@
     "url": "https://indiehoy.com/noticias/liam-gallagher-y-fher-olvera-se-cruzaron-antes-del-partido-entre-mexico-e-inglaterra/"
   },
   {
-    "title": "5 obras de teatro para ver en julio en Buenos Aires",
-    "tag": "MÚSICA",
-    "date": "Thu, 02 Jul 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/07/el-proximo-furor-obra-de-teatro.webp",
-    "url": "https://indiehoy.com/teatro/5-obras-de-teatro-para-ver-en-julio-en-buenos-aires-2026/"
-  },
-  {
-    "title": "Qué ver en Prime Video: 5 series nuevas",
-    "tag": "MÚSICA",
-    "date": "Thu, 02 Jul 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/07/elle.webp",
-    "url": "https://indiehoy.com/series/que-ver-en-prime-video-5-series-nuevas/"
-  },
-  {
-    "title": "6 películas para ver en Disney+ recomendadas por Indie Hoy",
-    "tag": "MÚSICA",
-    "date": "Thu, 02 Jul 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2025/01/un-dolor-real.jpg",
-    "url": "https://indiehoy.com/cine/6-peliculas-para-ver-en-disney-recomendadas-por-indie-hoy/"
-  },
-  {
-    "title": "Con una campaña contra la IA, Polaroid lanzó una nueva cámara para conectar con lo analógico",
-    "tag": "MÚSICA",
-    "date": "Thu, 02 Jul 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/07/polaroid-camara-go-gen-3-nueva-camara.jpg",
-    "url": "https://indiehoy.com/arte/con-una-campana-contra-la-ia-polaroid-lanzo-una-nueva-camara-para-conectar-con-lo-analogico/"
+    "title": "El tesoro visual que dejó el Indio Solari",
+    "tag": "TENDENCIAS",
+    "date": "Fri, 03 Jul 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/arg-el-tesoro-visual-que-dejo-el-indio-solari/"
   },
   {
     "title": "AKRIILA presenta ‘roger’, el segundo adelanto de su próximo álbum",
@@ -131,12 +138,5 @@
     "date": "Thu, 02 Jul 2026",
     "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
     "url": "https://es.rollingstone.com/gilberto-santa-rosa-y-un-regalo-para-si-mismo/"
-  },
-  {
-    "title": "Trueno en la tapa de ROLLING STONE: “Cuando viajo me siento un prócer que va a plantar bandera”",
-    "tag": "TENDENCIAS",
-    "date": "Thu, 02 Jul 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/07/W_62A0244.jpg",
-    "url": "https://es.rollingstone.com/arg-trueno-en-la-tapa-de-rolling-stone-cuando-viajo-me-siento-un-procer-que-va-a-plantar-bandera/"
   }
 ]
