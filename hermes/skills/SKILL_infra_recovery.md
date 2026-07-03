@@ -34,3 +34,15 @@ Nunca asumas que un cambio de firewall/regla "ya debería funcionar" — pruéba
 desde AFUERA del servidor (otra máquina, o un servicio externo) después de
 cada cambio. Un `ufw status` sano en el host no garantiza que una capa de
 firewall de la nube por encima no siga bloqueando.
+
+
+## Instalar herramientas nuevas sin romper lo que ya funciona
+NUNCA instales dependencias nuevas (pip install) en un venv COMPARTIDO con un
+proceso critico en produccion (ej. el venv del propio gateway de un agente).
+Un solo pip install puede downgradear/romper una dependencia que ese proceso
+necesita, sin ningun aviso hasta que falla en producción. Caso real: instalar
+faster-whisper en el venv de hermes-agent rompio pathspec (version incorrecta).
+SIEMPRE crea un venv AISLADO para cada herramienta nueva:
+`python3 -m venv /root/nombre-venv && /root/nombre-venv/bin/pip install <paquete>`
+y referencia el binario completo (`/root/nombre-venv/bin/python3`) al usarlo,
+nunca lo instales junto a dependencias de un proceso que ya esta vivo.
