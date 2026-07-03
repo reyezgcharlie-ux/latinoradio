@@ -142,6 +142,7 @@ def cmd_write_file(params):
         raise ValueError("falta el parametro content")
     if not any(path.startswith(p) for p in ALLOWED_PREFIXES):
         raise ValueError(f"write_file solo permitido dentro de: {ALLOWED_PREFIXES}")
+    os.makedirs(os.path.dirname(path), exist_ok=True)
     backup_path = None
     if os.path.isfile(path):
         os.makedirs("/root/backups", exist_ok=True)
@@ -200,7 +201,7 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         if self.path == "/":
-            self._json({"status": "ok", "agent": "hermes", "version": "3.1", "commands": list(COMMANDS.keys())})
+            self._json({"status": "ok", "agent": "hermes", "version": "3.2", "commands": list(COMMANDS.keys())})
         elif self.path.startswith("/job/"):
             job_id = self.path.split("/job/")[-1]
             with JOBS_LOCK:
