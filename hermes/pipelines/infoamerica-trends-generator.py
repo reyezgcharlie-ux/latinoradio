@@ -32,6 +32,11 @@ CAPTION_FOOTER = "🤖 InfoAmerica.press — LA ÚNICA RED IMPULSADA POR IA | �
 TRENDS_RSS_URL = "https://trends.google.com/trending/rss?geo=MX"
 # Para conseguir contexto real (foto, articulo) de cada tendencia, se busca en Google News
 GNEWS_SEARCH = "https://news.google.com/rss/search?q={q}&hl=es-419&gl=MX&ceid=MX:es-419"
+DIRECT_FEEDS = [
+    ("El Universal MX", "https://www.eluniversal.com.mx/arc/outboundfeeds/rss/"),
+    ("Excélsior", "https://www.excelsior.com.mx/rss"),
+    ("El País", "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada"),
+]
 
 
 def load_creds():
@@ -113,7 +118,9 @@ def find_news_for_trend(term):
     link_m = re.search(r"<link>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</link>", block, re.S)
     title_full = html.unescape(re.sub(r"<[^>]+>", "", title_m.group(1))).strip() if title_m else term
     title_full = re.sub(r"\s*-\s*[^-]+$", "", title_full)
-    desc = html.unescape(re.sub(r"<[^>]+>", "", desc_m.group(1))).strip() if desc_m else ""
+    # Orden correcto: desescapar PRIMERO (el HTML de Google News viene doble-escapado &lt;a&gt;)
+    # y luego quitar etiquetas, si no las etiquetas sobreviven como texto literal.
+    desc = re.sub(r"<[^>]+>", "", html.unescape(desc_m.group(1))).strip() if desc_m else ""
     link = html.unescape(re.sub(r"<[^>]+>", "", link_m.group(1))).strip() if link_m else ""
     if not link:
         return None
@@ -147,6 +154,39 @@ def fetch_full_article(url, min_chars=400):
     if len(full_text) < min_chars:
         return None
     return full_text
+
+
+def parse_direct_feed_items(xml_text, source_name):
+    items = []
+    for m in re.finditer(r"<item>(.*?)</item>", xml_text, re.S):
+        block = m.group(1)
+        title_m = re.search(r"<title>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</title>", block, re.S)
+        desc_m = re.search(r"<description>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</description>", block, re.S)
+        link_m = re.search(r"<link>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</link>", block, re.S)
+        img_m = re.search(r'<media:content[^>]*url="([^"]+)"', block) or re.search(r'<enclosure[^>]*url="([^"]+)"', block)
+        title = html.unescape(re.sub(r"<[^>]+>", "", title_m.group(1))).strip() if title_m else ""
+        desc = html.unescape(re.sub(r"<[^>]+>", "", desc_m.group(1))).strip() if desc_m else ""
+        link = html.unescape(re.sub(r"<[^>]+>", "", link_m.group(1))).strip() if link_m else ""
+        img = html.unescape(img_m.group(1)) if img_m else ""
+        if title and len(title) > 15:
+            items.append({"title": title, "description": desc, "image": img, "source": source_name, "link": link})
+    return items
+
+
+def match_trend_to_direct_article(term, direct_items):
+    """Busca en las fuentes directas (con foto y texto ya probados) un articulo relacionado
+    con la tendencia, comparando palabras significativas del termino contra los titulos."""
+    stop = {"el","la","los","las","de","del","en","y","a","un","una","que","por","con","para","su","es"}
+    term_words = {w.lower() for w in re.findall(r"[a-záéíóúñü]+", term.lower()) if len(w) > 3 and w not in stop}
+    if not term_words:
+        return None
+    best, best_score = None, 0
+    for it in direct_items:
+        title_words = {w.lower() for w in re.findall(r"[a-záéíóúñü]+", it["title"].lower())}
+        score = len(term_words & title_words)
+        if score > best_score:
+            best, best_score = it, score
+    return best if best_score >= 1 else None
 
 def get_recent_titles(creds, limit=300):
     body = json.dumps({"sql": f"SELECT title FROM trendcards ORDER BY id DESC LIMIT {limit}"}).encode()
@@ -594,14 +634,33 @@ def main():
     trending = get_trending_terms()
     print(f"   Tendencias detectadas en Google Trends MX: {len(trending)}")
 
+    # Traer las fuentes directas UNA vez (mismo patron confiable del newscard-generator: foto real + texto real)
+    direct_items = []
+    for name, feed_url in DIRECT_FEEDS:
+        xml = fetch_rss(feed_url)
+        if xml:
+            direct_items.extend(parse_direct_feed_items(xml, name))
+    print(f"   Articulos de fuentes directas disponibles para cruce: {len(direct_items)}")
+
     all_items = []
-    for t in trending[:12]:  # top 12 tendencias, suficiente margen para encontrar con foto+contexto
+    for t in trending[:12]:
+        key_check = t["term"].lower().strip()[:60]
+        if key_check in existing:
+            continue
+        # 1) Intentar cruzar la tendencia con un articulo real de fuente directa (foto+texto confiables)
+        match = match_trend_to_direct_article(t["term"], direct_items)
+        if match and match["title"].lower().strip()[:60] not in existing:
+            match["_traffic"] = t["traffic"]
+            match["trend_term"] = t["term"]
+            all_items.append(match)
+            continue
+        # 2) Si no hay coincidencia, usar Google News + imagen de marca como respaldo (sin descripcion basura)
         news = find_news_for_trend(t["term"])
-        if news and news["image"] and news["title"].lower().strip()[:60] not in existing:
+        if news and news["title"].lower().strip()[:60] not in existing:
             news["_traffic"] = t["traffic"]
             all_items.append(news)
 
-    print(f"   Con foto y contexto disponible: {len(all_items)}")
+    print(f"   Candidatas disponibles: {len(all_items)}")
     if not all_items:
         print("Sin tendencias con contenido disponible en este momento.")
         return
