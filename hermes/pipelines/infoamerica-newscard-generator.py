@@ -547,9 +547,7 @@ def main():
 
     made = 0
     idx = 0
-    for _ in range(MAX_CARDS):
-        if idx >= len(all_items):
-            break
+    while made < MAX_CARDS and idx < len(all_items):
         item1 = all_items[idx]; idx += 1
         key1 = item1["title"].lower().strip()[:60]
         if key1 in existing:
