@@ -84,6 +84,74 @@ def cmd_run_playbook(params):
     r = subprocess.run(["bash", path], capture_output=True, text=True, timeout=120)
     return {"playbook": name, "stdout": r.stdout[-4000:], "stderr": r.stderr[-2000:], "returncode": r.returncode}
 
+
+def cmd_list_dir(params):
+    ALLOWED_PREFIXES = ["/root/", "/etc/cron.d/", "/etc/systemd/system/", "/var/spool/cron/"]
+    path = params.get("path", "/root/")
+    if not any(path.startswith(p) for p in ALLOWED_PREFIXES):
+        raise ValueError(f"path no permitido, debe empezar con: {ALLOWED_PREFIXES}")
+    if not os.path.isdir(path):
+        raise ValueError(f"no es un directorio: {path}")
+    entries = []
+    for name in sorted(os.listdir(path)):
+        full = os.path.join(path, name)
+        try:
+            st = os.stat(full)
+            entries.append({"name": name, "is_dir": os.path.isdir(full), "size": st.st_size, "modified": time.strftime("%Y-%m-%d %H:%M", time.localtime(st.st_mtime))})
+        except Exception:
+            entries.append({"name": name, "error": "stat failed"})
+    return {"path": path, "entries": entries[:200]}
+
+def cmd_read_file(params):
+    ALLOWED_PREFIXES = ["/root/", "/etc/cron.d/", "/etc/systemd/system/", "/var/spool/cron/"]
+    DENY_SUBSTRINGS = [".env", "secret", "token", "key", "credential", ".ssh"]
+    path = params.get("path", "")
+    if not any(path.startswith(p) for p in ALLOWED_PREFIXES):
+        raise ValueError(f"path no permitido, debe empezar con: {ALLOWED_PREFIXES}")
+    lower = path.lower()
+    if any(d in lower for d in DENY_SUBSTRINGS):
+        raise ValueError("path bloqueado por nombre (posible secreto) — usa read_file solo para código/config no sensible")
+    if not os.path.isfile(path):
+        raise ValueError(f"no es un archivo: {path}")
+    size = os.path.getsize(path)
+    if size > 300_000:
+        raise ValueError(f"archivo demasiado grande ({size} bytes) para leer completo, usa tail_log si es un log")
+    with open(path, "r", errors="replace") as f:
+        content = f.read()
+    return {"path": path, "size": size, "content": content}
+
+def cmd_crontab_list(params):
+    r1 = subprocess.run(["crontab", "-l"], capture_output=True, text=True, timeout=5)
+    out = {"user_crontab": r1.stdout.strip() or r1.stderr.strip()}
+    if os.path.isdir("/etc/cron.d/"):
+        out["etc_cron_d"] = {}
+        for name in sorted(os.listdir("/etc/cron.d/")):
+            try:
+                with open(f"/etc/cron.d/{name}") as f:
+                    out["etc_cron_d"][name] = f.read()
+            except Exception as e:
+                out["etc_cron_d"][name] = f"error: {e}"
+    return out
+
+def cmd_write_file(params):
+    # DESTRUCTIVO — requiere confirm=true. SIEMPRE hace backup del original antes de sobreescribir.
+    ALLOWED_PREFIXES = ["/root/hermes-knowledge/", "/root/pipelines/"]
+    path = params.get("path", "")
+    content = params.get("content", None)
+    if content is None:
+        raise ValueError("falta el parametro content")
+    if not any(path.startswith(p) for p in ALLOWED_PREFIXES):
+        raise ValueError(f"write_file solo permitido dentro de: {ALLOWED_PREFIXES}")
+    backup_path = None
+    if os.path.isfile(path):
+        os.makedirs("/root/backups", exist_ok=True)
+        backup_path = f"/root/backups/{os.path.basename(path)}.{int(time.time())}.bak"
+        with open(path, "r", errors="replace") as f_in, open(backup_path, "w") as f_out:
+            f_out.write(f_in.read())
+    with open(path, "w") as f:
+        f.write(content)
+    return {"path": path, "bytes_written": len(content), "backup": backup_path}
+
 def cmd_notion_pending(params):
     # Consulta si hay algo dirigido a Hermes sin procesar (integración con memoria compartida)
     return {"note": "Hermes debe implementar esta consulta usando su NOTION_TOKEN local"}
@@ -97,6 +165,10 @@ COMMANDS = {
     "restart_service":  (cmd_restart_service,  True),   # DESTRUCTIVO
     "run_playbook":      (cmd_run_playbook,     True),   # DESTRUCTIVO por defecto (puede tener side effects)
     "notion_pending":   (cmd_notion_pending,   False),
+    "list_dir":         (cmd_list_dir,         False),  # solo lectura
+    "read_file":        (cmd_read_file,        False),  # solo lectura, con blacklist de secretos
+    "crontab_list":     (cmd_crontab_list,     False),  # solo lectura
+    "write_file":       (cmd_write_file,       True),   # DESTRUCTIVO — auto-backup obligatorio
 }
 
 LONG_RUNNING = {"run_playbook"}  # estos siempre se ejecutan async con job_id
@@ -128,7 +200,7 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         if self.path == "/":
-            self._json({"status": "ok", "agent": "hermes", "version": "3.0", "commands": list(COMMANDS.keys())})
+            self._json({"status": "ok", "agent": "hermes", "version": "3.1", "commands": list(COMMANDS.keys())})
         elif self.path.startswith("/job/"):
             job_id = self.path.split("/job/")[-1]
             with JOBS_LOCK:
