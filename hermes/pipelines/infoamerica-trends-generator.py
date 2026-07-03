@@ -306,6 +306,8 @@ def generate_video(items, creds, tmp_dir):
             narration = f"{title_clean}."
         else:
             narration = f"{title_clean}. {body_clean[:2200]}"
+        print(f"   🔍 DEBUG narracion: {len(narration)} caracteres | body_clean: {len(body_clean)} caracteres")
+        print(f"   🔍 DEBUG primeros 200: {narration[:200]!r}")
         tts_path = os.path.join(tmp_dir, f"tts{i}.mp3")
         tts_to_file(narration, tts_path)
         seg_dur = get_duration(tts_path)
