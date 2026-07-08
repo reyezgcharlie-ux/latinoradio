@@ -1,5 +1,54 @@
 [
   {
+    "title": "4 canciones de artistas emergentes que tenés que conocer",
+    "tag": "MÚSICA",
+    "date": "Tue, 07 Jul 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/07/Jim-Legxacy.webp",
+    "url": "https://indiehoy.com/descubrir/4-canciones-de-artistas-emergentes-que-tenes-que-conocer/"
+  },
+  {
+    "title": "El hombre vapor: De qué trata la nueva serie japonesa de Netflix",
+    "tag": "MÚSICA",
+    "date": "Tue, 07 Jul 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/07/hombre-vapor.webp",
+    "url": "https://indiehoy.com/series/el-hombre-vapor-de-que-trata-la-nueva-serie-japonesa-de-netflix/"
+  },
+  {
+    "title": "Ringo Starr: 5 datos sorprendentes de su vida más allá de The Beatles",
+    "tag": "MÚSICA",
+    "date": "Tue, 07 Jul 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2025/10/ringo-starr.webp",
+    "url": "https://indiehoy.com/historias/ringo-starr-mas-alla-de-the-beatles-5-datos-de-su-vida/"
+  },
+  {
+    "title": "El disco que Neil Young quiere olvidar: El peor que hice",
+    "tag": "MÚSICA",
+    "date": "Tue, 07 Jul 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2022/01/neil-young.jpg",
+    "url": "https://indiehoy.com/historias/disco-neil-young-prefiere-olvidar/"
+  },
+  {
+    "title": "La canción definitiva de los años 60 según Ringo Starr",
+    "tag": "MÚSICA",
+    "date": "Tue, 07 Jul 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2025/01/ringo-starr-1.jpg",
+    "url": "https://indiehoy.com/historias/la-cancion-definitiva-de-los-anos-60-segun-ringo-starr/"
+  },
+  {
+    "title": "Qué ver en Prime Video: 4 series similares a Elle",
+    "tag": "MÚSICA",
+    "date": "Tue, 07 Jul 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/07/elle-.webp",
+    "url": "https://indiehoy.com/series/que-ver-en-prime-video-4-series-similares-a-elle/"
+  },
+  {
+    "title": "Of Monsters and Men vuelve a la Argentina: Fecha, lugar y entradas",
+    "tag": "MÚSICA",
+    "date": "Tue, 07 Jul 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/07/of-monsters-and-men.webp",
+    "url": "https://indiehoy.com/recitales/of-monsters-and-men-vuelve-a-la-argentina-fecha-lugar-y-entradas/"
+  },
+  {
     "title": "Qué ver en Netflix: 4 series similares a Verano del 36",
     "tag": "MÚSICA",
     "date": "Tue, 07 Jul 2026",
@@ -21,122 +70,73 @@
     "url": "https://indiehoy.com/historias/ringo-starr-86-anos-5-canciones-the-beatles-muestran-talento/"
   },
   {
-    "title": "El Nota, Máze y Gaby Caniza recomiendan discos, libros y películas",
-    "tag": "MÚSICA",
+    "title": "La industria musical española continúa fortaleciéndose",
+    "tag": "TENDENCIAS",
     "date": "Tue, 07 Jul 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/07/nota-maze-gaby-caniza-konex.jpg",
-    "url": "https://indiehoy.com/entrevistas/el-nota-maze-gaby-caniza-recomiendan-discos-libros-peliculas/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/la-industria-musical-espanola-continua-fortaleciendose/"
   },
   {
-    "title": "Converse presenta una colección de zapatillas y remeras inspiradas en los Minions",
-    "tag": "MÚSICA",
+    "title": "Crítica: Mi mitad perdida (Twinless)",
+    "tag": "TENDENCIAS",
     "date": "Tue, 07 Jul 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/07/conversexminions.webp",
-    "url": "https://indiehoy.com/cine/converse-presenta-una-coleccion-de-zapatillas-y-remeras-inspiradas-en-los-minions/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/critica-mi-mitad-perdida-twinless/"
   },
   {
-    "title": "Mick Jagger habló de la próxima gira de The Rolling Stones y dejó un guiño para Argentina",
-    "tag": "MÚSICA",
+    "title": "Crítica: The Fall And Rise Of Reggie Dinkins: Temporada 1",
+    "tag": "TENDENCIAS",
     "date": "Tue, 07 Jul 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2025/06/the-rolling-stones.jpg",
-    "url": "https://indiehoy.com/noticias/mick-jagger-hablo-de-la-proxima-gira-de-the-rolling-stones-y-dejo-un-guino-para-argentina/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/critica-the-fall-and-rise-of-reggie-dinkins-temporada-1/"
   },
   {
-    "title": "10 lanzamientos para escuchar esta semana",
-    "tag": "MÚSICA",
+    "title": "Harold Trompetero: “Durante años alimenté al público con contenidos muy básicos; hoy el espectador colombiano está pidiendo otra cosa”",
+    "tag": "TENDENCIAS",
     "date": "Tue, 07 Jul 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/07/lanza-jul-2026.jpg",
-    "url": "https://indiehoy.com/noticias/10-lanzamientos-para-escuchar-esta-semana-2026-07-06/"
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/07/Harold-Trompetero-Durante-anos-alimente-al-publico-con-contenidos-muy-basicos-hoy-el-espectador-colombiano-esta-pidiendo-otra-cosa-2.jpg",
+    "url": "https://es.rollingstone.com/harold-trompetero-durante-anos-alimente-al-publico-con-contenidos-muy-basicos-hoy-el-espectador-colombiano-esta-pidiendo-otra-cosa/"
   },
   {
-    "title": "María Codino y la búsqueda de un ritmo propio en medio del ruido",
-    "tag": "MÚSICA",
+    "title": "Blanco Fácil: un recordatorio de por qué Chetes hace música ",
+    "tag": "TENDENCIAS",
     "date": "Tue, 07 Jul 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/06/maria-codino-entrevista.jpg",
-    "url": "https://indiehoy.com/entrevistas/maria-codino-busqueda-ritmo-propio-en-medio-del-ruido/"
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/07/Blanco-Facil-un-recordatorio-de-por-que-Chetes-hace-musica-2.jpg",
+    "url": "https://es.rollingstone.com/blanco-facil-un-recordatorio-de-por-que-chetes-hace-musica/"
   },
   {
-    "title": "La banda que arruinó una canción de The Beatles según George Harrison",
-    "tag": "MÚSICA",
-    "date": "Mon, 06 Jul 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2024/10/george-harrison-beatles-1.jpg",
-    "url": "https://indiehoy.com/historias/cover-the-beatles-george-harrison-odiaba/"
-  },
-  {
-    "title": "System of a Down desató un pogo gigante en París",
-    "tag": "MÚSICA",
-    "date": "Mon, 06 Jul 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2025/05/system-of-a-down-argentina.jpg",
-    "url": "https://indiehoy.com/noticias/system-of-a-down-desato-un-pogo-gigante-en-paris/"
-  },
-  {
-    "title": "Julio Reyes Copello: “Los artistas somos predicadores de nuestra propia versión de la belleza”",
+    "title": "Mbappé responde a los comentarios racistas de una senadora paraguaya: “No permitiré que propaguen su odio”",
     "tag": "TENDENCIAS",
-    "date": "Mon, 06 Jul 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/07/julio-Reyes-Copello-Los-artistas-somos-predicadores-de-nuestra-propia-version-de-la-belleza-2.jpg",
-    "url": "https://es.rollingstone.com/julio-reyes-copello-los-artistas-somos-predicadores-de-nuestra-propia-version-de-la-belleza/"
-  },
-  {
-    "title": "¿Meter a Dios en la educación? Viviane Morales y la contrarrevolución fundamentalista",
-    "tag": "TENDENCIAS",
-    "date": "Mon, 06 Jul 2026",
+    "date": "Tue, 07 Jul 2026",
     "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/meter-a-dios-en-la-educacion-viviane-morales-y-la-contrarrevolucion-fundamentalista/"
+    "url": "https://es.rollingstone.com/mbappe-responde-a-los-comentarios-racistas-de-una-senadora-paraguaya-no-permitire-que-propaguen-su-odio/"
   },
   {
-    "title": "Oasis comparte el primer teaser de su documental Don’t Look Back in Anger",
+    "title": "México quería volar, lo hizo y llegó muy alto",
     "tag": "TENDENCIAS",
-    "date": "Mon, 06 Jul 2026",
+    "date": "Tue, 07 Jul 2026",
     "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/oasis-comparte-el-primer-teaser-de-su-documental-dont-look-back-in-anger/"
+    "url": "https://es.rollingstone.com/mexico-queria-volar-lo-hizo-y-llego-muy-alto/"
   },
   {
-    "title": "El fin del disco en PlayStation: cuando comprar un videojuego dejó de significar tenerlo",
+    "title": "¿Sabías que estos jugadores del Mundial son músicos?",
     "tag": "TENDENCIAS",
-    "date": "Mon, 06 Jul 2026",
+    "date": "Tue, 07 Jul 2026",
     "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/el-fin-del-disco-en-playstation-cuando-comprar-un-videojuego-dejo-de-significar-tenerlo/"
+    "url": "https://es.rollingstone.com/sabias-que-estos-jugadores-del-mundial-son-musicos/"
   },
   {
-    "title": "El lado Hipersensible de Marlon",
+    "title": "Artistas que debes conocer: Chzter",
     "tag": "TENDENCIAS",
-    "date": "Mon, 06 Jul 2026",
+    "date": "Tue, 07 Jul 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/07/Artistas-que-debes-conocer-Chzter-2.jpg",
+    "url": "https://es.rollingstone.com/artistas-que-debes-conocer-chzter/"
+  },
+  {
+    "title": "Billie Joe Armstrong, de Green Day, lidera un supergrupo punk en homenaje a los Ramones",
+    "tag": "TENDENCIAS",
+    "date": "Tue, 07 Jul 2026",
     "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/el-lado-hipersensible-de-marlon/"
-  },
-  {
-    "title": "Una playlist para recordar (o descubrir) al Indio Solari",
-    "tag": "TENDENCIAS",
-    "date": "Mon, 06 Jul 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/una-playlist-para-recordar-o-descubrir-al-indio-solari/"
-  },
-  {
-    "title": "Crítica: Hacks (2021-2026)",
-    "tag": "TENDENCIAS",
-    "date": "Mon, 06 Jul 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/critica-hacks-2021-2026/"
-  },
-  {
-    "title": "Crítica: Su propio infierno (Her Private Hell)",
-    "tag": "TENDENCIAS",
-    "date": "Mon, 06 Jul 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/critica-su-propio-infierno-her-private-hell/"
-  },
-  {
-    "title": "Jamie Bell: “Mientras más tiempo vivimos escondidos, más destruimos nuestra propia vida y la de quienes amamos”",
-    "tag": "TENDENCIAS",
-    "date": "Mon, 06 Jul 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/07/Jamie-Bell-Mientras-mas-tiempo-vivimos-escondidos-mas-destruimos-nuestra-propia-vida-2.jpg",
-    "url": "https://es.rollingstone.com/jamie-bell-mientras-mas-tiempo-vivimos-escondidos-mas-destruimos-nuestra-propia-vida-y-la-de-quienes-amamos/"
-  },
-  {
-    "title": "Oasis comparte el primer adelanto del documental ‘Don’t Look Back In Anger’",
-    "tag": "TENDENCIAS",
-    "date": "Mon, 06 Jul 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/arg-oasis-comparte-el-primer-adelanto-del-documental-dont-look-back-in-anger/"
+    "url": "https://es.rollingstone.com/arg-billie-joe-armstrong-de-green-day-lidera-un-supergrupo-punk-en-homenaje-a-los-ramones/"
   }
 ]
