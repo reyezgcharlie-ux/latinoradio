@@ -1,5 +1,47 @@
 [
   {
+    "title": "El ídolo de David Bowie y John Lennon: El santo patrono",
+    "tag": "MÚSICA",
+    "date": "Sun, 12 Jul 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2025/12/john-lennon-david-bowie.webp",
+    "url": "https://indiehoy.com/historias/el-idolo-de-david-bowie-y-john-lennon-el-santo-patrono/"
+  },
+  {
+    "title": "5 canciones que hacen referencia a internet",
+    "tag": "MÚSICA",
+    "date": "Sun, 12 Jul 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2023/04/post-malone.jpg",
+    "url": "https://indiehoy.com/historias/5-canciones-que-hacen-referencia-a-internet/"
+  },
+  {
+    "title": "Cuál fue el primer disco indie rock según Paul McCartney",
+    "tag": "MÚSICA",
+    "date": "Sun, 12 Jul 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2023/01/paul-mccartney-1.jpg",
+    "url": "https://indiehoy.com/historias/cual-fue-el-primer-disco-indie-rock-segun-paul-mccartney/"
+  },
+  {
+    "title": "5 discos que tienen un cielo en la tapa",
+    "tag": "MÚSICA",
+    "date": "Sun, 12 Jul 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/07/discos-cielo-portada.jpg",
+    "url": "https://indiehoy.com/historias/5-discos-que-tienen-un-cielo-en-la-tapa/"
+  },
+  {
+    "title": "La canción que necesita 14 pianistas para ser tocada",
+    "tag": "MÚSICA",
+    "date": "Sun, 12 Jul 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2023/09/piano.jpg",
+    "url": "https://indiehoy.com/historias/cancion-necesita-14-pianistas-para-ser-tocada/"
+  },
+  {
+    "title": "Qué ver en Prime Video: 5 series españolas",
+    "tag": "MÚSICA",
+    "date": "Sun, 12 Jul 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2024/03/reina-roja-prime-video.jpg",
+    "url": "https://indiehoy.com/series/que-ver-en-prime-video-5-series-espanolas/"
+  },
+  {
     "title": "4 músicos que fueron atacados por fanáticos",
     "tag": "MÚSICA",
     "date": "Sun, 12 Jul 2026",
@@ -28,48 +70,6 @@
     "url": "https://indiehoy.com/historias/3-musicos-que-son-pintores/"
   },
   {
-    "title": "Los 3 músicos que formarían la banda soñada de Noel Gallagher",
-    "tag": "MÚSICA",
-    "date": "Sat, 11 Jul 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2024/09/noel-gallagher-artistas-formaria-supergrupo.jpg",
-    "url": "https://indiehoy.com/historias/los-3-musicos-que-formarian-la-banda-sonada-de-noel-gallagher/"
-  },
-  {
-    "title": "Qué ver en Disney+: 4 películas nuevas",
-    "tag": "MÚSICA",
-    "date": "Sat, 11 Jul 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/07/noche-de-bodas-2.webp",
-    "url": "https://indiehoy.com/cine/que-ver-en-disney-4-peliculas-nuevas/"
-  },
-  {
-    "title": "Los 10 mejores discos de 1966 según la crítica",
-    "tag": "MÚSICA",
-    "date": "Sat, 11 Jul 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/07/mejores-discos-1966.webp",
-    "url": "https://indiehoy.com/historias/los-10-mejores-discos-de-1966-segun-la-critica/"
-  },
-  {
-    "title": "6 series para ver en Netflix recomendadas por Indie Hoy",
-    "tag": "MÚSICA",
-    "date": "Fri, 10 Jul 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2025/10/maldicion-hill-house.jpg",
-    "url": "https://indiehoy.com/series/6-series-para-ver-en-netflix-recomendadas-por-indie-hoy/"
-  },
-  {
-    "title": "El guitarrista que Patti Smith nunca pudo soportar: Aburrido",
-    "tag": "MÚSICA",
-    "date": "Fri, 10 Jul 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/07/patti-smith-cck-27-febrero-2018-victoria-mourelle-indiehoy-7.webp",
-    "url": "https://indiehoy.com/historias/el-guitarrista-que-patti-smith-nunca-pudo-soportar-aburrido/"
-  },
-  {
-    "title": "El mejor guitarrista de todos según Paul McCartney: No hubo nadie que se le acerque",
-    "tag": "MÚSICA",
-    "date": "Fri, 10 Jul 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2025/07/paul-mccartney.webp",
-    "url": "https://indiehoy.com/historias/el-mejor-guitarrista-de-todos-segun-paul-mccartney-no-hubo-nadie-que-se-le-acerque/"
-  },
-  {
     "title": "Crítica Evil Dead: En llamas (Evil Dead: Burn)",
     "tag": "TENDENCIAS",
     "date": "Fri, 10 Jul 2026",
@@ -77,7 +77,7 @@
     "url": "https://es.rollingstone.com/critica-evil-dead-en-llamas-evil-dead-burn/"
   },
   {
-    "title": " Crítica: Resurrección (Kuang ye shi dai)",
+    "title": "Crítica: Resurrección (Kuang ye shi dai)",
     "tag": "TENDENCIAS",
     "date": "Fri, 10 Jul 2026",
     "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
