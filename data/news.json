@@ -1,5 +1,19 @@
 [
   {
+    "title": "Kneecap: Es importante que el arte cuestione a quienes tienen el poder",
+    "tag": "MÚSICA",
+    "date": "Thu, 30 Jul 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/07/kneecap.jpg",
+    "url": "https://indiehoy.com/entrevistas/kneecap-es-importante-que-el-arte-cuestione-a-quienes-tienen-el-poder/"
+  },
+  {
+    "title": "La agenda de recitales para este fin de semana en Buenos Aires",
+    "tag": "MÚSICA",
+    "date": "Thu, 30 Jul 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2024/11/recitales-4.jpg",
+    "url": "https://indiehoy.com/recitales/agenda-recitales-este-fin-de-semana-buenos-aires/"
+  },
+  {
     "title": "La canción que John Lennon llamó un mal intento de Paul por escribir un hit",
     "tag": "MÚSICA",
     "date": "Wed, 29 Jul 2026",
@@ -56,18 +70,11 @@
     "url": "https://indiehoy.com/series/mcdonalds-japon-lanzo-una-colaboracion-historica-con-pokemon/"
   },
   {
-    "title": "Las 5 mejores películas nuevas para ver en HBO Max hoy",
-    "tag": "MÚSICA",
-    "date": "Wed, 29 Jul 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/07/Nina-Kiri-en-Undertone-Frecuencia-maldita.webp",
-    "url": "https://indiehoy.com/cine/las-5-mejores-peliculas-nuevas-para-ver-en-hbo-max-hoy/"
-  },
-  {
-    "title": "El diablo viste a la moda 2 llegó a Disney+",
-    "tag": "MÚSICA",
-    "date": "Wed, 29 Jul 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/07/meryl-streep-y-anne-hathaway.webp",
-    "url": "https://indiehoy.com/cine/despues-de-triunfar-en-los-cines-el-diablo-viste-a-la-moda-2-llega-al-streaming/"
+    "title": "Los Beatles publicarán una canción inédita de John Lennon encontrada décadas después",
+    "tag": "TENDENCIAS",
+    "date": "Thu, 30 Jul 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/los-beatles-publicaran-una-cancion-inedita-de-john-lennon-encontrada-decadas-despues/"
   },
   {
     "title": "Ariana Grande demanda a hackers por supuesto robo de música, fotos y videos inéditos",
@@ -131,12 +138,5 @@
     "date": "Wed, 29 Jul 2026",
     "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
     "url": "https://es.rollingstone.com/28-07-2026-latin-mafia-y-fred-again-producen-una-nueva-mixtape-en-vivo/"
-  },
-  {
-    "title": "Charli XCX aprovecha al máximo su momento con Music, Fashion, Film",
-    "tag": "TENDENCIAS",
-    "date": "Tue, 28 Jul 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/charli-xcx-aprovecha-al-maximo-su-momento-con-music-fashion-film/"
   }
 ]
