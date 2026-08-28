@@ -1,5 +1,33 @@
 [
   {
+    "title": "Makena: 20 años de música y noches impredecibles",
+    "tag": "MÚSICA",
+    "date": "Fri, 28 Aug 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/08/makena-10.webp",
+    "url": "https://indiehoy.com/entrevistas/makena-20-anos-musica-noches-impredecibles/"
+  },
+  {
+    "title": "La agenda de recitales para este fin de semana en Buenos Aires",
+    "tag": "MÚSICA",
+    "date": "Fri, 28 Aug 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2024/11/recitales-4.jpg",
+    "url": "https://indiehoy.com/recitales/agenda-recitales-este-fin-de-semana-buenos-aires/"
+  },
+  {
+    "title": "Pixies en Argentina: Fecha, lugar y entradas",
+    "tag": "MÚSICA",
+    "date": "Thu, 27 Aug 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/08/PIXIES.webp",
+    "url": "https://indiehoy.com/recitales/pixies-en-argentina-fecha-lugar-y-entradas/"
+  },
+  {
+    "title": "Peaches vuelve a la Argentina: Fechas, lugares y entradas",
+    "tag": "MÚSICA",
+    "date": "Thu, 27 Aug 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/08/peaches.webp",
+    "url": "https://indiehoy.com/recitales/peaches-vuelve-a-la-argentina-fecha-lugar-y-entradas/"
+  },
+  {
     "title": "Las 5 canciones favoritas de Ray Davies, líder de The Kinks",
     "tag": "MÚSICA",
     "date": "Thu, 27 Aug 2026",
@@ -42,32 +70,67 @@
     "url": "https://indiehoy.com/recitales/beth-gibbons-llega-a-la-argentina-fecha-lugar-y-entradas/"
   },
   {
-    "title": "4 bandas que se separaron en la cima del éxito",
-    "tag": "MÚSICA",
+    "title": "De la integración a la deportación: el paso atrás migratorio de De la Espriella ",
+    "tag": "TENDENCIAS",
     "date": "Thu, 27 Aug 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/08/the-beatles-2.webp",
-    "url": "https://indiehoy.com/historias/4-bandas-que-se-separaron-en-la-cima-del-exito/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/de-la-integracion-a-la-deportacion-el-paso-atras-migratorio-de-de-la-espriella/"
   },
   {
-    "title": "3 series que son un éxito en Prime Video y todos están viendo",
-    "tag": "MÚSICA",
+    "title": "Crítica: Solo por una noche (One Night Only)",
+    "tag": "TENDENCIAS",
     "date": "Thu, 27 Aug 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/08/reacher.webp",
-    "url": "https://indiehoy.com/series/3-series-que-son-un-exito-en-prime-video-y-todos-estan-viendo/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/critica-solo-por-una-noche-one-night-only/"
   },
   {
-    "title": "4 películas que arrasan en Netflix hoy",
-    "tag": "MÚSICA",
+    "title": "Ian Weir: “Murder in a Small Town explora el misterio de lo que significa ser humano”",
+    "tag": "TENDENCIAS",
     "date": "Thu, 27 Aug 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/08/profesion-peligro-un-hijo-propio.webp",
-    "url": "https://indiehoy.com/cine/4-peliculas-que-arrasan-en-netflix-hoy-profesion-peligro-hijo-propio-ultima-casa-mickey-17/"
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/08/2-Ian-Weir-Murder-in-a-Small-Town-explora-el-misterio-de-lo-que-significa-ser-humano-.jpg",
+    "url": "https://es.rollingstone.com/ian-weir-murder-in-a-small-town-explora-el-misterio-de-lo-que-significa-ser-humano/"
   },
   {
-    "title": "Pixies en Argentina: Fecha, lugar y entradas",
-    "tag": "MÚSICA",
+    "title": "Back to Black de Amy Winehouse anuncia su reedición con un nuevo sencillo",
+    "tag": "TENDENCIAS",
     "date": "Thu, 27 Aug 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/08/PIXIES.webp",
-    "url": "https://indiehoy.com/recitales/pixies-en-argentina-fecha-lugar-y-entradas/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/back-to-black-de-amy-winehouse-anuncia-su-reedicion-con-un-nuevo-sencillo/"
+  },
+  {
+    "title": "Quentin Tarantino escoge la mejor película del siglo XXI, aunque su director no está de acuerdo",
+    "tag": "TENDENCIAS",
+    "date": "Thu, 27 Aug 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/quentin-tarantino-escoge-la-mejor-pelicula-del-siglo-xxi-aunque-su-director-no-esta-de-acuerdo/"
+  },
+  {
+    "title": "Tim Curry (1946-2026): El actor que hizo de la rareza un hogar",
+    "tag": "TENDENCIAS",
+    "date": "Thu, 27 Aug 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/08/2-Tim-Curry-1946-2026-El-actor-que-hizo-de-la-rareza-un-hogar-.jpg",
+    "url": "https://es.rollingstone.com/tim-curry-1946-2026-el-actor-que-hizo-de-la-rareza-un-hogar/"
+  },
+  {
+    "title": "La razón por la que amaremos a Dolly Parton para siempre",
+    "tag": "TENDENCIAS",
+    "date": "Thu, 27 Aug 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/la-razon-por-la-que-amaremos-a-dolly-parton-para-siempre/"
+  },
+  {
+    "title": "Kany García y Carín León unen sus voces nuevamente en ‘El sombrero y la camisa’",
+    "tag": "TENDENCIAS",
+    "date": "Thu, 27 Aug 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/kany-garcia-y-carin-leon-unen-sus-voces-nuevamente-en-el-sombrero-y-la-camisa/"
+  },
+  {
+    "title": "Rusia amenaza con atacar objetivos de Reino Unido por su apoyo a Ucrania",
+    "tag": "TENDENCIAS",
+    "date": "Thu, 27 Aug 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/rusia-amenaza-con-atacar-objetivos-de-reino-unido-por-su-apoyo-a-ucrania/"
   },
   {
     "title": "Peter Cullen (1941-2026): La voz que convirtió a Optimus Prime en un verdadero héroe",
@@ -75,68 +138,5 @@
     "date": "Thu, 27 Aug 2026",
     "img": "https://es.rollingstone.com/wp-content/uploads/2026/08/Peter-Cullen-1941-2026-La-voz-que-convirtio-a-Optimus-Prime-en-un-verdadero-heroe-2-.jpg",
     "url": "https://es.rollingstone.com/peter-cullen-1941-2026-la-voz-que-convirtio-a-optimus-prime-en-un-verdadero-heroe/"
-  },
-  {
-    "title": "Lucila, Matías y Julieta: el legado familiar y musical de Rubén Rada",
-    "tag": "TENDENCIAS",
-    "date": "Thu, 27 Aug 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/arg-lucila-matias-y-julieta-el-legado-familiar-y-musical-de-ruben-rada/"
-  },
-  {
-    "title": "Ondalinda: 10 años de arte, música y comunidad",
-    "tag": "TENDENCIAS",
-    "date": "Thu, 27 Aug 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2025/08/Sin-titulo-1-02-8.jpg",
-    "url": "https://es.rollingstone.com/ondalinda-10-anos-de-arte-musica-y-comunidad/"
-  },
-  {
-    "title": "Qué sabemos del disco que Rubén Rada grabó con Los Auténticos Decadentes",
-    "tag": "TENDENCIAS",
-    "date": "Thu, 27 Aug 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/08/DECADENTES-RADA-2-1024x616.jpg",
-    "url": "https://es.rollingstone.com/arg-que-sabemos-del-disco-que-ruben-rada-grabo-con-los-autenticos-decadentes/"
-  },
-  {
-    "title": "Pixies vuelve a la Argentina: fecha, lugar, entradas y más",
-    "tag": "TENDENCIAS",
-    "date": "Thu, 27 Aug 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/arg-pixies-vuelve-a-la-argentina-fecha-lugar-entradas-y-mas/"
-  },
-  {
-    "title": "Beth Gibbons anunció su primer show en Argentina: cuándo toca y cómo conseguir entradas",
-    "tag": "TENDENCIAS",
-    "date": "Thu, 27 Aug 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/arg-beth-gibbons-anuncio-su-primer-show-en-argentina-cuando-toca-y-como-conseguir-entradas/"
-  },
-  {
-    "title": "Mi vida en 20 canciones, el libro de Rolling Stone con memorias, secretos y confesiones de músicos en primera persona",
-    "tag": "TENDENCIAS",
-    "date": "Thu, 27 Aug 2026",
-    "img": "https://acdn-us.mitiendanube.com/stores/004/072/631/products/20canciones-colecciones-tapa-d50c60c8b0281d6f6417870588763221-1024-1024.webp",
-    "url": "https://es.rollingstone.com/arg-libro-mi-vida-en-20-canciones/"
-  },
-  {
-    "title": "El regreso de los reyes: en el backstage de la gira Fifty Something de Rush",
-    "tag": "TENDENCIAS",
-    "date": "Thu, 27 Aug 2026",
-    "img": "https://ca.rollingstone.com/media-library/alex-u00a0lifeson-and-geddy-lee.jpg?id=67615318&amp;width=700&amp;quality=90",
-    "url": "https://es.rollingstone.com/arg-el-regreso-de-los-reyes-en-el-backstage-de-la-gira-fifty-something-de-rush/"
-  },
-  {
-    "title": "Cupido tiene mucho amor por compartir",
-    "tag": "TENDENCIAS",
-    "date": "Thu, 27 Aug 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/08/Cupido-tiene-mucho-amor-por-compartir-1.jpg",
-    "url": "https://es.rollingstone.com/cupido-tiene-mucho-amor-por-compartir/"
-  },
-  {
-    "title": "Paquita la del Barrio inspiró ‘La perla’ de Rosalía",
-    "tag": "TENDENCIAS",
-    "date": "Wed, 26 Aug 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/paquita-la-del-barrio-inspiro-la-perla-de-rosalia/"
   }
 ]
