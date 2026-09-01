@@ -1,17 +1,52 @@
 [
   {
-    "title": "Ramones: Los videos del homenaje por el 50.º aniversario",
+    "title": "10 lanzamientos para escuchar esta semana",
     "tag": "MÚSICA",
     "date": "Mon, 31 Aug 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/08/RAMONES.webp",
-    "url": "https://indiehoy.com/noticias/ramones-los-videos-del-homenaje-por-el-50-o-aniversario/"
+    "img": "https://indiehoy.com/wp-content/uploads/2026/08/musica-septiembre-2026.jpg",
+    "url": "https://indiehoy.com/noticias/10-lanzamientos-para-escuchar-esta-semana-2026-08-31/"
+  },
+  {
+    "title": "Lumtz: entre el ambient, la canción y los sonidos del paisaje",
+    "tag": "MÚSICA",
+    "date": "Mon, 31 Aug 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/08/lumtz.jpg",
+    "url": "https://indiehoy.com/entrevistas/lumtz-entre-el-ambient-la-cancion-y-los-sonidos-del-paisaje/"
+  },
+  {
+    "title": "Los 15 shows más esperados de septiembre",
+    "tag": "MÚSICA",
+    "date": "Mon, 31 Aug 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2024/12/agenda-recitales.jpg",
+    "url": "https://indiehoy.com/recitales/los-15-shows-mas-esperados-de-septiembre/"
+  },
+  {
+    "title": "Robert Plant eligió sus 9 canciones favoritas de Led Zeppelin",
+    "tag": "MÚSICA",
+    "date": "Mon, 31 Aug 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2022/12/robert-plant-1.jpg",
+    "url": "https://indiehoy.com/historias/robert-plant-eligio-sus-9-canciones-favoritas-de-led-zeppelin/"
+  },
+  {
+    "title": "5 canciones dedicadas al martes",
+    "tag": "MÚSICA",
+    "date": "Mon, 31 Aug 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/08/stevie-wonder.webp",
+    "url": "https://indiehoy.com/historias/5-canciones-dedicadas-al-martes/"
   },
   {
     "title": "Spotify: Los artistas, discos, canciones y podcast más escuchados en Argentina",
     "tag": "MÚSICA",
     "date": "Mon, 31 Aug 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/03/spotify.jpg",
-    "url": "https://indiehoy.com/noticias/spotify-los-artistas-discos-canciones-y-podcast-mas-escuchados-en-argentina/"
+    "img": "https://indiehoy.com/wp-content/uploads/2026/08/miloj-aitana.jpg",
+    "url": "https://indiehoy.com/noticias/spotify-los-artistas-discos-canciones-y-podcast-mas-escuchados-en-argentina-2026/"
+  },
+  {
+    "title": "Ramones: Los videos del homenaje por el 50.º aniversario",
+    "tag": "MÚSICA",
+    "date": "Mon, 31 Aug 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/08/RAMONES.webp",
+    "url": "https://indiehoy.com/noticias/ramones-los-videos-del-homenaje-por-el-50-o-aniversario/"
   },
   {
     "title": "Miniso se unió a K-Pop Demon Hunters para lanzar una colección",
@@ -28,46 +63,60 @@
     "url": "https://indiehoy.com/historias/los-5-mejores-discos-psicodelicos-de-1980-segun-la-critica/"
   },
   {
-    "title": "Los 15 shows más esperados de septiembre",
-    "tag": "MÚSICA",
-    "date": "Mon, 31 Aug 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2024/12/agenda-recitales.jpg",
-    "url": "https://indiehoy.com/recitales/los-15-shows-mas-esperados-de-septiembre/"
-  },
-  {
     "title": "Las 5 mejores películas para ver en Mubi en septiembre",
     "tag": "MÚSICA",
     "date": "Mon, 31 Aug 2026",
     "img": "https://indiehoy.com/wp-content/uploads/2026/08/pulp.webp",
-    "url": "https://indiehoy.com/cine/las-5-mejores-peliculas-para-ver-en-mubi-en-septiembre-2/"
+    "url": "https://indiehoy.com/cine/las-5-mejores-peliculas-para-ver-en-mubi-en-septiembre-2026/"
   },
   {
-    "title": "Las 5 mejores películas para ver en Netflix en septiembre",
-    "tag": "MÚSICA",
+    "title": "Vespertine de Björk cumple 25 años: Un amor congelado en pasión y microbeats",
+    "tag": "TENDENCIAS",
     "date": "Mon, 31 Aug 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2025/05/lo-dejamos-aca.jpg",
-    "url": "https://indiehoy.com/cine/las-5-mejores-peliculas-para-ver-en-netflix-en-septiembre-2/"
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/08/2-Vespertine-de-Bjork-cumple-25-anos-Un-amor-congelado-en-pasion-y-microbeats-.jpg",
+    "url": "https://es.rollingstone.com/vespertine-de-bjork-cumple-25-anos-un-amor-congelado-en-pasion-y-microbeats/"
   },
   {
-    "title": "Qué ver en Netflix: 3 series documentales nuevas",
-    "tag": "MÚSICA",
+    "title": "Crítica: La guerra de los últimos (The Dog Stars)",
+    "tag": "TENDENCIAS",
     "date": "Mon, 31 Aug 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/08/La-muerte-de-la-esposa-del-pastor.webp",
-    "url": "https://indiehoy.com/series/que-ver-en-netflix-3-series-documentales-nuevas/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/critica-la-guerra-de-los-ultimos-the-dog-stars/"
   },
   {
-    "title": "Miniso lanzó una colección inspirada en Harry Potter",
-    "tag": "MÚSICA",
+    "title": "​​Alabama Shakes abre nuevos caminos con I Must Be Dreaming",
+    "tag": "TENDENCIAS",
     "date": "Mon, 31 Aug 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/08/miniso-coleccion-harry-potter.webp",
-    "url": "https://indiehoy.com/noticias/miniso-lanzo-una-coleccion-inspirada-en-harry-potter/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/alabama-shakes-abre-nuevos-caminos-con-i-must-be-dreaming/"
   },
   {
-    "title": "Los 10 mejores estrenos de septiembre en Netflix, HBO Max, Prime Video y Disney+",
-    "tag": "MÚSICA",
+    "title": "Ley No Más Zoofilia: el histórico paso de Colombia en materia de protección animal",
+    "tag": "TENDENCIAS",
     "date": "Mon, 31 Aug 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/08/estrenos-septiembre-netflix-prime-video-hbo-max-disney.webp",
-    "url": "https://indiehoy.com/cine/los-10-mejores-estrenos-de-septiembre-en-netflix-hbo-max-prime-video-y-disney/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/ley-no-mas-zoofilia-el-historico-paso-de-colombia-en-materia-de-proteccion-animal/"
+  },
+  {
+    "title": "Crítica: Linternas (Lanterns)",
+    "tag": "TENDENCIAS",
+    "date": "Mon, 31 Aug 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/critica-linternas-lanterns/"
+  },
+  {
+    "title": "“Finalmente me sentí normal”: Britney Spears sobre la vez que conoció a Shakira",
+    "tag": "TENDENCIAS",
+    "date": "Mon, 31 Aug 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/finalmente-me-senti-normal-britney-spears-sobre-la-vez-que-conocio-a-shakira/"
+  },
+  {
+    "title": "Olivia Rodrigo y Melinda French Gates donan 20 millones de dólares a ONGs de mujeres",
+    "tag": "TENDENCIAS",
+    "date": "Mon, 31 Aug 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/olivia-rodrigo-y-melinda-french-gates-donan-20-millones-de-dolares-a-ongs-de-mujeres/"
   },
   {
     "title": "El supergrupo punk que rindió homenaje a los Ramones en su 50° aniversario",
@@ -89,54 +138,5 @@
     "date": "Mon, 31 Aug 2026",
     "img": "https://es.rollingstone.com/wp-content/uploads/2026/08/Anthony-Hopkins-lleva-seis-decadas-componiendo-Todavia-no-ha-terminado-1.jpg",
     "url": "https://es.rollingstone.com/anthony-hopkins-lleva-seis-decadas-componiendo-todavia-no-ha-terminado/"
-  },
-  {
-    "title": "Murió Miguel Zavaleta, la voz de Suéter y un protagonista esencial del rock argentino",
-    "tag": "TENDENCIAS",
-    "date": "Mon, 31 Aug 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/arg-murio-miguel-zavaleta-la-voz-de-sueter-y-un-protagonista-esencial-del-rock-argentino/"
-  },
-  {
-    "title": "Crítica: La profesión de la Sra. Warren (National Theatre Live: Mrs. Warren’s Profession)",
-    "tag": "TENDENCIAS",
-    "date": "Fri, 28 Aug 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/critica-la-profesion-de-la-sra-warren-national-theatre-live-mrs-warrens-profession/"
-  },
-  {
-    "title": "Timeless 10 nuevas canciones inéditas de Prince disponibles hoy",
-    "tag": "TENDENCIAS",
-    "date": "Fri, 28 Aug 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/08/2-Timeless-10-nuevas-canciones-ineditas-de-Prince-disponibles-hoy-.jpg",
-    "url": "https://es.rollingstone.com/timeless-10-nuevas-canciones-ineditas-de-prince-disponibles-hoy/"
-  },
-  {
-    "title": "The Warning: “El rock es un género de libertad y rebelión”",
-    "tag": "TENDENCIAS",
-    "date": "Fri, 28 Aug 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/the-warning-el-rock-es-un-genero-de-libertad-y-rebelion/"
-  },
-  {
-    "title": "Crítica: Noche del demonio: Están entre nosotros (Insidious: Out Of The Further)",
-    "tag": "TENDENCIAS",
-    "date": "Fri, 28 Aug 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/critica-noche-del-demonio-estan-entre-nosotros-insidious-out-of-the-further/"
-  },
-  {
-    "title": "Wisin e Ivy Queen dan una masterclass de perreo en ‘Hasta abajo’",
-    "tag": "TENDENCIAS",
-    "date": "Fri, 28 Aug 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/wisin-e-ivy-queen-dan-una-masterclass-de-perreo-en-hasta-abajo/"
-  },
-  {
-    "title": "Los lanzamientos de la semana",
-    "tag": "TENDENCIAS",
-    "date": "Fri, 28 Aug 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/los-lanzamientos-de-la-semana/"
   }
 ]
