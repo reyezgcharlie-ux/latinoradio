@@ -1,5 +1,61 @@
 [
   {
+    "title": "La película que Steven Spielberg quiso dirigir y no pudo: Ahora no pueden pagarme",
+    "tag": "MÚSICA",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2023/06/steven-spielberg-1-1.jpg",
+    "url": "https://indiehoy.com/cine/la-pelicula-que-steven-spielberg-quiso-dirigir-y-no-pudo-ahora-no-pueden-pagarme/"
+  },
+  {
+    "title": "Una mujer sin pasado: De qué se trata la nueva película danesa de Netflix",
+    "tag": "MÚSICA",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/09/una-mujer-sin-pasado.webp",
+    "url": "https://indiehoy.com/cine/una-mujer-sin-pasado-de-que-se-trata-la-nueva-pelicula-danesa-de-netflix/"
+  },
+  {
+    "title": "El músico que dejó perplejo a Jimmy Page: “Nunca había escuchado nada igual”",
+    "tag": "MÚSICA",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2024/11/jimmy-page.jpg",
+    "url": "https://indiehoy.com/historias/el-musico-que-dejo-perplejo-a-jimmy-page-nunca-habia-escuchado-nada-igual/"
+  },
+  {
+    "title": "5 obras de teatro para ver en septiembre en Buenos Aires",
+    "tag": "MÚSICA",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/09/Alegres-corderos-de-pasiones-tristes-en-Itaca-Complejo-Teatral.webp",
+    "url": "https://indiehoy.com/teatro/5-obras-de-teatro-para-ver-en-septiembre-en-buenos-aires-2026/"
+  },
+  {
+    "title": "Los músicos que se mostraron a favor y en contra de la IA",
+    "tag": "MÚSICA",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/09/david-guetta-billie-eilish.webp",
+    "url": "https://indiehoy.com/noticias/los-musicos-que-se-mostraron-a-favor-y-en-contra-de-la-ia/"
+  },
+  {
+    "title": "David Gilmour eligió sus 6 canciones favoritas de Pink Floyd",
+    "tag": "MÚSICA",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2020/10/gilmour.jpg",
+    "url": "https://indiehoy.com/historias/david-gilmour-elige-sus-6-canciones-favoritas-de-pink-floyd/"
+  },
+  {
+    "title": "La banda que Mick Jagger no soportaba que confundieran con The Rolling Stones",
+    "tag": "MÚSICA",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2019/11/the-rolling-stones.jpg",
+    "url": "https://indiehoy.com/historias/la-banda-que-mick-jagger-no-soportaba-que-confundieran-con-the-rolling-stones/"
+  },
+  {
+    "title": "Los 10 discos internacionales más esperados de septiembre",
+    "tag": "MÚSICA",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/08/albums-sep-2026.jpg",
+    "url": "https://indiehoy.com/noticias/los-10-discos-internacionales-mas-esperados-de-septiembre-2026/"
+  },
+  {
     "title": "El mejor disco de Green Day según la Comunidad Indie Hoy",
     "tag": "MÚSICA",
     "date": "Tue, 01 Sep 2026",
@@ -14,60 +70,60 @@
     "url": "https://indiehoy.com/noticias/tom-hardy-lanzo-un-disco-de-rap-bajo-el-seudonimo-frankie-pulitzer/"
   },
   {
-    "title": "Qué ver en Prime Video: 3 películas que son furor",
-    "tag": "MÚSICA",
+    "title": "D4vd se declara no culpable del asesinato de Celeste Rivas Hernández",
+    "tag": "TENDENCIAS",
     "date": "Tue, 01 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/09/Caleb-Landry-Jones-en-Dracula-2025.webp",
-    "url": "https://indiehoy.com/cine/que-ver-en-prime-video-3-peliculas-que-son-furor/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/d4vd-se-declara-no-culpable-del-asesinato-de-celeste-rivas-hernandez/"
   },
   {
-    "title": "Qué ver en Netflix: 3 películas que están entre las más vistas",
-    "tag": "MÚSICA",
+    "title": "Duane “Keffe D” Davis es encontrado culpable por el asesinato de Tupac Shakur",
+    "tag": "TENDENCIAS",
     "date": "Tue, 01 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/09/poster-una-mujer-sin-pasado.webp",
-    "url": "https://indiehoy.com/cine/que-ver-en-netflix-3-peliculas-populares-2/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/duane-keffe-d-davis-es-encontrado-culpable-por-el-asesinato-de-tupac-shakur/"
   },
   {
-    "title": "La muerte de la esposa del pastor: De qué trata la nueva docuserie de Netflix",
-    "tag": "MÚSICA",
+    "title": "Rodrigo Dimaté: el arte frente a las fuerzas del destino en Ayuno y cenizas",
+    "tag": "TENDENCIAS",
     "date": "Tue, 01 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/08/La-muerte-de-la-esposa-del-pastor.webp",
-    "url": "https://indiehoy.com/series/la-muerte-de-la-esposa-del-pastor-de-que-trata-la-nueva-docuserie-de-netflix/"
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/09/2-Rodrigo-Dimate-el-arte-frente-a-las-fuerzas-del-destino-en-Ayuno-y-cenizas-.jpg",
+    "url": "https://es.rollingstone.com/rodrigo-dimate-el-arte-frente-a-las-fuerzas-del-destino-en-ayuno-y-cenizas/"
   },
   {
-    "title": "Miguel Zavaleta, líder de Suéter, murió a los 71 años",
-    "tag": "MÚSICA",
+    "title": "Miley Cyrus anuncia su décimo álbum de estudio, Bass Persuades",
+    "tag": "TENDENCIAS",
     "date": "Tue, 01 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/09/MIGUEL-ZAVALETA.webp",
-    "url": "https://indiehoy.com/noticias/miguel-zavaleta-lider-de-sueter-murio-a-los-71-anos/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/miley-cyrus-anuncia-su-decimo-album-de-estudio-bass-persuades/"
   },
   {
-    "title": "El detalle de Harry Potter que apareció en la publicación de Messi sobre su retiro de la Selección",
-    "tag": "MÚSICA",
+    "title": "Anthropic destruye millones de libros para entrenar a su IA",
+    "tag": "TENDENCIAS",
     "date": "Tue, 01 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/09/publicacion-messi-lapicera-harry-potter.webp",
-    "url": "https://indiehoy.com/cine/el-detalle-de-harry-potter-que-aparecio-en-la-publicacion-de-messi-sobre-su-retiro-de-la-seleccion/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/anthropic-destruye-millones-de-libros-para-entrenar-a-su-ia/"
   },
   {
-    "title": "George Harrison eligió sus 10 canciones favoritas de The Beatles",
-    "tag": "MÚSICA",
+    "title": "Tom Hardy regresa al rap con Czarface Meets Frankie Pulitzer",
+    "tag": "TENDENCIAS",
     "date": "Tue, 01 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2022/10/george-harrison-foto.jpg",
-    "url": "https://indiehoy.com/historias/george-harrison-eligio-sus-10-canciones-favoritas-de-the-beatles/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/tom-hardy-regresa-al-rap-con-czarface-meets-frankie-pulitzer/"
   },
   {
-    "title": "10 lanzamientos para escuchar esta semana",
-    "tag": "MÚSICA",
-    "date": "Mon, 31 Aug 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/08/musica-septiembre-2026.jpg",
-    "url": "https://indiehoy.com/noticias/10-lanzamientos-para-escuchar-esta-semana-2026-08-31/"
+    "title": "De Iron Maiden a BTS: más de 40 shows internacionales que todavía quedan en Argentina en 2026",
+    "tag": "TENDENCIAS",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/arg-de-iron-maiden-a-bts-mas-de-40-shows-internacionales-que-todavia-quedan-en-argentina-en-2026/"
   },
   {
-    "title": "Lumtz: entre el ambient, la canción y los sonidos del paisaje",
-    "tag": "MÚSICA",
-    "date": "Mon, 31 Aug 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/08/lumtz.jpg",
-    "url": "https://indiehoy.com/entrevistas/lumtz-entre-el-ambient-la-cancion-y-los-sonidos-del-paisaje/"
+    "title": "Crítica: La captura",
+    "tag": "TENDENCIAS",
+    "date": "Tue, 01 Sep 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/critica-la-captura/"
   },
   {
     "title": "La edición 2026 de Premios ROLLING STONE en Español llega a CDMX patrocinada por ZYN",
@@ -82,61 +138,5 @@
     "date": "Tue, 01 Sep 2026",
     "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
     "url": "https://es.rollingstone.com/arg-los-guarros-en-el-comienzo-fuimos-a-buscar-a-luca-prodan-para-que-fuese-nuestro-cantante/"
-  },
-  {
-    "title": "Vespertine de Björk cumple 25 años: Un amor congelado en pasión y microbeats",
-    "tag": "TENDENCIAS",
-    "date": "Mon, 31 Aug 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/08/2-Vespertine-de-Bjork-cumple-25-anos-Un-amor-congelado-en-pasion-y-microbeats-.jpg",
-    "url": "https://es.rollingstone.com/vespertine-de-bjork-cumple-25-anos-un-amor-congelado-en-pasion-y-microbeats/"
-  },
-  {
-    "title": "Crítica: La guerra de los últimos (The Dog Stars)",
-    "tag": "TENDENCIAS",
-    "date": "Mon, 31 Aug 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/critica-la-guerra-de-los-ultimos-the-dog-stars/"
-  },
-  {
-    "title": "​​Alabama Shakes abre nuevos caminos con I Must Be Dreaming",
-    "tag": "TENDENCIAS",
-    "date": "Mon, 31 Aug 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/alabama-shakes-abre-nuevos-caminos-con-i-must-be-dreaming/"
-  },
-  {
-    "title": "Ley No Más Zoofilia: el histórico paso de Colombia en materia de protección animal",
-    "tag": "TENDENCIAS",
-    "date": "Mon, 31 Aug 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/ley-no-mas-zoofilia-el-historico-paso-de-colombia-en-materia-de-proteccion-animal/"
-  },
-  {
-    "title": "Crítica: Linternas (Lanterns)",
-    "tag": "TENDENCIAS",
-    "date": "Mon, 31 Aug 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/critica-linternas-lanterns/"
-  },
-  {
-    "title": "“Finalmente me sentí normal”: Britney Spears sobre la vez que conoció a Shakira",
-    "tag": "TENDENCIAS",
-    "date": "Mon, 31 Aug 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/finalmente-me-senti-normal-britney-spears-sobre-la-vez-que-conocio-a-shakira/"
-  },
-  {
-    "title": "Olivia Rodrigo y Melinda French Gates donan 20 millones de dólares a ONGs de mujeres",
-    "tag": "TENDENCIAS",
-    "date": "Mon, 31 Aug 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/olivia-rodrigo-y-melinda-french-gates-donan-20-millones-de-dolares-a-ongs-de-mujeres/"
-  },
-  {
-    "title": "El supergrupo punk que rindió homenaje a los Ramones en su 50° aniversario",
-    "tag": "TENDENCIAS",
-    "date": "Mon, 31 Aug 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/08/ramones-50th-linda-ramone-john-travolta.jpg",
-    "url": "https://es.rollingstone.com/arg-el-supergrupo-punk-que-rindio-homenaje-a-los-ramones-en-su-50-aniversario/"
   }
 ]
