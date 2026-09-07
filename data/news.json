@@ -1,10 +1,52 @@
 [
   {
-    "title": "El músico con las canciones más aburridas según Noel Gallagher",
+    "title": "El músico británico con las canciones más aburridas según Noel Gallagher",
     "tag": "MÚSICA",
     "date": "Sun, 06 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2025/09/noel-gallagher-.webp",
-    "url": "https://indiehoy.com/historias/el-cantante-con-las-canciones-mas-aburridas-segun-noel-gallagher/"
+    "img": "https://indiehoy.com/wp-content/uploads/2025/09/noel-gallagher.webp",
+    "url": "https://indiehoy.com/historias/cantante-con-canciones-mas-aburridas-segun-noel-gallagher/"
+  },
+  {
+    "title": "El curioso origen del nombre The Beach Boys",
+    "tag": "MÚSICA",
+    "date": "Sun, 06 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2021/02/beach-boys.jpg",
+    "url": "https://indiehoy.com/historias/el-curioso-origen-del-nombre-the-beach-boys/"
+  },
+  {
+    "title": "Pink Floyd descartó esta canción de The Wall por una razón muy personal",
+    "tag": "MÚSICA",
+    "date": "Sun, 06 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2022/07/pink-floyd-1.jpg",
+    "url": "https://indiehoy.com/historias/pink-floyd-descarto-esta-cancion-de-the-wall-por-una-razon-muy-personal/"
+  },
+  {
+    "title": "La banda que Sting admira, pero afirma: No es para mí",
+    "tag": "MÚSICA",
+    "date": "Sun, 06 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2023/10/sting.jpg",
+    "url": "https://indiehoy.com/historias/la-banda-que-sting-admira-pero-afirma-no-es-para-mi/"
+  },
+  {
+    "title": "Neil Young y la canción con un sonido inolvidable: Está en mi alma",
+    "tag": "MÚSICA",
+    "date": "Sun, 06 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2025/10/neil-young.webp",
+    "url": "https://indiehoy.com/historias/neil-young-y-la-cancion-con-un-sonido-inolvidable-esta-en-mi-alma/"
+  },
+  {
+    "title": "El disco con el que The Rolling Stones se rindieron ante el soul: Era el objetivo",
+    "tag": "MÚSICA",
+    "date": "Sun, 06 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2023/02/the-rolling-stones-1.jpg",
+    "url": "https://indiehoy.com/historias/el-disco-con-el-que-the-rolling-stones-se-rindieron-ante-el-soul-era-el-objetivo/"
+  },
+  {
+    "title": "El disco que obsesionó a Eric Clapton: Lo escuchaba una y otra vez",
+    "tag": "MÚSICA",
+    "date": "Sun, 06 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/02/eric-clapton.webp",
+    "url": "https://indiehoy.com/historias/disco-esoterico-obsesiono-eric-clapton-lo-escuchaba-una-otra-vez/"
   },
   {
     "title": "El disco de 1970 que Lindsey Buckingham llamó uno de los grandes álbumes del rock",
@@ -21,53 +63,11 @@
     "url": "https://indiehoy.com/historias/la-mejor-banda-de-la-historia-segun-brian-may-cambiaron-el-mundo-muchas-veces/"
   },
   {
-    "title": "El disco esotérico que obsesionó a Eric Clapton: Lo escuchaba una y otra vez",
-    "tag": "MÚSICA",
-    "date": "Sat, 05 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/09/Eric-Clapton.webp",
-    "url": "https://indiehoy.com/historias/el-disco-esoterico-que-obsesiono-a-eric-clapton-lo-escuchaba-una-y-otra-vez/"
-  },
-  {
     "title": "El disco que cambió todo para Roger Waters",
     "tag": "MÚSICA",
     "date": "Sat, 05 Sep 2026",
     "img": "https://indiehoy.com/wp-content/uploads/2026/09/roger-waters.webp",
     "url": "https://indiehoy.com/historias/el-disco-que-cambio-todo-para-roger-waters/"
-  },
-  {
-    "title": "El mejor compositor de la historia para Billy Joel: Todo lo que escribió fue perfecto",
-    "tag": "MÚSICA",
-    "date": "Sat, 05 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/09/billy-joel.webp",
-    "url": "https://indiehoy.com/historias/el-mejor-compositor-de-la-historia-para-billy-joel-todo-lo-que-escribio-fue-perfecto/"
-  },
-  {
-    "title": "Qué ver en Prime Video: 3 películas recomendadas por Indie Hoy",
-    "tag": "MÚSICA",
-    "date": "Sat, 05 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/09/Cillian-Murphy-en-Pequenas-cosas-como-estas.webp",
-    "url": "https://indiehoy.com/cine/que-ver-en-prime-video-3-peliculas-recomendadas/"
-  },
-  {
-    "title": "Qué ver en Netflix: 3 series de comedia recomendadas",
-    "tag": "MÚSICA",
-    "date": "Sat, 05 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2025/02/kate-hudson.jpg",
-    "url": "https://indiehoy.com/series/que-ver-en-netflix-3-series-de-comedia-cortas/"
-  },
-  {
-    "title": "10 discos nuevos para escuchar hoy",
-    "tag": "MÚSICA",
-    "date": "Fri, 04 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/09/discos-septiembre-2026.jpg",
-    "url": "https://indiehoy.com/noticias/10-discos-nuevos-para-escuchar-hoy-arab-strap-kasabian-mas/"
-  },
-  {
-    "title": "Cabaret Voltaire en Argentina: Fecha, lugar y entradas",
-    "tag": "MÚSICA",
-    "date": "Fri, 04 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/09/CABARET-VOLTAIRE.webp",
-    "url": "https://indiehoy.com/recitales/cabaret-voltaire-en-argentina-fecha-lugar-y-entradas/"
   },
   {
     "title": "‘No tengo remedio’ de Ela Taubert, una pieza de su nueva era",
