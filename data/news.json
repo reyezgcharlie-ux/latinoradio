@@ -1,61 +1,5 @@
 [
   {
-    "title": "Llega la primera edición del Festival Monte: Fecha, lugar y entradas",
-    "tag": "MÚSICA",
-    "date": "Mon, 07 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/09/monte-festival.webp",
-    "url": "https://indiehoy.com/noticias/llega-la-primera-edicion-del-festival-monte-fecha-lugar-y-entradas/"
-  },
-  {
-    "title": "Qué ver en Netflix: 4 series elogiadas por la crítica",
-    "tag": "MÚSICA",
-    "date": "Mon, 07 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2022/02/killing-eve.jpg",
-    "url": "https://indiehoy.com/series/que-ver-en-netflix-4-series-elogiadas-por-la-critica/"
-  },
-  {
-    "title": "El documental de Oasis fue ovacionado en Venecia y así reaccionaron Noel y Liam Gallagher",
-    "tag": "MÚSICA",
-    "date": "Mon, 07 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/09/liam-y-noel-gallagher-en-venecia.webp",
-    "url": "https://indiehoy.com/noticias/el-documental-de-oasis-fue-ovacionado-en-venecia-y-asi-reaccionaron-noel-y-liam-gallagher/"
-  },
-  {
-    "title": "A 25 años de Toxicity, System of a Down prepara una sorpresa para sus fans",
-    "tag": "MÚSICA",
-    "date": "Mon, 07 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/09/system-of-a-down.webp",
-    "url": "https://indiehoy.com/noticias/a-25-anos-de-toxicity-system-of-a-down-prepara-una-sorpresa-para-sus-fans/"
-  },
-  {
-    "title": "Moyka llega a la Argentina: Fecha, lugar y entradas",
-    "tag": "MÚSICA",
-    "date": "Mon, 07 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/09/moyka.webp",
-    "url": "https://indiehoy.com/recitales/moyka-llega-a-la-argentina-fecha-lugar-y-entradas/"
-  },
-  {
-    "title": "Damon Albarn anticipa el Primavera Sound Buenos Aires: Argentina tiene una inteligencia brillante",
-    "tag": "MÚSICA",
-    "date": "Mon, 07 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2024/11/damon-albarn-.jpg",
-    "url": "https://indiehoy.com/noticias/damon-albarn-anticipa-el-primavera-sound-buenos-aires-argentina-tiene-una-inteligencia-brillante/"
-  },
-  {
-    "title": "Burger King anunció una colaboración con Dragon Ball",
-    "tag": "MÚSICA",
-    "date": "Mon, 07 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/09/burger-king-x-dragon-ball-.webp",
-    "url": "https://indiehoy.com/noticias/burger-king-anuncio-una-colaboracion-con-dragon-ball/"
-  },
-  {
-    "title": "Qué ver en Netflix: 4 películas en español nuevas",
-    "tag": "MÚSICA",
-    "date": "Mon, 07 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/08/Miguel-Bernardeau-y-Miguel-Angel-Silvestre-en-La-fiera.jpg",
-    "url": "https://indiehoy.com/cine/que-ver-en-netflix-4-peliculas-espanol-nuevas-2026/"
-  },
-  {
     "title": "4 nuevos libros de música recomendados",
     "tag": "MÚSICA",
     "date": "Mon, 07 Sep 2026",
@@ -68,6 +12,76 @@
     "date": "Mon, 07 Sep 2026",
     "img": "https://indiehoy.com/wp-content/uploads/2024/06/comunidad-indie-hoy.jpg",
     "url": "https://indiehoy.com/recitales/beneficios-comunidad-indie-hoy-esta-semana/"
+  },
+  {
+    "title": "El documental de Oasis fue ovacionado en Venecia y así reaccionaron Noel y Liam Gallagher",
+    "tag": "MÚSICA",
+    "date": "Mon, 07 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/09/liam-y-noel-gallagher-en-venecia.webp",
+    "url": "https://indiehoy.com/noticias/documental-oasis-ovacionado-venecia-y-asi-reaccionaron-noel-y-liam-gallagher/"
+  },
+  {
+    "title": "Los 3 mejores solos de guitarra según Slash",
+    "tag": "MÚSICA",
+    "date": "Mon, 07 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2023/11/slash.jpg",
+    "url": "https://indiehoy.com/historias/3-mejores-solos-de-guitarra-segun-slash/"
+  },
+  {
+    "title": "8 canciones donde el piano es el verdadero protagonista",
+    "tag": "MÚSICA",
+    "date": "Mon, 07 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2023/08/freddie-mercury-1-2.jpg",
+    "url": "https://indiehoy.com/historias/8-canciones-con-solos-de-piano-memorables/"
+  },
+  {
+    "title": "Después de arrasar en los cines, Toy Story 5 llega a Disney+",
+    "tag": "MÚSICA",
+    "date": "Mon, 07 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/09/TOYSTORY5-ONLINE-USE_t765.webp",
+    "url": "https://indiehoy.com/cine/despues-de-arrasar-en-los-cines-toy-story-5-llega-a-disney/"
+  },
+  {
+    "title": "Los 5 discos favoritos de Sofia Coppola",
+    "tag": "MÚSICA",
+    "date": "Mon, 07 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2024/01/sofia-coppola.jpg",
+    "url": "https://indiehoy.com/cine/los-5-discos-favoritos-de-sofia-coppola/"
+  },
+  {
+    "title": "5 artistas cuyas canciones explotaron en streaming después de su muerte",
+    "tag": "MÚSICA",
+    "date": "Mon, 07 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2024/10/liam-payne-autopsia.jpg",
+    "url": "https://indiehoy.com/historias/5-artistas-cuyas-canciones-explotaron-en-streaming-despues-de-su-muerte/"
+  },
+  {
+    "title": "Llega la primera edición del Festival Monte: Fecha, lugar y entradas",
+    "tag": "MÚSICA",
+    "date": "Mon, 07 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/09/monte-festival.webp",
+    "url": "https://indiehoy.com/recitales/llega-la-primera-edicion-del-festival-monte-fecha-lugar-y-entradas/"
+  },
+  {
+    "title": "Qué ver en Netflix: 4 series elogiadas por la crítica",
+    "tag": "MÚSICA",
+    "date": "Mon, 07 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2022/02/killing-eve.jpg",
+    "url": "https://indiehoy.com/series/que-ver-en-netflix-4-series-elogiadas-por-la-critica/"
+  },
+  {
+    "title": "Crítica: Oasis: Don’t Look Back In Anger",
+    "tag": "TENDENCIAS",
+    "date": "Mon, 07 Sep 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/critica-oasis-dont-look-back-in-anger/"
+  },
+  {
+    "title": "Big Soto conecta Caracas y CDMX en Nostalgia City",
+    "tag": "TENDENCIAS",
+    "date": "Mon, 07 Sep 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/big-soto-conecta-caracas-y-cdmx-en-nostalgia-city/"
   },
   {
     "title": "Mike D: “Soy muy reacio a asumirme como líder”",
@@ -124,19 +138,5 @@
     "date": "Fri, 04 Sep 2026",
     "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
     "url": "https://es.rollingstone.com/la-academia-de-cine-ya-escogio-a-las-cintas-preseleccionadas-para-los-oscar-2027/"
-  },
-  {
-    "title": "Músicos demandan a Suno por usar su identidad y estilo sin autorización ",
-    "tag": "TENDENCIAS",
-    "date": "Fri, 04 Sep 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/musicos-demandan-a-suno-por-usar-su-identidad-y-estilo-sin-autorizacion/"
-  },
-  {
-    "title": "Low Clika: “Este álbum nos ayudó a encontrar nuestro sonido”",
-    "tag": "TENDENCIAS",
-    "date": "Fri, 04 Sep 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/09/2-Low-Clika-Este-album-nos-ayudo-a-encontrar-nuestro-sonido-.jpg",
-    "url": "https://es.rollingstone.com/low-clika-este-album-nos-ayudo-a-encontrar-nuestro-sonido/"
   }
 ]
