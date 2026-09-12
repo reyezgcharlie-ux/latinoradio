@@ -1,5 +1,68 @@
 [
   {
+    "title": "3 canciones sobre la paranoia",
+    "tag": "MÚSICA",
+    "date": "Fri, 11 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2023/01/radiohead-1-2.jpg",
+    "url": "https://indiehoy.com/historias/3-canciones-sobre-la-paranoia/"
+  },
+  {
+    "title": "EA Sports FC 27 sorprendió con una banda sonora llena de artistas argentinos",
+    "tag": "MÚSICA",
+    "date": "Fri, 11 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2024/04/paco-amoroso-ca7riel-.jpeg",
+    "url": "https://indiehoy.com/noticias/ea-sports-fc-27-sorprendio-con-una-banda-sonora-llena-de-artistas-argentinos/"
+  },
+  {
+    "title": "La banda que Bob Dylan asociaba con el camino al infierno",
+    "tag": "MÚSICA",
+    "date": "Fri, 11 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2021/01/bob-dylan.jpg",
+    "url": "https://indiehoy.com/historias/la-banda-que-bob-dylan-asociaba-con-el-camino-al-infierno/"
+  },
+  {
+    "title": "5 canciones dedicadas al viernes",
+    "tag": "MÚSICA",
+    "date": "Fri, 11 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2023/05/the-cure.jpg",
+    "url": "https://indiehoy.com/historias/5-canciones-dedicadas-al-viernes/"
+  },
+  {
+    "title": "Los 3 mejores discos de Paul McCartney según Indie Hoy",
+    "tag": "MÚSICA",
+    "date": "Fri, 11 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2025/08/paul-mccartney-1.webp",
+    "url": "https://indiehoy.com/historias/los-3-mejores-discos-de-paul-mccartney-segun-indie-hoy/"
+  },
+  {
+    "title": "4 canciones que tienen un Yeah en la letra",
+    "tag": "MÚSICA",
+    "date": "Fri, 11 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2023/12/the-beatles-1.jpg",
+    "url": "https://indiehoy.com/historias/4-canciones-que-tienen-un-yeah-en-la-letra/"
+  },
+  {
+    "title": "4 películas sobre el 11 de septiembre",
+    "tag": "MÚSICA",
+    "date": "Fri, 11 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/09/la-noche-mas-oscura.webp",
+    "url": "https://indiehoy.com/cine/4-peliculas-sobre-el-11-de-septiembre/"
+  },
+  {
+    "title": "Oasis encendió el cielo de Mánchester y dejó una fecha que todos están mirando",
+    "tag": "MÚSICA",
+    "date": "Fri, 11 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/09/oasis.webp",
+    "url": "https://indiehoy.com/noticias/oasis-encendio-el-cielo-de-manchester-y-dejo-una-fecha-que-todos-estan-mirando/"
+  },
+  {
+    "title": "La letra que Lou Reed cambió para no ofender",
+    "tag": "MÚSICA",
+    "date": "Fri, 11 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2022/07/lou-reed-2.jpg",
+    "url": "https://indiehoy.com/historias/la-letra-que-lou-reed-cambio-para-no-ofender/"
+  },
+  {
     "title": "5 películas que Kurt Cobain amaba",
     "tag": "MÚSICA",
     "date": "Fri, 11 Sep 2026",
@@ -7,136 +70,73 @@
     "url": "https://indiehoy.com/cine/5-peliculas-que-kurt-cobain-amaba/"
   },
   {
-    "title": "10 discos nuevos recomendados para escuchar hoy",
-    "tag": "MÚSICA",
-    "date": "Fri, 11 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/09/nuevamusica-septiembre.jpg",
-    "url": "https://indiehoy.com/noticias/10-discos-recomendados-para-escuchar-hoy-bonobo-bloc-party-mas/"
-  },
-  {
-    "title": "Los shows de BTS en Brasil y Argentina se transmitirán en cines",
-    "tag": "MÚSICA",
-    "date": "Fri, 11 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/09/BTS.webp",
-    "url": "https://indiehoy.com/noticias/los-shows-de-bts-en-brasil-y-argentina-se-transmitiran-en-el-cine/"
-  },
-  {
-    "title": "Qué dicen las críticas sobre el documental de Oasis, ya en cines",
-    "tag": "MÚSICA",
-    "date": "Fri, 11 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/09/Simon-Emmett_Oasis_Tokyo_Doc.webp",
-    "url": "https://indiehoy.com/cine/que-dicen-las-criticas-sobre-el-documental-de-oasis-ya-en-cines/"
-  },
-  {
-    "title": "Qué ver en Netflix: 3 series nuevas",
-    "tag": "MÚSICA",
-    "date": "Fri, 11 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/09/el-club-gastronomico.webp",
-    "url": "https://indiehoy.com/series/que-ver-en-netflix-3-series-nuevas-club-gastronomico-fauda-timonel/"
-  },
-  {
-    "title": "Qué ver en Netflix: 3 películas nuevas",
-    "tag": "MÚSICA",
-    "date": "Fri, 11 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/09/llama-a-mi-agente-la-pelicula.webp",
-    "url": "https://indiehoy.com/cine/que-ver-en-netflix-3-peliculas-nuevas/"
-  },
-  {
-    "title": "4 bandas con dos bateristas en su formación",
-    "tag": "MÚSICA",
-    "date": "Fri, 11 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/09/The-Allman-Brothers-Band.webp",
-    "url": "https://indiehoy.com/historias/4-bandas-con-dos-bateristas-en-su-formacion/"
-  },
-  {
-    "title": "La agenda de recitales para este fin de semana en Buenos Aires",
-    "tag": "MÚSICA",
-    "date": "Thu, 10 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2024/11/recitales-4.jpg",
-    "url": "https://indiehoy.com/recitales/agenda-recitales-este-fin-de-semana-buenos-aires/"
-  },
-  {
-    "title": "Crítica de Pepita, la pistolera: Entre la vida y la muerte, entre la moral y el poder",
-    "tag": "MÚSICA",
-    "date": "Thu, 10 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/09/luisana-lopilato.webp",
-    "url": "https://indiehoy.com/cine/critica-de-pepita-la-pistolera-entre-la-vida-y-la-muerte-entre-la-moral-y-el-poder/"
-  },
-  {
-    "title": "10 canciones de rock con acordeón",
-    "tag": "MÚSICA",
-    "date": "Thu, 10 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2025/06/bruce-springsteen-y-danny-federici-.jpg",
-    "url": "https://indiehoy.com/historias/10-canciones-de-rock-con-acordeon/"
-  },
-  {
-    "title": "Julieta Laso presenta ‘Fabriquera’: “Cuando Melingo me invitó a cantar, no nos soltamos más”",
+    "title": "Dalex conecta el desamor y la nostalgia en ‘Calendario’",
     "tag": "TENDENCIAS",
-    "date": "Thu, 10 Sep 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/09/LASO-MELINGO-2-1024x616.jpg",
-    "url": "https://es.rollingstone.com/arg-julieta-laso-presenta-fabriquera-cuando-melingo-me-invito-a-cantar-no-nos-soltamos-mas/"
+    "date": "Fri, 11 Sep 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/09/2-Dalex-conecta-el-desamor-y-la-nostalgia-en-‘Calendario-.jpg",
+    "url": "https://es.rollingstone.com/dalex-conecta-el-desamor-y-la-nostalgia-en-calendario/"
   },
   {
-    "title": "Listado: 10 discos que marcaron el rumbo del rock argentino ",
+    "title": "Han pasado 25 años desde los ataques de las torres gemelas. ¿Ganaron los terroristas?",
     "tag": "TENDENCIAS",
-    "date": "Thu, 10 Sep 2026",
+    "date": "Fri, 11 Sep 2026",
     "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/listado-10-discos-que-marcaron-el-rumbo-del-rock-argentino/"
+    "url": "https://es.rollingstone.com/han-pasado-25-anos-desde-los-ataques-de-las-torres-gemelas-ganaron-los-terroristas/"
   },
   {
-    "title": "Ben Gvir, ministro de seguridad israelí reconoce a las Malvinas como territorio argentino",
+    "title": "Armas y violencia de género, el riesgo que queda fuera del debate ",
     "tag": "TENDENCIAS",
-    "date": "Thu, 10 Sep 2026",
-    "img": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f1ee-1f1f1.png",
-    "url": "https://es.rollingstone.com/ben-gvir-ministro-de-seguridad-israeli-reconoce-a-las-malvinas-como-territorio-argentino/"
-  },
-  {
-    "title": "Crítica: Los caballeros: Temporada 2 (The Gentlemen: Season 2)",
-    "tag": "TENDENCIAS",
-    "date": "Thu, 10 Sep 2026",
+    "date": "Fri, 11 Sep 2026",
     "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/critica-los-caballeros-temporada-2-the-gentlemen-season-2/"
+    "url": "https://es.rollingstone.com/armas-y-violencia-de-genero-el-riesgo-que-queda-fuera-del-debate/"
   },
   {
-    "title": "Nathan Fillion: “El ego impulsa a Guy Gardner”",
+    "title": "My Chemical Romance celebrará los 20 años de The Black Parade con su reedición",
     "tag": "TENDENCIAS",
-    "date": "Thu, 10 Sep 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/09/2-Nathan-Fillion-El-ego-impulsa-a-Guy-Gardner-.jpg",
-    "url": "https://es.rollingstone.com/nathan-fillion-el-ego-impulsa-a-guy-gardner/"
-  },
-  {
-    "title": "Presentamos las categorías de premiación de ZYN Premios ROLLING STONE en Español 2026 ",
-    "tag": "TENDENCIAS",
-    "date": "Thu, 10 Sep 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2025/09/1.jpg",
-    "url": "https://es.rollingstone.com/presentamos-las-categorias-de-premiacion-de-zyn-premios-rolling-stone-en-espanol-2026/"
-  },
-  {
-    "title": "Cuando la vida le da limones, Pink Pablo hace Pink Lemonade",
-    "tag": "TENDENCIAS",
-    "date": "Wed, 09 Sep 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/09/2-Cuando-la-vida-le-da-limones-Pink-Pablo-hace-Pink-Lemonade-.jpg",
-    "url": "https://es.rollingstone.com/cuando-la-vida-le-da-limones-pink-pablo-hace-pink-lemonade/"
-  },
-  {
-    "title": "Andrew Tate y su hermano fueron acusados por la fiscalía de Rumania por delitos sexuales ",
-    "tag": "TENDENCIAS",
-    "date": "Wed, 09 Sep 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/09/2-Andrew-Tate-y-su-hermano-fueron-acusados-por-la-fiscalia-de-Rumania-por-delitos-sexuales-.jpg",
-    "url": "https://es.rollingstone.com/andrew-tate-y-su-hermano-fueron-acusados-por-la-fiscalia-de-rumania-por-delitos-sexuales/"
-  },
-  {
-    "title": "Viaje a las estrellas: 60 años imaginando el futuro",
-    "tag": "TENDENCIAS",
-    "date": "Wed, 09 Sep 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/09/2-Viaje-a-las-estrellas-60-anos-imaginando-el-futuro.jpg",
-    "url": "https://es.rollingstone.com/viaje-a-las-estrellas-60-anos-imaginando-el-futuro/"
-  },
-  {
-    "title": "Stephen Graham se une al elenco Heat 2",
-    "tag": "TENDENCIAS",
-    "date": "Wed, 09 Sep 2026",
+    "date": "Fri, 11 Sep 2026",
     "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/stephen-graham-se-une-al-elenco-heat-2/"
+    "url": "https://es.rollingstone.com/my-chemical-romance-celebrara-los-20-anos-de-the-black-parade-con-su-reedicion/"
+  },
+  {
+    "title": "Crítica: Código Venganza (Mutiny)",
+    "tag": "TENDENCIAS",
+    "date": "Fri, 11 Sep 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/critica-codigo-venganza-mutiny/"
+  },
+  {
+    "title": "Crítica: Lioness: Temporadas 1-3",
+    "tag": "TENDENCIAS",
+    "date": "Fri, 11 Sep 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/critica-lioness-temporadas-1-3/"
+  },
+  {
+    "title": "Carín León redefine las fronteras del regional mexicano en MUDA",
+    "tag": "TENDENCIAS",
+    "date": "Fri, 11 Sep 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/09/2-Carin-Leon-redefine-las-fronteras-del-regional-mexicano-en-MUDA-.jpg",
+    "url": "https://es.rollingstone.com/carin-leon-redefine-las-fronteras-del-regional-mexicano-en-muda/"
+  },
+  {
+    "title": "Mirá el primer tráiler de ‘Mis muertos tristes’, la serie basada en la obra de Mariana Enriquez",
+    "tag": "TENDENCIAS",
+    "date": "Fri, 11 Sep 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/09/MIS-MUERTOS-TRISTES-1-1.jpg",
+    "url": "https://es.rollingstone.com/arg-mira-el-primer-trailer-de-mis-muertos-tristes-la-serie-basada-en-la-obra-de-mariana-enriquez/"
+  },
+  {
+    "title": "La IA es una amenaza existencial, dicen ingenieros de OpenAI y Anthropic",
+    "tag": "TENDENCIAS",
+    "date": "Fri, 11 Sep 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/la-ia-es-una-amenaza-existencial-dicen-ingenieros-de-openai-y-anthropic/"
+  },
+  {
+    "title": "Kevin Parker dejará de firmar autógrafos como medida contra los coleccionistas agresivos",
+    "tag": "TENDENCIAS",
+    "date": "Fri, 11 Sep 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/kevin-parker-dejara-de-firmar-autografos-como-medida-contra-los-coleccionistas-agresivos/"
   }
 ]
