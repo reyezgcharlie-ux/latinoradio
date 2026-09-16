@@ -1,5 +1,54 @@
 [
   {
+    "title": "10 lanzamientos para escuchar esta semana",
+    "tag": "MÚSICA",
+    "date": "Tue, 15 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/09/lanzamientes-sep-2026.jpg",
+    "url": "https://indiehoy.com/noticias/10-lanzamientos-para-escuchar-esta-semana-2026-09-15/"
+  },
+  {
+    "title": "Premios Emmy 2026: Dónde ver las 3 series ganadoras",
+    "tag": "MÚSICA",
+    "date": "Tue, 15 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/09/series-ganadoras-emmy-2026.webp",
+    "url": "https://indiehoy.com/series/premios-emmy-2026-donde-ver-las-3-series-ganadoras/"
+  },
+  {
+    "title": "Bob Mackie murió a los 87 años: 5 looks que quedaron para siempre en la cultura pop",
+    "tag": "MÚSICA",
+    "date": "Tue, 15 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/09/bob-mackie-y-cher.webp",
+    "url": "https://indiehoy.com/noticias/bob-mackie-murio-a-los-87-anos-5-looks-que-quedaron-para-siempre-en-la-cultura-pop/"
+  },
+  {
+    "title": "La película que Matt Damon se arrepiente de grabar: El guion era ilegible",
+    "tag": "MÚSICA",
+    "date": "Tue, 15 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2025/10/matt-damon.webp",
+    "url": "https://indiehoy.com/cine/la-pelicula-que-matt-damon-se-arrepiente-de-grabar-el-guion-era-ilegible/"
+  },
+  {
+    "title": "Nicko McBrain puso una condición para volver al estudio con Iron Maiden",
+    "tag": "MÚSICA",
+    "date": "Tue, 15 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/09/NICKO-MCBRAIN.webp",
+    "url": "https://indiehoy.com/noticias/nicko-mcbrain-puso-una-condicion-para-volver-al-estudio-con-iron-maiden/"
+  },
+  {
+    "title": "Dave Mustaine armó su propio “Big 4” del thrash metal",
+    "tag": "MÚSICA",
+    "date": "Tue, 15 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/04/dave-mustaine-de-megadeth-tocando-guitarra.webp",
+    "url": "https://indiehoy.com/noticias/dave-mustaine-armo-su-propio-big-4-del-thrash-metal/"
+  },
+  {
+    "title": "La banda más interesante de 1969 según John Lennon",
+    "tag": "MÚSICA",
+    "date": "Tue, 15 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2025/10/john-lennon-1.webp",
+    "url": "https://indiehoy.com/historias/cual-era-la-banda-mas-interesante-de-1969-segun-john-lennon/"
+  },
+  {
     "title": "Kiss tiene un lado romántico y estas 7 canciones lo demuestran",
     "tag": "MÚSICA",
     "date": "Tue, 15 Sep 2026",
@@ -11,7 +60,7 @@
     "tag": "MÚSICA",
     "date": "Tue, 15 Sep 2026",
     "img": "https://indiehoy.com/wp-content/uploads/2026/09/adidas-coleccion-pokemon.webp",
-    "url": "https://indiehoy.com/noticias/adidas-lanzo-una-coleccion-de-camperas-inspirada-en-pokemon/"
+    "url": "https://indiehoy.com/series/adidas-lanzo-una-coleccion-de-camperas-inspirada-en-pokemon/"
   },
   {
     "title": "Qué ver en Prime Video: 4 series ideales para una maratón",
@@ -21,52 +70,73 @@
     "url": "https://indiehoy.com/series/que-ver-en-prime-video-4-series-ideales-para-una-maraton/"
   },
   {
-    "title": "Qué ver en Netflix: 4 series para empezar y no parar",
-    "tag": "MÚSICA",
+    "title": "10 canciones que debes conocer de Macklemore",
+    "tag": "TENDENCIAS",
     "date": "Tue, 15 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2024/03/estrenos-netflix.jpg",
-    "url": "https://indiehoy.com/series/que-ver-en-netflix-4-series-para-maratonear/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/10-canciones-que-debes-conocer-de-macklemore/"
   },
   {
-    "title": "Los 10 mejores discos de electrónica de los años 90 según la crítica",
-    "tag": "MÚSICA",
+    "title": "¿Qué ocurre entre Mastodon y el patrimonio de Brent Hinds?",
+    "tag": "TENDENCIAS",
     "date": "Tue, 15 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/09/mejores-discos-electronica-anos-90.webp",
-    "url": "https://indiehoy.com/historias/los-10-mejores-discos-de-electronica-de-los-anos-90-segun-la-critica/"
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/09/2-¿Que-ocurre-entre-Mastodon-y-el-patrimonio-de-Brent-Hinds.jpg",
+    "url": "https://es.rollingstone.com/que-ocurre-entre-mastodon-y-el-patrimonio-de-brent-hinds/"
   },
   {
-    "title": "Premios Emmy 2026: Dónde ver las 3 series ganadoras",
-    "tag": "MÚSICA",
+    "title": "Crítica: Cien años de soledad: Segunda parte",
+    "tag": "TENDENCIAS",
     "date": "Tue, 15 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/09/series-ganadoras-emmy-2026.webp",
-    "url": "https://indiehoy.com/series/premios-emmy-2026-donde-ver-las-3-series-ganadoras/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/critica-cien-anos-de-soledad-segunda-parte/"
   },
   {
-    "title": "The Beatles publicaron una versión inédita de “Norwegian Wood” con George Harrison en el sitar",
-    "tag": "MÚSICA",
+    "title": "Atletas olímpicas se pronuncian ante el polémico comercial de Sydney Sweeney",
+    "tag": "TENDENCIAS",
     "date": "Tue, 15 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/09/the-beatles.webp",
-    "url": "https://indiehoy.com/noticias/the-beatles-publicaron-una-version-inedita-de-norwegian-wood-con-george-harrison-en-el-sitar/"
-  },
-  {
-    "title": "10 lanzamientos para escuchar esta semana",
-    "tag": "MÚSICA",
-    "date": "Tue, 15 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/09/lanzamientes-sep-2026.jpg",
-    "url": "https://indiehoy.com/noticias/10-lanzamientos-para-escuchar-esta-semana-2026-09-15/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/atletas-olimpicas-se-pronuncian-ante-el-polemico-comercial-de-sydney-sweeney/"
   },
   {
     "title": "Premios Emmy 2026: La lista completa de ganadores",
-    "tag": "MÚSICA",
+    "tag": "TENDENCIAS",
     "date": "Tue, 15 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2022/09/emmys.jpg",
-    "url": "https://indiehoy.com/series/premios-emmy-2026-la-lista-completa-de-ganadores/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/premios-emmy-2026-la-lista-completa-de-ganadores/"
   },
   {
-    "title": "Stereo: Tenemos respeto por las personas, pero no por las ideas",
-    "tag": "MÚSICA",
+    "title": "Crítica: Las damas primero (Ladies First)",
+    "tag": "TENDENCIAS",
     "date": "Tue, 15 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/09/stereo.jpg",
-    "url": "https://indiehoy.com/entrevistas/stereo-tenemos-respeto-por-las-personas-pero-no-por-las-ideas/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/critica-las-damas-primero-ladies-first/"
+  },
+  {
+    "title": "Gerard Way da pistas sobre un nuevo álbum de My Chemical Romance: “Ustedes se merecen otro disco” ",
+    "tag": "TENDENCIAS",
+    "date": "Tue, 15 Sep 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/gerard-way-da-pistas-sobre-un-nuevo-album-de-my-chemical-romance-ustedes-se-merecen-otro-disco/"
+  },
+  {
+    "title": "Murió una adolescente tras descompensarse antes del show de Stray Kids en Argentina",
+    "tag": "TENDENCIAS",
+    "date": "Tue, 15 Sep 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/09/stray-kids.jpg",
+    "url": "https://es.rollingstone.com/arg-murio-una-adolescente-tras-descompensarse-antes-del-show-de-stray-kids-en-argentina/"
+  },
+  {
+    "title": "Crítica: Hechizo de amor: La magia continúa (Practical Magic 2)",
+    "tag": "TENDENCIAS",
+    "date": "Tue, 15 Sep 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/critica-hechizo-de-amor-la-magia-continua-practical-magic-2/"
+  },
+  {
+    "title": "Para Noel Gallagher, el mejor recital de la reunión de Oasis fue en Buenos Aires",
+    "tag": "TENDENCIAS",
+    "date": "Tue, 15 Sep 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2025/11/oasis-river.jpg",
+    "url": "https://es.rollingstone.com/arg-para-noel-gallagher-el-mejor-recital-de-la-reunion-de-oasis-fue-en-buenos-aires/"
   }
 ]
