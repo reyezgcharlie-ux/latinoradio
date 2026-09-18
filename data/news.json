@@ -1,5 +1,47 @@
 [
   {
+    "title": "Las 3 mejores películas de Wes Anderson según Indie Hoy",
+    "tag": "MÚSICA",
+    "date": "Thu, 17 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2023/04/wes-anderson.jpg",
+    "url": "https://indiehoy.com/cine/las-3-mejores-peliculas-de-wes-anderson-segun-indie-hoy/"
+  },
+  {
+    "title": "Por qué escuchar música triste puede mejorar el estado de ánimo, según la ciencia",
+    "tag": "MÚSICA",
+    "date": "Thu, 17 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/09/MUJER-CON-AURICULARES.webp",
+    "url": "https://indiehoy.com/noticias/por-que-escuchar-musica-triste-puede-mejorar-el-estado-de-animo-segun-la-ciencia/"
+  },
+  {
+    "title": "La canción que Paul McCartney grabó solo y enojó a John Lennon: Así eran las cosas en esos días",
+    "tag": "MÚSICA",
+    "date": "Thu, 17 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2023/05/john-lennon-paul-mccartney-3.jpg",
+    "url": "https://indiehoy.com/historias/la-cancion-que-paul-mccartney-grabo-solo-y-enojo-a-john-lennon-asi-eran-las-cosas-en-esos-dias/"
+  },
+  {
+    "title": "Ca7riel & Paco Amoroso estrenan canción para el GTA VI",
+    "tag": "MÚSICA",
+    "date": "Thu, 17 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/09/ca7riel-y-paco-amoroso-gta.webp",
+    "url": "https://indiehoy.com/noticias/ca7riel-paco-amoroso-estrenan-cancion-para-el-gta-vi/"
+  },
+  {
+    "title": "Las 5 mejores canciones de Bar Italia según Indie Hoy",
+    "tag": "MÚSICA",
+    "date": "Thu, 17 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/09/bar-italia.webp",
+    "url": "https://indiehoy.com/noticias/las-5-mejores-canciones-de-bar-italia-segun-indie-hoy/"
+  },
+  {
+    "title": "Las 5 mejores canciones de Queens of the Stone Age según Indie Hoy",
+    "tag": "MÚSICA",
+    "date": "Thu, 17 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2025/10/queens-of-the-stone-age.webp",
+    "url": "https://indiehoy.com/historias/las-5-mejores-canciones-de-queens-of-the-stone-age-segun-indie-hoy/"
+  },
+  {
     "title": "La canción que todos los cantantes de rock deben escuchar, según Brian Johnson",
     "tag": "MÚSICA",
     "date": "Thu, 17 Sep 2026",
@@ -28,115 +70,73 @@
     "url": "https://indiehoy.com/cine/gracias-equipo-de-que-trata-la-nueva-comedia-espanola-de-netflix/"
   },
   {
-    "title": "El CBGB podría volver a Nueva York a casi 20 años de su cierre",
-    "tag": "MÚSICA",
-    "date": "Thu, 17 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2025/09/cbgb.webp",
-    "url": "https://indiehoy.com/noticias/el-cbgb-podria-volver-a-nueva-york-a-casi-20-anos-de-su-cierre/"
-  },
-  {
-    "title": "Los 10 mejores discos de hard rock de los años 2000 según la crítica",
-    "tag": "MÚSICA",
-    "date": "Thu, 17 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/09/los-10-mejores-discos-de-hard-rock-de-los-2000.webp",
-    "url": "https://indiehoy.com/historias/los-10-mejores-discos-de-hard-rock-de-los-anos-2000-segun-la-critica/"
-  },
-  {
-    "title": "La timonel: De qué trata la nueva serie canadiense de Netflix",
-    "tag": "MÚSICA",
-    "date": "Thu, 17 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/09/la-timonel.webp",
-    "url": "https://indiehoy.com/series/la-timonel-de-que-trata-la-nueva-serie-canadiense-de-netflix/"
-  },
-  {
-    "title": "La agenda de recitales para este fin de semana en Buenos Aires",
-    "tag": "MÚSICA",
-    "date": "Thu, 17 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2024/11/recitales-4.jpg",
-    "url": "https://indiehoy.com/recitales/agenda-recitales-este-fin-de-semana-buenos-aires/"
-  },
-  {
-    "title": "10 canciones que queremos escuchar en el Primavera Sound 2026",
-    "tag": "MÚSICA",
-    "date": "Thu, 17 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/09/courtney-barnett-the-strokes.webp",
-    "url": "https://indiehoy.com/noticias/10-canciones-que-queremos-escuchar-en-el-primavera-sound-2026/"
-  },
-  {
-    "title": "Underworld en Argentina: Fecha, lugar y entradas",
-    "tag": "MÚSICA",
-    "date": "Thu, 17 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/09/underworld.webp",
-    "url": "https://indiehoy.com/recitales/underworld-en-argentina-fecha-lugar-y-entradas/"
-  },
-  {
-    "title": "Reino no tan Unido, los líderes nacionalistas de Escocia, Gales e Irlanda del Norte emiten memorando",
+    "title": "En ‘Sin la piel’, Las Pelotas muestra su cara luminosa, guitarrera y sofisticada",
     "tag": "TENDENCIAS",
-    "date": "Wed, 16 Sep 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/09/2-Reino-no-tan-Unido-los-lideres-nacionalistas-de-Escocia-Gales-e-Irlanda-del-Norte-emiten-memorando-.jpg",
-    "url": "https://es.rollingstone.com/reino-no-tan-unido-los-lideres-nacionalistas-de-escocia-gales-e-irlanda-del-norte-emiten-memorando/"
-  },
-  {
-    "title": "Ritu Arya y Tewfik Jallab: La confianza también está bajo fuego",
-    "tag": "TENDENCIAS",
-    "date": "Wed, 16 Sep 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/09/2-Ritu-Arya-y-Tewfik-Jallab-La-confianza-tambien-esta-bajo-fuego-.jpg",
-    "url": "https://es.rollingstone.com/ritu-arya-y-tewfik-jallab-la-confianza-tambien-esta-bajo-fuego/"
-  },
-  {
-    "title": "‘Mar’, tema por tema de la gema pop de Leo García",
-    "tag": "TENDENCIAS",
-    "date": "Wed, 16 Sep 2026",
+    "date": "Thu, 17 Sep 2026",
     "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/arg-mar-tema-por-tema-de-la-gema-pop-de-leo-garcia/"
+    "url": "https://es.rollingstone.com/arg-en-sin-la-piel-las-pelotas-muestra-su-cara-luminosa-guitarrera-y-sofisticada/"
   },
   {
-    "title": "Los propietarios de CBGB intentan reabrir el famoso club punk: empiezan con un festival",
+    "title": "Juan Luis Guerra y Manny Cruz se unen por primera vez en ‘Nieve en Verano’",
     "tag": "TENDENCIAS",
-    "date": "Wed, 16 Sep 2026",
-    "img": "https://s.w.org/images/core/emoji/17.0.2/72x72/26d3.png",
-    "url": "https://es.rollingstone.com/arg-los-propietarios-de-cbgb-intentan-reabrir-el-famoso-club-punk-empiezan-con-un-festival/"
+    "date": "Thu, 17 Sep 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/09/2-Juan-Luis-Guerra-y-Manny-Cruz-se-unen-por-primera-vez-en-‘Nieve-en-Verano-.jpg",
+    "url": "https://es.rollingstone.com/juan-luis-guerra-y-manny-cruz-se-unen-por-primera-vez-en-nieve-en-verano/"
   },
   {
-    "title": "Latin Grammy 2026: lista completa de nominados",
+    "title": "Conoce la versión temprana de ‘Norwegian Wood (This Bird Has Flown)’ de The Beatles",
     "tag": "TENDENCIAS",
-    "date": "Wed, 16 Sep 2026",
+    "date": "Thu, 17 Sep 2026",
     "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/latin-grammy-2026-lista-completa-de-nominados/"
+    "url": "https://es.rollingstone.com/conoce-la-version-temprana-de-norwegian-wood-this-bird-has-flown-de-the-beatles/"
   },
   {
-    "title": "Cómo se grabó ‘Mar’, el debut de Leo García, un hito del pop local que cumple 25 años",
+    "title": "Roger Waters arremete contra Ed Sheeran tras expulsión de Macklemore",
     "tag": "TENDENCIAS",
-    "date": "Wed, 16 Sep 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/09/leoint-1024x616.jpg",
-    "url": "https://es.rollingstone.com/arg-como-se-grabo-mar-el-debut-de-leo-garcia-un-hito-del-pop-local-que-cumple-25-anos/"
-  },
-  {
-    "title": "Latin Grammys 2026: todos los argentinos nominados y la lista completa de categorías",
-    "tag": "TENDENCIAS",
-    "date": "Wed, 16 Sep 2026",
+    "date": "Thu, 17 Sep 2026",
     "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/arg-latin-grammys-2026-todos-los-argentinos-nominados-y-la-lista-completa-de-categorias/"
+    "url": "https://es.rollingstone.com/roger-waters-arremete-contra-ed-sheeran-tras-expulsion-de-macklemore/"
   },
   {
-    "title": "“Romper cárceles que uno mismo se construye”: Santiago Cruz",
+    "title": "Crítica: Pulp: ¿Qué harías por una canción más? El pasado no necesita un bis cuando todavía está vivo",
     "tag": "TENDENCIAS",
-    "date": "Wed, 16 Sep 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/09/Romper-carceles-que-uno-mismo-se-construye-Santiago-Cruz-1.jpg",
-    "url": "https://es.rollingstone.com/romper-carceles-que-uno-mismo-se-construye-santiago-cruz/"
-  },
-  {
-    "title": "Memoria latinoamericana: Víctor Jara",
-    "tag": "TENDENCIAS",
-    "date": "Wed, 16 Sep 2026",
+    "date": "Thu, 17 Sep 2026",
     "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/memoria-latinoamericana-victor-jara/"
+    "url": "https://es.rollingstone.com/critica-pulp-que-harias-por-una-cancion-mas-el-pasado-no-necesita-un-bis-cuando-todavia-esta-vivo/"
   },
   {
-    "title": "10 canciones que debes conocer de Macklemore",
+    "title": "Crítica: Resident Evil: Noche cero",
     "tag": "TENDENCIAS",
-    "date": "Tue, 15 Sep 2026",
+    "date": "Thu, 17 Sep 2026",
     "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/10-canciones-que-debes-conocer-de-macklemore/"
+    "url": "https://es.rollingstone.com/critica-resident-evil-noche-cero/"
+  },
+  {
+    "title": "Noel Gallagher dice que Oasis sabía que volverían a estar de gira, pero no esperen nueva música",
+    "tag": "TENDENCIAS",
+    "date": "Thu, 17 Sep 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/noel-gallagher-dice-que-oasis-sabia-que-volverian-a-estar-de-gira-pero-no-esperen-nueva-musica/"
+  },
+  {
+    "title": "Los rockeros que siguen girando (y rompiéndola) después de los 80",
+    "tag": "TENDENCIAS",
+    "date": "Thu, 17 Sep 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/arg-los-rockeros-que-siguen-girando-y-rompiendola-despues-de-los-80/"
+  },
+  {
+    "title": "El hombre que grabó 10.000 shows y preservó la historia del rock de Chicago",
+    "tag": "TENDENCIAS",
+    "date": "Thu, 17 Sep 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/09/image-1-1024x547.png",
+    "url": "https://es.rollingstone.com/arg-el-hombre-que-grabo-10-000-shows-y-preservo-la-historia-del-rock-de-chicago/"
+  },
+  {
+    "title": "El punk vuelve a hacer ruido en el Caribe",
+    "tag": "TENDENCIAS",
+    "date": "Thu, 17 Sep 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/arg-el-punk-vuelve-a-hacer-ruido-en-el-caribe/"
   }
 ]
