@@ -1,5 +1,26 @@
 [
   {
+    "title": "Dry Cleaning y el arte de torcer las canciones",
+    "tag": "MÚSICA",
+    "date": "Mon, 28 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/09/dry-cleaning.jpg",
+    "url": "https://indiehoy.com/entrevistas/dry-cleaning-el-arte-de-torcer-las-canciones/"
+  },
+  {
+    "title": "Los beneficios de esta semana en la Comunidad Indie Hoy",
+    "tag": "MÚSICA",
+    "date": "Mon, 28 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2024/06/comunidad-indie-hoy.jpg",
+    "url": "https://indiehoy.com/recitales/beneficios-comunidad-indie-hoy-esta-semana/"
+  },
+  {
+    "title": "Las 5 mejores películas para ver en Mubi en octubre",
+    "tag": "MÚSICA",
+    "date": "Mon, 28 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/09/Adolescencia-sexo-y-muerte-en-el-campamento-Miasma.webp",
+    "url": "https://indiehoy.com/cine/las-5-mejores-peliculas-para-ver-en-mubi-en-octubre-2026/"
+  },
+  {
     "title": "Burger King prepara una colaboración con Hello Kitty",
     "tag": "MÚSICA",
     "date": "Mon, 28 Sep 2026",
@@ -49,25 +70,67 @@
     "url": "https://indiehoy.com/historias/7-versiones-insolitas-de-canciones-de-ac-dc-que-probablemente-nunca-escuchaste/"
   },
   {
-    "title": "La banda de punk española que Robert Pattinson terminó promocionando sin querer",
-    "tag": "MÚSICA",
+    "title": "Crítica: KMKZ: Salvaje, libre y valiente",
+    "tag": "TENDENCIAS",
     "date": "Mon, 28 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/09/ROBERT-PATTINSON.webp",
-    "url": "https://indiehoy.com/noticias/la-banda-de-punk-espanola-que-robert-pattinson-termino-promocionando-sin-querer/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/critica-kmkz-salvaje-libre-y-valiente/"
   },
   {
-    "title": "Las 5 mejores canciones de St. Vincent según Indie Hoy",
-    "tag": "MÚSICA",
+    "title": "Crítica: El sentido de la vida (Soudain)",
+    "tag": "TENDENCIAS",
     "date": "Mon, 28 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2020/12/st-vincent.jpg",
-    "url": "https://indiehoy.com/historias/las-5-mejores-canciones-de-st-vincent-segun-indie-hoy/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/critica-el-sentido-de-la-vida-soudain/"
   },
   {
-    "title": "Los 4 mejores solos de guitarra de la historia, según Carlos Santana",
-    "tag": "MÚSICA",
+    "title": "Nicolas Winding Refn: “La creatividad es imperfección”",
+    "tag": "TENDENCIAS",
     "date": "Mon, 28 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2025/11/carlos-santana.webp",
-    "url": "https://indiehoy.com/historias/los-4-mejores-solos-de-guitarra-segun-carlos-santana/"
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/09/2-Nicolas-Winding-Refn-La-creatividad-es-imperfeccion.jpg",
+    "url": "https://es.rollingstone.com/nicolas-winding-refn-la-creatividad-es-imperfeccion/"
+  },
+  {
+    "title": "Aún queda mucho por descubrir sobre Alleh",
+    "tag": "TENDENCIAS",
+    "date": "Mon, 28 Sep 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/aun-queda-mucho-por-descubrir-sobre-alleh/"
+  },
+  {
+    "title": "Carnaval de Luz, el nuevo álbum de U2 llega en noviembre",
+    "tag": "TENDENCIAS",
+    "date": "Mon, 28 Sep 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/carnaval-de-luz-el-nuevo-album-de-u2-llega-en-noviembre/"
+  },
+  {
+    "title": "Carlos Vives: el sol que abraza a Colombia",
+    "tag": "TENDENCIAS",
+    "date": "Mon, 28 Sep 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/09/2-Carlos-Vives-el-sol-que-abraza-a-Colombia.jpg",
+    "url": "https://es.rollingstone.com/carlos-vives-el-sol-que-abraza-a-colombia/"
+  },
+  {
+    "title": "Dave Mustaine, de Megadeth, explica por qué se retira: “Vivo cada día como si fuera el último”",
+    "tag": "TENDENCIAS",
+    "date": "Mon, 28 Sep 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/09/2-Dave-Mustaine-de-Megadeth-explica-por-que-se-retira-Vivo-cada-dia-como-si-fuera-el-ultimo.jpg",
+    "url": "https://es.rollingstone.com/dave-mustaine-de-megadeth-explica-por-que-se-retira-vivo-cada-dia-como-si-fuera-el-ultimo/"
+  },
+  {
+    "title": "VMAs de MTV 2026: La lista completa de ganadores",
+    "tag": "TENDENCIAS",
+    "date": "Mon, 28 Sep 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/vmas-de-mtv-2026-la-lista-completa-de-ganadores/"
+  },
+  {
+    "title": "Madonna gana artista del año en los VMAs de 2026: “duré el último año y medio encontrándome”",
+    "tag": "TENDENCIAS",
+    "date": "Mon, 28 Sep 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/madonna-gana-artista-del-ano-en-los-vmas-de-2026-dure-el-ultimo-ano-y-medio-encontrandome/"
   },
   {
     "title": "Conoce los nominados de Cine y Series de los premios ZYN ROLLING STONE en Español 2026",
@@ -75,68 +138,5 @@
     "date": "Mon, 28 Sep 2026",
     "img": "https://es.rollingstone.com/wp-content/uploads/2025/09/Los-ZYN-Premios-ROLLING-STONE-en-Espanol-2026-revelan-sus-nominados-de-Cine-y-Series.jpg",
     "url": "https://es.rollingstone.com/conoce-los-nominados-de-cine-y-series-de-los-premios-zyn-rolling-stone-en-espanol-2026/"
-  },
-  {
-    "title": "Crítica: El gran falsificador (L’affaire Bojarski)",
-    "tag": "TENDENCIAS",
-    "date": "Fri, 25 Sep 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/critica-el-gran-falsificador-laffaire-bojarski/"
-  },
-  {
-    "title": "Crítica: Avengers: Endgame Encore",
-    "tag": "TENDENCIAS",
-    "date": "Fri, 25 Sep 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/critica-avengers-endgame-encore/"
-  },
-  {
-    "title": "Heredero: canciones para llevar la carranga al mundo",
-    "tag": "TENDENCIAS",
-    "date": "Fri, 25 Sep 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/09/2-Heredero-canciones-para-llevar-la-carranga-al-mundo-.jpg",
-    "url": "https://es.rollingstone.com/heredero-canciones-para-llevar-la-carranga-al-mundo/"
-  },
-  {
-    "title": "Mercedes Ron: “Me encanta contar sobre el primer amor, es el más pasional y donde más locuras se cometen”",
-    "tag": "TENDENCIAS",
-    "date": "Fri, 25 Sep 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/09/2-Mercedes-Ron-Me-encanta-contar-sobre-el-primer-amor-es-el-mas-pasional-y-donde-mas-locuras-se-cometen-.jpg",
-    "url": "https://es.rollingstone.com/mercedes-ron-me-encanta-contar-sobre-el-primer-amor-es-el-mas-pasional-y-donde-mas-locuras-se-cometen/"
-  },
-  {
-    "title": "Tres Coronas reconoce la fortaleza del migrante latino en Inter",
-    "tag": "TENDENCIAS",
-    "date": "Fri, 25 Sep 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/tres-coronas-reconoce-la-fortaleza-del-migrante-latino-en-inter/"
-  },
-  {
-    "title": "NSQK continúa el camino hacia su próximo disco con ‘tuffluv’",
-    "tag": "TENDENCIAS",
-    "date": "Fri, 25 Sep 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/nsqk-continua-el-camino-hacia-su-proximo-disco-con-tuffluv/"
-  },
-  {
-    "title": "¿El comienzo del fin?: Declaran culpable al Manchester City por infringir el Fair play financiero de la Premier League",
-    "tag": "TENDENCIAS",
-    "date": "Fri, 25 Sep 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/el-comienzo-del-fin-declaran-culpable-al-manchester-city-por-infringir-el-fair-play-financiero-de-la-premier-league/"
-  },
-  {
-    "title": "“Jesse es irremplazable”, la respuesta de Joy Huerta",
-    "tag": "TENDENCIAS",
-    "date": "Fri, 25 Sep 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/jesse-es-irremplazable-la-respuesta-de-joy-huerta/"
-  },
-  {
-    "title": "Una foto del público argentino de Oasis en los shows de River ganó el premio al “momento musical del año”",
-    "tag": "TENDENCIAS",
-    "date": "Fri, 25 Sep 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/arg-una-foto-del-publico-de-oasis-en-los-shows-de-river-gano-el-premio-al-momento-musical-del-ano/"
   }
 ]
