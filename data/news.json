@@ -1,5 +1,19 @@
 [
   {
+    "title": "La canción de Billy Joel que, según la ciencia, produce más felicidad",
+    "tag": "MÚSICA",
+    "date": "Wed, 30 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2025/10/billy-joel.webp",
+    "url": "https://indiehoy.com/historias/la-cancion-de-billy-joel-que-segun-la-ciencia-produce-mas-felicidad/"
+  },
+  {
+    "title": "Las 5 mejores canciones de Robbie Williams según Indie Hoy",
+    "tag": "MÚSICA",
+    "date": "Wed, 30 Sep 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/09/robbie-williams.webp",
+    "url": "https://indiehoy.com/historias/las-5-mejores-canciones-de-robbie-williams-segun-indie-hoy/"
+  },
+  {
     "title": "6 canciones anti amor",
     "tag": "MÚSICA",
     "date": "Wed, 30 Sep 2026",
@@ -56,18 +70,60 @@
     "url": "https://indiehoy.com/historias/3-canciones-sobre-la-medianoche/"
   },
   {
-    "title": "Las 5 mejores películas para ver en Netflix en octubre",
-    "tag": "MÚSICA",
+    "title": "Galleria Vik Milano: el arte y la cultura como ejes de una experiencia auténtica",
+    "tag": "TENDENCIAS",
     "date": "Wed, 30 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/09/ricardo-darin-y-diego-peretti.webp",
-    "url": "https://indiehoy.com/cine/las-5-mejores-peliculas-para-ver-en-netflix-en-octubre-2026/"
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/09/2-Galleria-Vik-Milano-el-arte-y-la-cultura-como-ejes-de-una-experiencia-autentica.jpg",
+    "url": "https://es.rollingstone.com/galleria-vik-milano-el-arte-y-la-cultura-como-ejes-de-una-experiencia-autentica/"
   },
   {
-    "title": "Funko Pop lanzó figuras de los Saja Boys de K-Pop Demon Hunters",
-    "tag": "MÚSICA",
+    "title": "Jay-Z pide a un tribunal de apelaciones reactivar el caso de extorsión tras la retractación de la acusadora de violación",
+    "tag": "TENDENCIAS",
     "date": "Wed, 30 Sep 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/09/funko-pop-munecos-saja-boys.webp",
-    "url": "https://indiehoy.com/cine/funko-pop-lanzo-figuras-de-los-saja-boys-de-k-pop-demon-hunters/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/jay-z-pide-a-un-tribunal-de-apelaciones-reactivar-el-caso-de-extorsion-tras-la-retractacion-de-la-acusadora-de-violacion/"
+  },
+  {
+    "title": "¿Qué está sucediendo con el baterista de Pearl Jam?",
+    "tag": "TENDENCIAS",
+    "date": "Wed, 30 Sep 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/que-esta-sucediendo-con-el-baterista-de-pearl-jam/"
+  },
+  {
+    "title": "Daniela Garsal se confiesa en SE LO CONTÉ A LAS NIÑAS",
+    "tag": "TENDENCIAS",
+    "date": "Wed, 30 Sep 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/09/2-Daniela-Garsal-se-confiesa-en-SE-LO-CONTE-A-LAS-NINAS-.jpg",
+    "url": "https://es.rollingstone.com/daniela-garsal-se-confiesa-en-se-lo-conte-a-las-ninas/"
+  },
+  {
+    "title": "Sophia, la voz femenina de la batalla de gallos: “Antes (la escena) era muy misógina”",
+    "tag": "TENDENCIAS",
+    "date": "Wed, 30 Sep 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/arg-sophia-la-voz-femenina-de-la-batalla-de-gallos-la-disciplina-es-hermosa-pero-es-un-ambiente-muy-toxico/"
+  },
+  {
+    "title": "Fuerza Regida: Sin miedo a arriesgarse ",
+    "tag": "TENDENCIAS",
+    "date": "Wed, 30 Sep 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/09/2-Fuerza-Regida-Sin-miedo-a-arriesgarse-.jpg",
+    "url": "https://es.rollingstone.com/fuerza-regida-sin-miedo-a-arriesgarse/"
+  },
+  {
+    "title": "Crítica: El árbol mágico (The Magic Faraway Tree)",
+    "tag": "TENDENCIAS",
+    "date": "Wed, 30 Sep 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/critica-el-arbol-magico-the-magic-faraway-tree/"
+  },
+  {
+    "title": "Crítica: Mensajes de voz para Isabelle (Voicemails For Isabelle)",
+    "tag": "TENDENCIAS",
+    "date": "Wed, 30 Sep 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/critica-mensajes-de-voz-para-isabelle-voicemails-for-isabelle/"
   },
   {
     "title": "10 canciones de Héctor Lavoe que lo consagraron como El Cantante de los Cantantes",
@@ -82,61 +138,5 @@
     "date": "Wed, 30 Sep 2026",
     "img": "https://es.rollingstone.com/wp-content/uploads/2026/09/BOmm-2026-cierra-conectando-a-Bogoa-con-la-industria-musical-global-1.jpg",
     "url": "https://es.rollingstone.com/bomm-2026-cierra-conectando-a-bogota-con-la-industria-musical-global/"
-  },
-  {
-    "title": "“Quizás sea la decisión más difícil que hemos tenido que tomar”: Monsieur Periné anuncia su separación",
-    "tag": "TENDENCIAS",
-    "date": "Wed, 30 Sep 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/quizas-sea-la-decision-mas-dificil-que-hemos-tenido-que-tomar-monsieur-perine-anuncia-su-separacion/"
-  },
-  {
-    "title": "Dillom: “Si no te da un poco de vergüenza mostrar tu música, algo mal estás haciendo”",
-    "tag": "TENDENCIAS",
-    "date": "Wed, 30 Sep 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/09/Doble2_62A3598.jpg",
-    "url": "https://es.rollingstone.com/arg-dillom-si-no-te-da-un-poco-de-verguenza-mostrar-tu-musica-algo-mal-estas-haciendo/"
-  },
-  {
-    "title": "Star Wars selecciona a Jon Watts como director para el Episodio X del Skywalker Saga",
-    "tag": "TENDENCIAS",
-    "date": "Tue, 29 Sep 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/star-wars-selecciona-a-jon-watts-como-director-para-el-episodio-x-del-skywalker-saga/"
-  },
-  {
-    "title": "Ryan Murphy, creador de Glee, afirma que terminó el guion para el reboot de la serie",
-    "tag": "TENDENCIAS",
-    "date": "Tue, 29 Sep 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/ryan-murphy-creador-de-glee-afirma-que-termino-el-guion-para-el-reboot-de-la-serie/"
-  },
-  {
-    "title": "Garth Jennings: “El arte puede devolvernos la esperanza”",
-    "tag": "TENDENCIAS",
-    "date": "Tue, 29 Sep 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/09/2-Garth-Jennings-El-arte-puede-devolvernos-la-esperanza-.jpg",
-    "url": "https://es.rollingstone.com/garth-jennings-el-arte-puede-devolvernos-la-esperanza/"
-  },
-  {
-    "title": "Crítica: Sin sangre (Without Blood)",
-    "tag": "TENDENCIAS",
-    "date": "Tue, 29 Sep 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/critica-sin-sangre-without-blood/"
-  },
-  {
-    "title": "The Peninsula Istanbul, el hotel con vista a la historia de Turquía",
-    "tag": "TENDENCIAS",
-    "date": "Tue, 29 Sep 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/09/2-The-Peninsula-Istanbul-el-hotel-con-vista-a-la-historia-de-Turquia.jpg",
-    "url": "https://es.rollingstone.com/the-peninsula-istanbul-el-hotel-con-vista-a-la-historia-de-turquia/"
-  },
-  {
-    "title": "U2: soñándolo todo una vez más",
-    "tag": "TENDENCIAS",
-    "date": "Tue, 29 Sep 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/09/U2-sonandolo-todo-una-vez-mas-2.jpg",
-    "url": "https://es.rollingstone.com/u2-sonandolo-todo-una-vez-mas/"
   }
 ]
