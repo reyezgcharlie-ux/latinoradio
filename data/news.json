@@ -1,5 +1,47 @@
 [
   {
+    "title": "10 discos nuevos para escuchar hoy",
+    "tag": "MÚSICA",
+    "date": "Fri, 02 Oct 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/10/10-discos-nuevos-octubre-2.jpg",
+    "url": "https://indiehoy.com/noticias/10-discos-nuevos-para-escuchar-hoy-johnny-marr-blossoms-y-mas/"
+  },
+  {
+    "title": "Crítica de Adolescencia, sexo y muerte en el Campamento Miasma: La vida es cine y el cine es vida",
+    "tag": "MÚSICA",
+    "date": "Fri, 02 Oct 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/10/CampMiasma_Still_11_©MUBI.webp",
+    "url": "https://indiehoy.com/cine/critica-de-adolescencia-sexo-y-muerte-en-el-campamento-miasma-la-vida-es-cine-y-el-cine-es-vida/"
+  },
+  {
+    "title": "Molle, el enmascarado de la rave",
+    "tag": "MÚSICA",
+    "date": "Fri, 02 Oct 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/09/molle.jpg",
+    "url": "https://indiehoy.com/descubrir/molle-el-enmascarado-de-la-rave/"
+  },
+  {
+    "title": "Lo que se sabe de la secuela de K-Pop Demon Hunters",
+    "tag": "MÚSICA",
+    "date": "Fri, 02 Oct 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/10/k-pop-demon-hunters.webp",
+    "url": "https://indiehoy.com/cine/lo-que-se-sabe-de-la-secuela-de-k-pop-demon-hunters/"
+  },
+  {
+    "title": "Phil Collins sospecha que Paul McCartney hizo borrar una escena de The Beatles Anthology",
+    "tag": "MÚSICA",
+    "date": "Fri, 02 Oct 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/10/phil-collins-paul-mccartney.webp",
+    "url": "https://indiehoy.com/noticias/phil-collins-sospecha-que-paul-mccartney-hizo-borrar-una-escena-de-the-beatles-anthology/"
+  },
+  {
+    "title": "De qué trata November Rain, la balada inoxidable de Guns N' Roses",
+    "tag": "MÚSICA",
+    "date": "Fri, 02 Oct 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2025/05/guns-n-roses-2.jpg",
+    "url": "https://indiehoy.com/historias/el-significado-de-november-rain-guns-n-roses/"
+  },
+  {
     "title": "4 artistas criticados por George Harrison",
     "tag": "MÚSICA",
     "date": "Fri, 02 Oct 2026",
@@ -21,13 +63,6 @@
     "url": "https://indiehoy.com/noticias/ricardo-soule-fundador-de-vox-dei-murio-a-los-76-anos/"
   },
   {
-    "title": "10 discos nuevos para escuchar hoy",
-    "tag": "MÚSICA",
-    "date": "Fri, 02 Oct 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/10/10-discos-nuevos-octubre-2.jpg",
-    "url": "https://indiehoy.com/noticias/10-discos-nuevos-para-escuchar-hoy-johnny-marr-blossoms-y-mas/"
-  },
-  {
     "title": "Los 10 mejores discos de rock alternativo de los años 2000 según la crítica",
     "tag": "MÚSICA",
     "date": "Fri, 02 Oct 2026",
@@ -35,39 +70,60 @@
     "url": "https://indiehoy.com/historias/los-10-mejores-discos-de-rock-alternativo-de-los-anos-2000-segun-la-critica/"
   },
   {
-    "title": "The Lemon Twigs vuelve a Argentina: Fecha, lugar y entradas",
-    "tag": "MÚSICA",
+    "title": "Ed Sheeran le dijo a Bono que no quería “Meterse en la política” para su colaboración con U2",
+    "tag": "TENDENCIAS",
     "date": "Fri, 02 Oct 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/10/LT-by-Eva-Chambers.jpg",
-    "url": "https://indiehoy.com/recitales/the-lemon-twigs-vuelve-a-argentina-fecha-lugar-y-entradas/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/ed-sheeran-le-dijo-a-bono-que-no-queria-meterse-en-la-politica-para-su-colaboracion-con-u2/"
   },
   {
-    "title": "El guitarrista que revolucionó la forma de tocar según Ronnie Wood",
-    "tag": "MÚSICA",
+    "title": "Carabin3 colabora con Anuel AA en ‘versAAce’",
+    "tag": "TENDENCIAS",
     "date": "Fri, 02 Oct 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2023/01/ronnnie-wood-.jpg",
-    "url": "https://indiehoy.com/historias/el-guitarrista-que-revoluciono-la-forma-de-tocar-segun-ronnie-wood/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/carabin3-colabora-con-anuel-aa-en-versaace/"
   },
   {
-    "title": "Qué ver en Disney+: 4 series animadas recomendadas por Indie Hoy",
-    "tag": "MÚSICA",
+    "title": "Grupo Dos Palillos: un imperdible gastronómico en Barcelona",
+    "tag": "TENDENCIAS",
     "date": "Fri, 02 Oct 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/10/bobs-burgers.webp",
-    "url": "https://indiehoy.com/series/que-ver-en-disney-4-series-animadas-recomendadas-por-indie-hoy/"
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/10/2-Grupo-Dos-Palillos-un-imperdible-gastronomico-en-Barcelona.jpg",
+    "url": "https://es.rollingstone.com/grupo-dos-palillos-un-imperdible-gastronomico-en-barcelona/"
   },
   {
-    "title": "Qué ver en Netflix: 5 series de comedia recomendadas por Indie Hoy",
-    "tag": "MÚSICA",
+    "title": "Milo J arma una selección del folclore y presenta ‘La Jangada’, un hermoso poema visual",
+    "tag": "TENDENCIAS",
     "date": "Fri, 02 Oct 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2020/05/community.jpg",
-    "url": "https://indiehoy.com/series/que-ver-en-netflix-5-series-de-comedia-recomendadas-por-indie-hoy/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/arg-milo-j-arma-una-seleccion-del-folclore-y-presenta-la-jangada-un-hermoso-poema-visual/"
   },
   {
-    "title": "Molle, el enmascarado de la rave",
-    "tag": "MÚSICA",
+    "title": "La historia de ‘La Biblia’ de Vox Dei: la primera obra conceptual del rock argentino",
+    "tag": "TENDENCIAS",
     "date": "Fri, 02 Oct 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/09/molle.jpg",
-    "url": "https://indiehoy.com/descubrir/molle-el-enmascarado-de-la-rave/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/arg-la-historia-de-la-biblia-de-vox-dei-la-primera-obra-conceptual-del-rock-argentino/"
+  },
+  {
+    "title": "Arde Bogotá presenta Manufacturas del club de la gente sola",
+    "tag": "TENDENCIAS",
+    "date": "Fri, 02 Oct 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/arde-bogota-presenta-manufacturas-del-club-de-la-gente-sola/"
+  },
+  {
+    "title": "Crítica: Palestina 36",
+    "tag": "TENDENCIAS",
+    "date": "Fri, 02 Oct 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/critica-palestina-36/"
+  },
+  {
+    "title": "Crítica: Digger",
+    "tag": "TENDENCIAS",
+    "date": "Fri, 02 Oct 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/critica-digger/"
   },
   {
     "title": "Murió Ricardo Soulé, guitarrista de Vox Dei y pionero del rock argentino",
@@ -82,61 +138,5 @@
     "date": "Fri, 02 Oct 2026",
     "img": "https://es.rollingstone.com/wp-content/uploads/2026/10/Captura-de-pantalla-2026-09-02-a-las-12.00.17-copy.jpg",
     "url": "https://es.rollingstone.com/arg-alguien-en-el-mundo-un-retrato-de-la-decada-mas-caotica-de-charly-garcia/"
-  },
-  {
-    "title": "Argentina procede con la venta de tierras a extranjeros",
-    "tag": "TENDENCIAS",
-    "date": "Thu, 01 Oct 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/argentina-procede-con-la-venta-de-tierras-a-extranjeros/"
-  },
-  {
-    "title": "Integrantes de BTS son declarados Huéspedes de Honor en Bogotá",
-    "tag": "TENDENCIAS",
-    "date": "Thu, 01 Oct 2026",
-    "img": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f534.png",
-    "url": "https://es.rollingstone.com/integrantes-de-bts-son-declarados-huespedes-de-honor-en-bogota/"
-  },
-  {
-    "title": "La jangada: la celebración de Milo J por el primer aniversario de La vida era más corta",
-    "tag": "TENDENCIAS",
-    "date": "Thu, 01 Oct 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/la-jangada-la-celebracion-de-milo-j-por-el-primer-aniversario-de-la-vida-era-mas-corta/"
-  },
-  {
-    "title": "Artistas que debes conocer: Valentina",
-    "tag": "TENDENCIAS",
-    "date": "Thu, 01 Oct 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/artistas-que-debes-conocer-valentina/"
-  },
-  {
-    "title": "Aterciopelados y Manuel Medrano reviven ‘No Necesito’ 30 años después",
-    "tag": "TENDENCIAS",
-    "date": "Thu, 01 Oct 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/aterciopelados-y-manuel-medrano-reviven-no-necesito-30-anos-despues/"
-  },
-  {
-    "title": "Bille August: “La venganza devora a las personas desde dentro”",
-    "tag": "TENDENCIAS",
-    "date": "Thu, 01 Oct 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/10/2-Bille-August-La-venganza-devora-a-las-personas-desde-dentro.jpg",
-    "url": "https://es.rollingstone.com/bille-august-la-venganza-devora-a-las-personas-desde-dentro/"
-  },
-  {
-    "title": "Jamie Stillman, el músico y fabricante de pedales que ayudó a construir el sonido distorsionado del rock norteamericano",
-    "tag": "TENDENCIAS",
-    "date": "Thu, 01 Oct 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/arg-jamie-stillman-el-musico-y-fabricante-de-pedales-que-ayudo-a-construir-el-sonido-distorsionado-del-rock-norteamericano/"
-  },
-  {
-    "title": "Violino d’Oro: un palazzo veneciano donde el diseño y la gastronomía cuentan la historia de la ciudad",
-    "tag": "TENDENCIAS",
-    "date": "Thu, 01 Oct 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/10/Violino-dOro-un-palazzo-veneciano-donde-el-diseno-y-la-gastronomia-cuentan-la-historia-de-la-ciudad-1.jpg",
-    "url": "https://es.rollingstone.com/violino-doro-un-palazzo-veneciano-donde-el-diseno-y-la-gastronomia-cuentan-la-historia-de-la-ciudad/"
   }
 ]
