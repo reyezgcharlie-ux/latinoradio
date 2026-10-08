@@ -1,5 +1,47 @@
 [
   {
+    "title": "Lollapalooza Argentina 2027: Cuándo saldrá el lineup",
+    "tag": "MÚSICA",
+    "date": "Thu, 08 Oct 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/10/lollapalooza-@malenafradkin613.webp",
+    "url": "https://indiehoy.com/noticias/lollapalooza-argentina-2027-cuando-saldra-el-lineup/"
+  },
+  {
+    "title": "Johnny Marr: Ahora soy un poco más valiente y canto más sobre mí mismo",
+    "tag": "MÚSICA",
+    "date": "Wed, 07 Oct 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/09/johnny-marr.jpg",
+    "url": "https://indiehoy.com/entrevistas/johnny-marr-ahora-soy-un-poco-mas-valiente-y-canto-mas-sobre-mi-mismo/"
+  },
+  {
+    "title": "Murió Piero, el cantante de Mi viejo y Para el pueblo lo que es del pueblo",
+    "tag": "MÚSICA",
+    "date": "Wed, 07 Oct 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/10/piero.webp",
+    "url": "https://indiehoy.com/noticias/murio-piero-el-cantante-de-mi-viejo-y-para-el-pueblo-que-es-del-pueblo/"
+  },
+  {
+    "title": "6 muestras de arte para visitar en octubre en Buenos Aires",
+    "tag": "MÚSICA",
+    "date": "Wed, 07 Oct 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/10/La-memoria-de-la-coleccion.-El-Moderno-en-el-Parque-.webp",
+    "url": "https://indiehoy.com/arte/6-muestras-de-arte-para-visitar-octubre-buenos-aires-2026/"
+  },
+  {
+    "title": "El disco de Green Day que Billie Joe Armstrong no quiere escuchar: Muy estresante",
+    "tag": "MÚSICA",
+    "date": "Wed, 07 Oct 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2023/11/billie-joe-armstrong.jpg",
+    "url": "https://indiehoy.com/historias/el-disco-de-green-day-que-billie-joe-armstrong-no-quiere-escuchar-muy-estresante/"
+  },
+  {
+    "title": "El guitarrista favorito de Courtney Love: Es una locura",
+    "tag": "MÚSICA",
+    "date": "Wed, 07 Oct 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2023/03/courtney-love.jpg",
+    "url": "https://indiehoy.com/historias/el-guitarrista-favorito-de-courtney-love-es-una-locura/"
+  },
+  {
     "title": "Qué dicen las críticas sobre Carrie, la nueva serie de Prime Video",
     "tag": "MÚSICA",
     "date": "Wed, 07 Oct 2026",
@@ -21,13 +63,6 @@
     "url": "https://indiehoy.com/arte/la-magia-de-disney-llega-a-buenos-aires-con-una-muestra-gratuita/"
   },
   {
-    "title": "6 muestras de arte para visitar en octubre en Buenos Aires",
-    "tag": "MÚSICA",
-    "date": "Wed, 07 Oct 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/10/La-memoria-de-la-coleccion.-El-Moderno-en-el-Parque-.webp",
-    "url": "https://indiehoy.com/arte/6-muestras-de-arte-para-visitar-octubre-buenos-aires-2026/"
-  },
-  {
     "title": "Marshall’s Massacre: Así es el nuevo videojuego retro protagonizado por Eminem",
     "tag": "MÚSICA",
     "date": "Wed, 07 Oct 2026",
@@ -35,108 +70,73 @@
     "url": "https://indiehoy.com/noticias/marshalls-massacre-asi-es-el-nuevo-videojuego-retro-protagonizado-por-eminem/"
   },
   {
-    "title": "BTS llevó la era de Arirang a una nueva colección de figuras de BE@RBRICK",
-    "tag": "MÚSICA",
-    "date": "Wed, 07 Oct 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/10/BTS-x-BE@RBRICK-2.webp",
-    "url": "https://indiehoy.com/noticias/bts-llevo-la-era-de-arirang-a-una-nueva-coleccion-de-figuras-de-berbrick/"
+    "title": "En Arkestra, la gastronomía de Estambul se encuentra con la cultura del vinilo",
+    "tag": "TENDENCIAS",
+    "date": "Thu, 08 Oct 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/10/2-En-Arkestra-la-gastronomia-de-Estambul-se-encuentra-con-la-cultura-del-vinilo.jpg",
+    "url": "https://es.rollingstone.com/en-arkestra-la-gastronomia-de-estambul-se-encuentra-con-la-cultura-del-vinilo/"
   },
   {
-    "title": "Festival Levitation en Argentina: Fecha, lugar y entradas",
-    "tag": "MÚSICA",
-    "date": "Wed, 07 Oct 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/10/FRANKIE-AND-THE-WITCH-FINGERS-OSEES.webp",
-    "url": "https://indiehoy.com/recitales/festival-levitation-en-argentina-fecha-lugar-y-entradas/"
-  },
-  {
-    "title": "Qué ver en HBO Max: 3 series de suspenso recomendadas por Indie Hoy",
-    "tag": "MÚSICA",
-    "date": "Wed, 07 Oct 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/10/sharp-objects.webp",
-    "url": "https://indiehoy.com/series/que-ver-en-hbo-max-3-series-de-suspenso-recomendadas-por-indie-hoy/"
-  },
-  {
-    "title": "Los 10 mejores discos de thrash metal de los años 2000 según la crítica",
-    "tag": "MÚSICA",
-    "date": "Wed, 07 Oct 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/10/10-discos-trash-metal-anos-2000.webp",
-    "url": "https://indiehoy.com/historias/los-10-mejores-discos-de-thrash-metal-de-los-anos-2000-segun-la-critica/"
-  },
-  {
-    "title": "El mejor disco de The Velvet Underground según la Comunidad Indie Hoy",
-    "tag": "MÚSICA",
-    "date": "Wed, 07 Oct 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2023/03/the-velvet-underground.jpg",
-    "url": "https://indiehoy.com/noticias/el-mejor-disco-de-the-velvet-underground-segun-la-comunidad-indie-hoy/"
-  },
-  {
-    "title": "Johnny Marr: “Con The Smiths escribimos canciones que cambiaron el mainstream de la música”",
+    "title": "Crítica: Llueve sobre Babel ",
     "tag": "TENDENCIAS",
     "date": "Wed, 07 Oct 2026",
     "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/arg-johnny-marr-con-the-smiths-escribimos-canciones-que-cambiaron-el-mainstream-de-la-musica/"
+    "url": "https://es.rollingstone.com/critica-llueve-sobre-babel/"
   },
   {
-    "title": "Levitation llega por primera vez a la Argentina con Melvins, Osees, Boris y más",
+    "title": "Katherina Bach: “La tecnología puede ser una herramienta de reconexión con la naturaleza”",
     "tag": "TENDENCIAS",
     "date": "Wed, 07 Oct 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/10/LEVITATION-ARGENTINA.jpg",
-    "url": "https://es.rollingstone.com/arg-levitation-llega-por-primera-vez-a-la-argentina-con-melvins-osees-boris-y-mas/"
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/10/2-Katherina-Bach-La-tecnologia-puede-ser-una-herramienta-de-reconexion-con-la-naturaleza.jpg",
+    "url": "https://es.rollingstone.com/katherina-bach-la-tecnologia-puede-ser-una-herramienta-de-reconexion-con-la-naturaleza/"
   },
   {
-    "title": "Los Premios ROLLING STONE en Español 2026 anuncian a sus nominados de Música",
+    "title": "The Batman Part II toma una nueva pausa en su producción",
     "tag": "TENDENCIAS",
     "date": "Wed, 07 Oct 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2025/10/Sin-titulo-1-15.jpg",
-    "url": "https://es.rollingstone.com/los-premios-rolling-stone-en-espanol-2026-anuncian-a-sus-nominados-de-musica/"
-  },
-  {
-    "title": "Los ZYN Premios ROLLING STONE en Español 2026 anuncian a sus nominados de Música",
-    "tag": "TENDENCIAS",
-    "date": "Wed, 07 Oct 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2025/10/Sin-titulo-1-16.jpg",
-    "url": "https://es.rollingstone.com/los-zyn-premios-rolling-stone-en-espanol-2026-anuncian-a-sus-nominados-de-musica/"
-  },
-  {
-    "title": "Nsqk revela el tracklist de Mosca, su próximo álbum",
-    "tag": "TENDENCIAS",
-    "date": "Tue, 06 Oct 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/10/2-Nsqk-revela-el-tracklist-de-Mosca-su-proximo-album.jpg",
-    "url": "https://es.rollingstone.com/nsqk-revela-el-tracklist-de-mosca-su-proximo-album/"
-  },
-  {
-    "title": "Crítica: Tadeo Jones y la lámpara maravillosa",
-    "tag": "TENDENCIAS",
-    "date": "Tue, 06 Oct 2026",
     "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/critica-tadeo-jones-y-la-lampara-maravillosa/"
+    "url": "https://es.rollingstone.com/the-batman-part-ii-toma-una-nueva-pausa-en-su-produccion/"
   },
   {
-    "title": "Crítica: Lecciones de amor (Demain je tombe amoureux)",
+    "title": "Aria Vega: “Mi legado es ser portadora de mi cultura”",
     "tag": "TENDENCIAS",
-    "date": "Tue, 06 Oct 2026",
+    "date": "Wed, 07 Oct 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/10/2-Aria-Vega-Mi-legado-es-ser-portadora-de-mi-cultura.jpg",
+    "url": "https://es.rollingstone.com/aria-vega-mi-legado-es-ser-portadora-de-mi-cultura/"
+  },
+  {
+    "title": "Funk Tribu: así nació el universo de LIFE",
+    "tag": "TENDENCIAS",
+    "date": "Wed, 07 Oct 2026",
     "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/critica-lecciones-de-amor-demain-je-tombe-amoureux/"
+    "url": "https://es.rollingstone.com/funk-tribu-asi-nacio-el-universo-de-life/"
   },
   {
-    "title": "“Everything RiaL es uno de los proyectos más importantes de mi carrera”: Miky Woodz",
+    "title": "BB ASUL presenta Miss Universo, una carta de amor para quienes sintieron que no encajaban",
     "tag": "TENDENCIAS",
-    "date": "Tue, 06 Oct 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/10/2-Everything-RiaL-es-uno-de-los-proyectos-mas-importantes-de-mi-carrera-Miky-Woodz.jpg",
-    "url": "https://es.rollingstone.com/everything-rial-es-uno-de-los-proyectos-mas-importantes-de-mi-carrera-miky-woodz/"
+    "date": "Wed, 07 Oct 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/10/2-BB-ASUL-presenta-Miss-Universo-una-carta-de-amor-para-quienes-sintieron-que-no-encajaban-.jpg",
+    "url": "https://es.rollingstone.com/bb-asul-presenta-miss-universo-una-carta-de-amor-para-quienes-sintieron-que-no-encajaban/"
   },
   {
-    "title": "Ubeimar Ríos: “Muchos artistas se enamoran del fracaso”",
+    "title": "Oasis bloquea la subasta grabaciones de conciertos y ensayos de los años 90",
     "tag": "TENDENCIAS",
-    "date": "Tue, 06 Oct 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/10/2-Ubeimar-Rios-Muchos-artistas-se-enamoran-del-fracaso-.jpg",
-    "url": "https://es.rollingstone.com/ubeimar-rios-muchos-artistas-se-enamoran-del-fracaso/"
+    "date": "Wed, 07 Oct 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/oasis-bloquea-la-subasta-grabaciones-de-conciertos-y-ensayos-de-los-anos-90/"
   },
   {
-    "title": "La disquería Zivals denuncia que el gobierno porteño quiere expropiar y demoler su icónico local",
+    "title": "Mira a Scarlett Johansson en el tráiler de El exorcista: Mártires de Mike Flanagan",
     "tag": "TENDENCIAS",
-    "date": "Tue, 06 Oct 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/10/FERNANDO-LAVIZ-ZIVALS-683x1024.jpg",
-    "url": "https://es.rollingstone.com/arg-la-disqueria-zivals-denuncia-que-el-gobierno-porteno-quiere-expropiar-y-demoler-su-iconico-local/"
+    "date": "Wed, 07 Oct 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/mira-a-scarlett-johansson-en-el-trailer-de-el-exorcista-martires-de-mike-flanagan/"
+  },
+  {
+    "title": "Los Tres: 30 años después, la música sigue siendo suficiente",
+    "tag": "TENDENCIAS",
+    "date": "Wed, 07 Oct 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/10/2-Los-Tres-30-anos-despues-la-musica-sigue-siendo-suficiente.jpg",
+    "url": "https://es.rollingstone.com/los-tres-30-anos-despues-la-musica-sigue-siendo-suficiente/"
   }
 ]
