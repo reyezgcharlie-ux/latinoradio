@@ -1,10 +1,45 @@
 [
   {
-    "title": "Los 3 artistas que representarán a Argentina en BIME Bilbao 2026",
+    "title": "Lollapalooza Argentina 2027 revela su lineup: Charli XCX, Queens Of The Stone Age y más",
     "tag": "MÚSICA",
     "date": "Thu, 08 Oct 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/10/artistas-argentinos-bime.webp",
-    "url": "https://indiehoy.com/noticias/los-3-artistas-que-representaran-a-argentina-en-bime-bilbao-2026/"
+    "img": "https://indiehoy.com/wp-content/uploads/2026/10/lollapalooza.jpg",
+    "url": "https://indiehoy.com/recitales/lollapalooza-argentina-2027-revela-su-lineup-charli-xcx-queens-of-the-stone-age-y-mas/"
+  },
+  {
+    "title": "Los 4 artistas que representarán a Argentina en BIME Bilbao 2026",
+    "tag": "MÚSICA",
+    "date": "Thu, 08 Oct 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/10/artistas-argentinos-en-el-bime-2026-1.webp",
+    "url": "https://indiehoy.com/noticias/los-4-artistas-que-representaran-a-argentina-en-bime-bilbao-2026/"
+  },
+  {
+    "title": "5 obras de teatro para ver en octubre en Buenos Aires",
+    "tag": "MÚSICA",
+    "date": "Thu, 08 Oct 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/10/no-me-dejes-asi-obra-de-teatro.jpg",
+    "url": "https://indiehoy.com/teatro/5-obras-de-teatro-para-ver-en-octubre-en-buenos-aires-2026/"
+  },
+  {
+    "title": "Las 3 series favoritas de Mick Jagger",
+    "tag": "MÚSICA",
+    "date": "Thu, 08 Oct 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2022/08/My-Life-as-a-Rolling-Stone_Mick-Jagger-03.jpeg",
+    "url": "https://indiehoy.com/series/3-series-favoritas-de-mick-jagger/"
+  },
+  {
+    "title": "Bajo la superficie: De qué trata la nueva serie canadiense de Netflix",
+    "tag": "MÚSICA",
+    "date": "Thu, 08 Oct 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/10/Mackenzie-Davis.webp",
+    "url": "https://indiehoy.com/series/bajo-la-superficie-de-que-trata-la-nueva-serie-canadiense-de-netflix/"
+  },
+  {
+    "title": "La agenda de recitales para este fin de semana en Buenos Aires",
+    "tag": "MÚSICA",
+    "date": "Thu, 08 Oct 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2024/11/recitales-4.jpg",
+    "url": "https://indiehoy.com/recitales/agenda-recitales-este-fin-de-semana-buenos-aires/"
   },
   {
     "title": "Robert Pattinson elige la película definitiva de los 2000",
@@ -28,13 +63,6 @@
     "url": "https://indiehoy.com/cine/las-8-peliculas-favoritas-de-nick-cave/"
   },
   {
-    "title": "5 obras de teatro para ver en octubre en Buenos Aires",
-    "tag": "MÚSICA",
-    "date": "Thu, 08 Oct 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/10/no-me-dejes-asi-obra-de-teatro.jpg",
-    "url": "https://indiehoy.com/teatro/5-obras-de-teatro-para-ver-en-octubre-en-buenos-aires-2026/"
-  },
-  {
     "title": "Los 10 mejores discos de folk rock de los años 80 según la crítica",
     "tag": "MÚSICA",
     "date": "Thu, 08 Oct 2026",
@@ -42,32 +70,39 @@
     "url": "https://indiehoy.com/historias/los-10-mejores-discos-de-folk-rock-de-los-anos-80-segun-la-critica/"
   },
   {
-    "title": "Lollapalooza Argentina 2027 revela su lineup: Charli XCX, Queens Of The Stone Age y más",
-    "tag": "MÚSICA",
+    "title": "Rihanna tiene “al menos 170 canciones inéditas” en su archivo personal",
+    "tag": "TENDENCIAS",
     "date": "Thu, 08 Oct 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/10/lollapalooza.jpg",
-    "url": "https://indiehoy.com/recitales/lollapalooza-argentina-2027-revela-su-lineup-charli-xcx-queens-of-the-stone-age-y-mas/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/rihanna-tiene-al-menos-170-canciones-ineditas-en-su-archivo-personal/"
   },
   {
-    "title": "Qué ver en Netflix: 3 series de acción recomendadas por Indie Hoy",
-    "tag": "MÚSICA",
+    "title": "BOmm 2026 cierra conectando a Bogotá con la industria musical global",
+    "tag": "TENDENCIAS",
     "date": "Thu, 08 Oct 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2025/01/el-agente-nocturno-netflix.jpg",
-    "url": "https://indiehoy.com/series/que-ver-en-netflix-3-series-de-accion-recomendadas-por-indie-hoy/"
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/09/BOmm-2026-cierra-conectando-a-Bogoa-con-la-industria-musical-global-1.jpg",
+    "url": "https://es.rollingstone.com/bomm-2026-cierra-conectando-a-bogota-con-la-industria-musical-global/"
   },
   {
-    "title": "Paul McCartney reveló el accidente que terminó dando forma a la tapa de Rubber Soul",
-    "tag": "MÚSICA",
+    "title": "En “Rebelión en la jaula”, su nuevo single, Skay Beilinson le hace un guiño a Jimi Hendrix",
+    "tag": "TENDENCIAS",
     "date": "Thu, 08 Oct 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/10/RUBBER-SOUL-DE-THE-BEATLES.webp",
-    "url": "https://indiehoy.com/noticias/paul-mccartney-revelo-el-accidente-que-termino-dando-forma-a-la-tapa-de-rubber-soul/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/arg-en-rebelion-en-la-jaula-su-nuevo-single-skay-beilinson-le-hace-un-guino-a-jimi-hendrix/"
   },
   {
-    "title": "Qué ver en Disney+: 3 series de suspenso recomendadas por Indie Hoy",
-    "tag": "MÚSICA",
+    "title": "U2 escribió una canción sobre Rosalía: ¿qué opina ella al respecto?",
+    "tag": "TENDENCIAS",
     "date": "Thu, 08 Oct 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2025/02/paradise-disney.jpg",
-    "url": "https://indiehoy.com/series/que-ver-en-disney-3-series-de-suspenso-recomendadas-por-indie-hoy/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/arg-u2-escribio-una-cancion-sobre-rosalia-que-opina-ella-al-respecto/"
+  },
+  {
+    "title": "Crítica: Caballo salvaje nueve (Wild Horse Nine)",
+    "tag": "TENDENCIAS",
+    "date": "Thu, 08 Oct 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/critica-caballo-salvaje-nueve-wild-horse-nine/"
   },
   {
     "title": "Crítica: Tres hermanas",
@@ -103,40 +138,5 @@
     "date": "Thu, 08 Oct 2026",
     "img": "https://es.rollingstone.com/wp-content/uploads/2026/10/lollapalooza-argentina-2027.jpg",
     "url": "https://es.rollingstone.com/arg-lollapalooza-argentina-2027-travis-scott-charli-xcx-the-killers-y-tini-entre-los-headliners/"
-  },
-  {
-    "title": "Piero: canciones de una Latinoamérica unida",
-    "tag": "TENDENCIAS",
-    "date": "Thu, 08 Oct 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/piero-canciones-de-una-latinoamerica-unida/"
-  },
-  {
-    "title": "Arde Bogotá propone en Manufacturas del club de la gente sola la idea de “hacerse un corazón que no sienta”",
-    "tag": "TENDENCIAS",
-    "date": "Thu, 08 Oct 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/10/Arde-Bogota-propone-en-Manufacturas-del-club-de-la-gente-sola-la-idea-de-hacerse-un-corazon-que-no-sienta-1.jpg",
-    "url": "https://es.rollingstone.com/arde-bogota-propone-en-manufacturas-del-club-de-la-gente-sola-la-idea-de-hacerse-un-corazon-que-no-sienta/"
-  },
-  {
-    "title": "En Arkestra, la gastronomía de Estambul se encuentra con la cultura del vinilo",
-    "tag": "TENDENCIAS",
-    "date": "Thu, 08 Oct 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/10/2-En-Arkestra-la-gastronomia-de-Estambul-se-encuentra-con-la-cultura-del-vinilo.jpg",
-    "url": "https://es.rollingstone.com/en-arkestra-la-gastronomia-de-estambul-se-encuentra-con-la-cultura-del-vinilo/"
-  },
-  {
-    "title": "Crítica: Llueve sobre Babel ",
-    "tag": "TENDENCIAS",
-    "date": "Wed, 07 Oct 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/critica-llueve-sobre-babel/"
-  },
-  {
-    "title": "Katherina Bach: “La tecnología puede ser una herramienta de reconexión con la naturaleza”",
-    "tag": "TENDENCIAS",
-    "date": "Wed, 07 Oct 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/10/2-Katherina-Bach-La-tecnologia-puede-ser-una-herramienta-de-reconexion-con-la-naturaleza.jpg",
-    "url": "https://es.rollingstone.com/katherina-bach-la-tecnologia-puede-ser-una-herramienta-de-reconexion-con-la-naturaleza/"
   }
 ]
