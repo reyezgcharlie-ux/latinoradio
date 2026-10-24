@@ -1,5 +1,33 @@
 [
   {
+    "title": "Qué ver en Prime Video: 4 películas que están dando que hablar y no te podés perder",
+    "tag": "MÚSICA",
+    "date": "Sat, 24 Oct 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/10/masterplan.webp",
+    "url": "https://indiehoy.com/cine/que-ver-en-prime-video-4-peliculas-que-estan-dando-que-hablar-y-no-te-podes-perder/"
+  },
+  {
+    "title": "Qué ver en Netflix: 3 series musicales recomendadas por Indie Hoy",
+    "tag": "MÚSICA",
+    "date": "Sat, 24 Oct 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2025/01/4-series-comedia-cortas-netflix.jpg",
+    "url": "https://indiehoy.com/series/que-ver-en-netflix-3-series-musicales-recomendadas-por-indie-hoy/"
+  },
+  {
+    "title": "El músico que Paul McCartney y Bob Dylan consideraron “un genio”",
+    "tag": "MÚSICA",
+    "date": "Sat, 24 Oct 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/05/paul-mccartney-bob-dylan.jpg",
+    "url": "https://indiehoy.com/historias/el-musico-que-paul-mccartney-y-bob-dylan-consideraron-un-genio/"
+  },
+  {
+    "title": "El disco que inspiró a Dave Grohl: Una obra maestra",
+    "tag": "MÚSICA",
+    "date": "Sat, 24 Oct 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2024/08/dave-grohl-disco-lo-inspiro-a-tocar-la-bateria.jpg",
+    "url": "https://indiehoy.com/historias/el-disco-que-inspiro-a-dave-grohl-una-obra-maestra/"
+  },
+  {
     "title": "10 canciones que queremos escuchar en el Festival Bandera 2026",
     "tag": "MÚSICA",
     "date": "Fri, 23 Oct 2026",
@@ -42,31 +70,73 @@
     "url": "https://indiehoy.com/historias/las-10-mejores-canciones-de-charly-garcia-segun-indie-hoy/"
   },
   {
-    "title": "10 discos nuevos para escuchar hoy",
-    "tag": "MÚSICA",
+    "title": "Crítica: Rose",
+    "tag": "TENDENCIAS",
     "date": "Fri, 23 Oct 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/10/discos-nuevos-octubre-2026-.jpg",
-    "url": "https://indiehoy.com/noticias/10-discos-nuevos-para-escuchar-hoy-anderson-paak-fine-mas/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/critica-rose/"
   },
   {
-    "title": "Robert Smith será premiado por defender a los fans y combatir la reventa de tickets",
-    "tag": "MÚSICA",
+    "title": "Crítica: Clayface",
+    "tag": "TENDENCIAS",
     "date": "Fri, 23 Oct 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/10/robert-smith.webp",
-    "url": "https://indiehoy.com/noticias/robert-smith-sera-premiado-por-defender-a-los-fans-y-combatir-la-reventa-de-tickets/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/critica-clayface/"
   },
   {
-    "title": "La historia real detrás de Contra el huracán, la nueva película de Netflix",
-    "tag": "MÚSICA",
+    "title": "Descubre la agenda PRO de BIME Bilbao 2026 ",
+    "tag": "TENDENCIAS",
     "date": "Fri, 23 Oct 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/10/Contra_el_huracan_n_00_23_55_08_R.webp",
-    "url": "https://indiehoy.com/cine/la-historia-real-detras-de-contra-el-huracan-la-nueva-pelicula-de-netflix/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/descubre-la-agenda-pro-de-bime-bilbao-2026/"
   },
   {
-    "title": "Alex Anwandter despide el año en Buenos Aires: Fecha, lugar y entradas",
-    "tag": "MÚSICA",
+    "title": "Crítica: ¡Basta mamá!",
+    "tag": "TENDENCIAS",
     "date": "Fri, 23 Oct 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/06/alex-anwandter-interior.jpg",
-    "url": "https://indiehoy.com/recitales/alex-anwandter-despide-el-ano-en-buenos-aires-fecha-lugar-y-entradas/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/critica-basta-mama/"
+  },
+  {
+    "title": "Crítica: La sinfonía de los bichos raros",
+    "tag": "TENDENCIAS",
+    "date": "Fri, 23 Oct 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/critica-la-sinfonia-de-los-bichos-raros/"
+  },
+  {
+    "title": "Interscope Capitol ficha a Saramalacara, El Doctor, MHTRESUNO y otros talentos argentinos",
+    "tag": "TENDENCIAS",
+    "date": "Fri, 23 Oct 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/10/EL-DOCTOR-1-1024x616.jpg",
+    "url": "https://es.rollingstone.com/arg-interscope-capitol-ficha-a-saramalacara-el-doctor-mhtresuno-y-otros-talentos-argentinos/"
+  },
+  {
+    "title": "Las nuevas voces que llegan a los ZYN Premios ROLLING STONE",
+    "tag": "TENDENCIAS",
+    "date": "Fri, 23 Oct 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/las-nuevas-voces-que-llegan-a-los-zyn-premios-rolling-stone/"
+  },
+  {
+    "title": "Los artistas que mueven la escena electrónica latina están presentes en los ZYN Premios ROLLING STONE",
+    "tag": "TENDENCIAS",
+    "date": "Fri, 23 Oct 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/los-artistas-que-mueven-la-escena-electronica-latina-estan-presentes-en-los-zyn-premios-rolling-stone/"
+  },
+  {
+    "title": "“Esto va a hacer realmente estúpida a la gente”, David Byrne sobre la IA",
+    "tag": "TENDENCIAS",
+    "date": "Fri, 23 Oct 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/esto-va-a-hacer-realmente-estupida-a-la-gente-david-byrne-sobre-la-ia/"
+  },
+  {
+    "title": "Artistas que debes conocer: Guille Toledano",
+    "tag": "TENDENCIAS",
+    "date": "Fri, 23 Oct 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/10/2-Artistas-que-debes-conocer-Guille-Toledano-.jpg",
+    "url": "https://es.rollingstone.com/artistas-que-debes-conocer-guille-toledano/"
   }
 ]
