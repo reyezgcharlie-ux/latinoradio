@@ -1,5 +1,26 @@
 [
   {
+    "title": "Las 5 mejores bandas de la historia según Billy Corgan",
+    "tag": "MÚSICA",
+    "date": "Mon, 26 Oct 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2025/03/billy-corgan-the-smashing-pumpkins.jpg",
+    "url": "https://indiehoy.com/historias/las-5-mejores-bandas-de-la-historia-segun-billy-corgan/"
+  },
+  {
+    "title": "10 lanzamientos para escuchar esta semana",
+    "tag": "MÚSICA",
+    "date": "Mon, 26 Oct 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/10/lanzamientos-oct.jpg",
+    "url": "https://indiehoy.com/noticias/10-lanzamientos-para-escuchar-esta-semana-2026-10-26/"
+  },
+  {
+    "title": "Reebok lanzó una colección inspirada en Avatar: la leyenda de Aang",
+    "tag": "MÚSICA",
+    "date": "Mon, 26 Oct 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/10/zapatillas-reebok-avatar.webp",
+    "url": "https://indiehoy.com/noticias/reebok-lanzo-una-coleccion-inspirada-en-avatar-la-leyenda-de-aang/"
+  },
+  {
     "title": "The Who: 5 curiosidades de Quadrophenia, el disco que marcó una época",
     "tag": "MÚSICA",
     "date": "Mon, 26 Oct 2026",
@@ -49,24 +70,73 @@
     "url": "https://indiehoy.com/series/5-series-sobre-casas-embrujadas/"
   },
   {
-    "title": "Qué ver en Netflix: 3 series españolas recomendadas por Indie Hoy",
-    "tag": "MÚSICA",
+    "title": "“¡Esto ha sido una canallada!”: Bolsonaro pide anular la victoria de Lula como presidente de Brasil",
+    "tag": "TENDENCIAS",
     "date": "Mon, 26 Oct 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/10/grande-de-espana.webp",
-    "url": "https://indiehoy.com/series/que-ver-en-netflix-3-series-espanolas-recomendadas-por-indie-hoy/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/esto-ha-sido-una-canallada-bolsonaro-pide-anular-la-victoria-de-lula-como-presidente-de-brasil/"
   },
   {
-    "title": "Qué ver en Prime Video: 3 películas nuevas recomendadas por Indie Hoy",
-    "tag": "MÚSICA",
+    "title": "Anthropic es demandada por entrenar sus modelos de IA con canciones de Elvis",
+    "tag": "TENDENCIAS",
     "date": "Mon, 26 Oct 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/05/antonio-banderas-dominic-sessa-tony.webp",
-    "url": "https://indiehoy.com/cine/que-ver-en-prime-video-3-peliculas-nuevas-recomendadas-por-indie-hoy/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/anthropic-es-demandada-por-entrenar-sus-modelos-de-ia-con-canciones-de-elvis/"
   },
   {
-    "title": "Fleetwood Mac estrenará su primer documental autorizado",
-    "tag": "MÚSICA",
+    "title": " Crítica: National Theatre Live: Frankenstein ",
+    "tag": "TENDENCIAS",
     "date": "Mon, 26 Oct 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/10/fleetwood-mac.webp",
-    "url": "https://indiehoy.com/noticias/fleetwood-mac-estrenara-su-primer-documental-autorizado/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/critica-national-theatre-live-frankenstein/"
+  },
+  {
+    "title": "Paweł Pawlikowski: La familia Mann entre la historia y el presente",
+    "tag": "TENDENCIAS",
+    "date": "Mon, 26 Oct 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/10/2-Pawel-Pawlikowski-La-familia-Mann-entre-la-historia-y-el-presente-.jpg",
+    "url": "https://es.rollingstone.com/pawel-pawlikowski-la-familia-mann-entre-la-historia-y-el-presente/"
+  },
+  {
+    "title": "Emily Hampshire: “Lo único que EDITH quería era divertirse, aunque de manera imprudente” ",
+    "tag": "TENDENCIAS",
+    "date": "Mon, 26 Oct 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/10/2-Emily-Hampshire-Lo-unico-que-EDITH-queria-era-divertirse-aunque-de-manera-imprudente-.jpg",
+    "url": "https://es.rollingstone.com/emily-hampshire-lo-unico-que-edith-queria-era-divertirse-aunque-de-manera-imprudente/"
+  },
+  {
+    "title": "Conoce a los artistas que representan a México en los Premios ROLLING STONE en Español",
+    "tag": "TENDENCIAS",
+    "date": "Mon, 26 Oct 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/conoce-a-los-artistas-que-representan-a-mexico-en-los-premios-rolling-stone-en-espanol/"
+  },
+  {
+    "title": "Artistas que no te puedes perder en BIME Bilbao 2026 ",
+    "tag": "TENDENCIAS",
+    "date": "Mon, 26 Oct 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/artistas-que-no-te-puedes-perder-en-bime-bilbao-2026/"
+  },
+  {
+    "title": "Han pasado 25 años desde el lanzamiento de Drukqs de Aphex Twin",
+    "tag": "TENDENCIAS",
+    "date": "Mon, 26 Oct 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/10/2-Han-pasado-25-anos-desde-el-lanzamiento-de-Drukqs-de-Aphex-Twin-.jpg",
+    "url": "https://es.rollingstone.com/han-pasado-25-anos-desde-el-lanzamiento-de-drukqs-de-aphex-twin/"
+  },
+  {
+    "title": "Murió Roxana Amed, la cantante de jazz que abordó el folclore y el rock argentino",
+    "tag": "TENDENCIAS",
+    "date": "Mon, 26 Oct 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/arg-murio-roxana-amed-la-cantante-de-jazz-que-abordo-el-folclore-y-el-rock-argentino/"
+  },
+  {
+    "title": "Angelo Moore de Fishbone: “Siempre están los h.d.p. que quieren arruinar todo”",
+    "tag": "TENDENCIAS",
+    "date": "Mon, 26 Oct 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/10/FISH1-1.jpg",
+    "url": "https://es.rollingstone.com/angelo-moore-de-fishbone-siempre-estan-los-h-d-p-que-quieren-arruinar-todo/"
   }
 ]
