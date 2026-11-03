@@ -1,5 +1,12 @@
 [
   {
+    "title": "Los 5 mejores discos de Radiohead según Indie Hoy",
+    "tag": "MÚSICA",
+    "date": "Mon, 02 Nov 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2025/09/radiohead.webp",
+    "url": "https://indiehoy.com/historias/5-mejores-discos-de-radiohead-segun-indie-hoy/"
+  },
+  {
     "title": "Ibanez lanza una colección de instrumentos inspirados en Dragon Ball Z",
     "tag": "MÚSICA",
     "date": "Mon, 02 Nov 2026",
@@ -63,10 +70,73 @@
     "url": "https://indiehoy.com/cine/los-10-mejores-estrenos-de-noviembre-en-netflix-hbo-max-prime-video-y-disney/"
   },
   {
-    "title": "Daft Punk: Salió a la luz una grabación inédita que estuvo guardada casi 30 años",
-    "tag": "MÚSICA",
+    "title": "Quilmes Rock anunció su line-up: Babasónicos, Divididos, Fito Páez, Los Fabulosos Cadillacs y Jet, entre los destacados",
+    "tag": "TENDENCIAS",
     "date": "Mon, 02 Nov 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2023/04/daft-punk.jpg",
-    "url": "https://indiehoy.com/noticias/daft-punk-salio-a-la-luz-una-grabacion-inedita-que-estuvo-guardada-casi-30-anos/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/arg-quilmes-rock-anuncio-su-line-up-babasonicos-divididos-fito-paez-los-fabulosos-cadillacs-y-jet-entre-los-destacados/"
+  },
+  {
+    "title": "Cómo se hizo ‘Argentina Stone’, el documental que retrata la cultura rollinga desde adentro",
+    "tag": "TENDENCIAS",
+    "date": "Mon, 02 Nov 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/11/ARGENTINA-STONE-1024x616.jpg",
+    "url": "https://es.rollingstone.com/arg-como-se-hizo-argentina-stone-el-documental-que-retrata-la-cultura-rollinga-desde-adentro/"
+  },
+  {
+    "title": "Imelda May: “Con Ronnie Wood somos almas gemelas”",
+    "tag": "TENDENCIAS",
+    "date": "Mon, 02 Nov 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/arg-imelda-may-con-ronnie-wood-somos-almas-gemelas/"
+  },
+  {
+    "title": "Crítica: Ted Lasso: Temporadas 1-4",
+    "tag": "TENDENCIAS",
+    "date": "Sat, 31 Oct 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/critica-ted-lasso-temporadas-1-4/"
+  },
+  {
+    "title": "Los 20 personajes más aterradores de la historia del cine",
+    "tag": "TENDENCIAS",
+    "date": "Sat, 31 Oct 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/10/2-Los-20-personajes-mas-aterradores-de-la-historia-del-cine-.jpg",
+    "url": "https://es.rollingstone.com/los-20-personajes-mas-aterradores-de-la-historia-del-cine/"
+  },
+  {
+    "title": "YOSHI muestra su nueva cara en Selva Oscura",
+    "tag": "TENDENCIAS",
+    "date": "Fri, 30 Oct 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/10/2-YOSHI-muestra-su-nueva-cara-en-Selva-Oscura.jpg",
+    "url": "https://es.rollingstone.com/yoshi-muestra-su-nueva-cara-en-selva-oscura/"
+  },
+  {
+    "title": "Patrick Stewart (1940-2026): El actor de Shakespeare que encontró la frontera final",
+    "tag": "TENDENCIAS",
+    "date": "Fri, 30 Oct 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/10/2-Flavio-Bolsonaro-huye-a-Estados-Unidos-y-desde-alli-se-proclama-como-lider-de-Brasil-.jpg",
+    "url": "https://es.rollingstone.com/patrick-stewart-1940-2026-el-actor-de-shakespeare-que-encontro-la-frontera-final/"
+  },
+  {
+    "title": "Yami Safdie y Maluma ofrecen una nueva perspectiva del desamor en ‘Felicidades’",
+    "tag": "TENDENCIAS",
+    "date": "Fri, 30 Oct 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/10/2-Yami-Safdie-y-Maluma-ofrecen-una-nueva-perspectiva-del-desamor-en-‘Felicidades-.jpeg",
+    "url": "https://es.rollingstone.com/yami-safdie-y-maluma-ofrecen-una-nueva-perspectiva-del-desamor-en-felicidades/"
+  },
+  {
+    "title": "Flávio Bolsonaro huye a Estados Unidos y desde allí se proclama como “líder” de Brasil",
+    "tag": "TENDENCIAS",
+    "date": "Fri, 30 Oct 2026",
+    "img": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f1e7-1f1f7.png",
+    "url": "https://es.rollingstone.com/flavio-bolsonaro-huye-a-estados-unidos-y-desde-alli-se-proclama-como-lider-de-brasil/"
+  },
+  {
+    "title": "“Fue muy emotivo”, Jennifer Lawrence habla de su retorno a la franquicia de Los juegos del hambre",
+    "tag": "TENDENCIAS",
+    "date": "Fri, 30 Oct 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/fue-muy-emotivo-jennifer-lawrence-habla-de-su-retorno-a-la-franquicia-de-los-juegos-del-hambre/"
   }
 ]
