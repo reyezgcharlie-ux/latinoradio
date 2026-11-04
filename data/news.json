@@ -1,5 +1,19 @@
 [
   {
+    "title": "5 canciones que dejaron una marca incómoda en la historia del rock",
+    "tag": "MÚSICA",
+    "date": "Tue, 03 Nov 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2025/02/aerosmith.jpg",
+    "url": "https://indiehoy.com/historias/5-canciones-de-rock-que-perjudicaron-la-carrera-y-el-legado-de-sus-bandas/"
+  },
+  {
+    "title": "5 bandas que mantuvieron una estética en sus discos",
+    "tag": "MÚSICA",
+    "date": "Tue, 03 Nov 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/11/jungle.jpg",
+    "url": "https://indiehoy.com/historias/5-bandas-que-mantuvieron-una-estetica-en-sus-albumes/"
+  },
+  {
     "title": "The Cure lanzaría nuevas canciones en vivo en 2027, según confirmó Robert Smith",
     "tag": "MÚSICA",
     "date": "Tue, 03 Nov 2026",
@@ -56,18 +70,67 @@
     "url": "https://indiehoy.com/noticias/lollapalooza-argentina-2027-anuncia-su-lineup-por-dia/"
   },
   {
-    "title": "Qué ver en Prime Video: 3 películas aclamadas por la crítica",
-    "tag": "MÚSICA",
+    "title": "C. Tangana regresa a sus raíces del rap con ‘Milko Freestyle’",
+    "tag": "TENDENCIAS",
     "date": "Tue, 03 Nov 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/11/Paul-Rudd-Nick-Jonas.webp",
-    "url": "https://indiehoy.com/cine/que-ver-en-prime-video-3-peliculas-aclamadas-por-la-critica/"
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/11/C.-Tangana-regresa-a-sus-raices-del-rap-con-‘Milko-Freestyle-1.jpg",
+    "url": "https://es.rollingstone.com/c-tangana-regresa-a-sus-raices-del-rap-con-milk-freestyle/"
   },
   {
-    "title": "Quilmes Rock 2027 anuncia su lineup: Babasónicos, Fito Páez y más",
-    "tag": "MÚSICA",
+    "title": "La-33: entre mambo y boogaloo, 25 años después",
+    "tag": "TENDENCIAS",
     "date": "Tue, 03 Nov 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/11/quilmes-rock-logo.jpg",
-    "url": "https://indiehoy.com/noticias/quilmes-rock-2027-anuncia-su-line-up-babasonicos-fito-paez-y-mas/"
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/11/2-La-33-entre-mambo-y-boogaloo-25-anos-despues-.jpg",
+    "url": "https://es.rollingstone.com/la-33-entre-mambo-y-boogaloo-25-anos-despues/"
+  },
+  {
+    "title": "Morat culmina su gira por España con cuatro conciertos agotados en Madrid",
+    "tag": "TENDENCIAS",
+    "date": "Tue, 03 Nov 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/11/2-Morat-culmina-su-gira-por-Espana-con-cuatro-conciertos-agotados-en-Madrid-.jpg",
+    "url": "https://es.rollingstone.com/morat-culmina-su-gira-por-espana-con-cuatro-conciertos-agotados-en-madrid/"
+  },
+  {
+    "title": "Crítica: El despertar",
+    "tag": "TENDENCIAS",
+    "date": "Tue, 03 Nov 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/critica-el-despertar/"
+  },
+  {
+    "title": "Crítica: El poder de la red (The Social Reckoning)",
+    "tag": "TENDENCIAS",
+    "date": "Tue, 03 Nov 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/critica-el-poder-de-la-red-the-social-reckoning/"
+  },
+  {
+    "title": "José Manuel Cravioto reconstruye el caos de Avándaro en Autos, mota y rocanrol",
+    "tag": "TENDENCIAS",
+    "date": "Tue, 03 Nov 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/11/2-Jose-Manuel-Cravioto-reconstruye-el-caos-de-Avandaro-en-Autos-mota-y-rocanrol-.jpg",
+    "url": "https://es.rollingstone.com/jose-manuel-cravioto-reconstruye-el-caos-de-avandaro-en-autos-mota-y-rocanrol/"
+  },
+  {
+    "title": "Jamie Dornan habla acerca de interpretar a Aragorn en El señor de los anillos: la caza de Gollum",
+    "tag": "TENDENCIAS",
+    "date": "Tue, 03 Nov 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/jamie-dornan-habla-acerca-de-interpretar-a-aragorn-en-el-senor-de-los-anillos-la-caza-de-gollum/"
+  },
+  {
+    "title": "Artistas que debes conocer: Gato ‘e Monte",
+    "tag": "TENDENCIAS",
+    "date": "Tue, 03 Nov 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/11/2-Artistas-que-debes-conocer-Gato-‘e-Monte-.jpg",
+    "url": "https://es.rollingstone.com/artistas-que-debes-conocer-gato-e-monte/"
+  },
+  {
+    "title": "Paulo Londra, destinado a tocar el cielo ",
+    "tag": "TENDENCIAS",
+    "date": "Tue, 03 Nov 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/11/2-Paulo-Londra-destinado-a-tocar-el-cielo-.jpg",
+    "url": "https://es.rollingstone.com/paulo-londra-destinado-a-tocar-el-cielo/"
   },
   {
     "title": "Conoce a los artistas colombianos presentes en los Premios ROLLING STONE en Español",
@@ -75,68 +138,5 @@
     "date": "Tue, 03 Nov 2026",
     "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
     "url": "https://es.rollingstone.com/conoce-a-los-artistas-colombianos-presentes-en-los-premios-rolling-stone-en-espanol/"
-  },
-  {
-    "title": "David Byrne celebró a la nueva escena argentina y la definió como crítica de Milei",
-    "tag": "TENDENCIAS",
-    "date": "Tue, 03 Nov 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/11/david-byrne-argentina.jpg",
-    "url": "https://es.rollingstone.com/arg-david-byrne-celebro-a-la-nueva-escena-argentina-y-la-definio-como-critica-de-milei/"
-  },
-  {
-    "title": "Mira el nuevo corto stop-motion de My Chemical Romance y Lauren Tsai",
-    "tag": "TENDENCIAS",
-    "date": "Tue, 03 Nov 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/mira-el-nuevo-corto-stop-motion-de-my-chemical-romance-y-lauren-tsai/"
-  },
-  {
-    "title": "Los ZYN Premios ROLLING STONE en Español 2026 anuncian a sus nominados de Creadores y Nuevas Narrativas",
-    "tag": "TENDENCIAS",
-    "date": "Tue, 03 Nov 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/los-zyn-premios-rolling-stone-en-espanol-2026-anuncian-a-sus-nominados-de-creadores-y-nuevas-narrativas/"
-  },
-  {
-    "title": "Lollapalooza Argentina 2027 anunció su line-up por día: ¿cuándo toca cada banda?",
-    "tag": "TENDENCIAS",
-    "date": "Tue, 03 Nov 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/arg-lollapalooza-argentina-2027-anuncio-su-line-up-por-dia-cuando-toca-cada-banda/"
-  },
-  {
-    "title": "Pity Álvarez declaró en su juicio: “Cuando disparé, fue un fogonazo blanco en mi cabeza”",
-    "tag": "TENDENCIAS",
-    "date": "Tue, 03 Nov 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/arg-pity-alvarez-declaro-en-su-juicio-cuando-dispare-fue-un-fogonazo-blanco-en-mi-cabeza/"
-  },
-  {
-    "title": "De cuando Richard Coleman y Gustavo Cerati formaron Fricción",
-    "tag": "TENDENCIAS",
-    "date": "Tue, 03 Nov 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/arg-de-cuando-richard-coleman-y-gustavo-cerati-formaron-friccion/"
-  },
-  {
-    "title": "Quilmes Rock anunció su line-up: Babasónicos, Divididos, Fito Páez, Los Fabulosos Cadillacs y Jet, entre los destacados",
-    "tag": "TENDENCIAS",
-    "date": "Mon, 02 Nov 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/arg-quilmes-rock-anuncio-su-line-up-babasonicos-divididos-fito-paez-los-fabulosos-cadillacs-y-jet-entre-los-destacados/"
-  },
-  {
-    "title": "Cómo se hizo ‘Argentina Stone’, el documental que retrata la cultura rollinga desde adentro",
-    "tag": "TENDENCIAS",
-    "date": "Mon, 02 Nov 2026",
-    "img": "https://es.rollingstone.com/wp-content/uploads/2026/11/ARGENTINA-STONE-1024x616.jpg",
-    "url": "https://es.rollingstone.com/arg-como-se-hizo-argentina-stone-el-documental-que-retrata-la-cultura-rollinga-desde-adentro/"
-  },
-  {
-    "title": "Imelda May: “Con Ronnie Wood somos almas gemelas”",
-    "tag": "TENDENCIAS",
-    "date": "Mon, 02 Nov 2026",
-    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
-    "url": "https://es.rollingstone.com/arg-imelda-may-con-ronnie-wood-somos-almas-gemelas/"
   }
 ]
