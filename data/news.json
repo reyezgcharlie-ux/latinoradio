@@ -1,5 +1,40 @@
 [
   {
+    "title": "La mejor banda de rock según Bob Dylan: Los primeros y los últimos",
+    "tag": "MÚSICA",
+    "date": "Wed, 11 Nov 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2021/06/bob-dylan-1.jpg",
+    "url": "https://indiehoy.com/historias/la-mejor-banda-de-rock-segun-bob-dylan/"
+  },
+  {
+    "title": "Barbi Recanati: El espíritu del rock del que me enamoré es punky y activista",
+    "tag": "MÚSICA",
+    "date": "Wed, 11 Nov 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/11/barbi-recanati-prensa.jpg",
+    "url": "https://indiehoy.com/entrevistas/barbi-recanati-espiritu-rock-enamore-punky-activista/"
+  },
+  {
+    "title": "10 lanzamientos para escuchar esta semana",
+    "tag": "MÚSICA",
+    "date": "Wed, 11 Nov 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/11/lanzamientos-musicales-para-escuchar-esta-semana.webp",
+    "url": "https://indiehoy.com/noticias/10-lanzamientos-para-escuchar-esta-semana-2026-11-11/"
+  },
+  {
+    "title": "Los beneficios de esta semana en la Comunidad Indie Hoy",
+    "tag": "MÚSICA",
+    "date": "Wed, 11 Nov 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2024/06/comunidad-indie-hoy.jpg",
+    "url": "https://indiehoy.com/recitales/beneficios-comunidad-indie-hoy-esta-semana/"
+  },
+  {
+    "title": "La canción que los miembros de Metallica detestan: No tiene que ver con nosotros",
+    "tag": "MÚSICA",
+    "date": "Wed, 11 Nov 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2022/06/metallica.jpg",
+    "url": "https://indiehoy.com/historias/la-cancion-que-los-miembros-de-metallica/"
+  },
+  {
     "title": "4 canciones esenciales para entender el synth pop de los 80",
     "tag": "MÚSICA",
     "date": "Wed, 11 Nov 2026",
@@ -35,38 +70,73 @@
     "url": "https://indiehoy.com/noticias/uniqlo-y-studio-ghibli-lanzan-una-coleccion-inspirada-en-sus-peliculas/"
   },
   {
-    "title": "10 lanzamientos para escuchar esta semana",
-    "tag": "MÚSICA",
+    "title": "Crítica: Fama tardía (Late Fame)",
+    "tag": "TENDENCIAS",
     "date": "Wed, 11 Nov 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/11/lanzamientos-musicales-para-escuchar-esta-semana.webp",
-    "url": "https://indiehoy.com/noticias/10-lanzamientos-para-escuchar-esta-semana-2026-11-11/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/critica-fama-tardia-late-fame/"
   },
   {
-    "title": "Los 10 mejores discos de rock experimental de los años 80 según la crítica",
-    "tag": "MÚSICA",
+    "title": "Bi Gan y Resurrection: El cine ante la mentira de la inmortalidad",
+    "tag": "TENDENCIAS",
     "date": "Wed, 11 Nov 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/11/10-discos-rock-experimental.webp",
-    "url": "https://indiehoy.com/historias/los-10-mejores-discos-de-rock-experimental-de-los-anos-80-segun-la-critica/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/bi-gan-y-resurrection-el-cine-ante-la-mentira-de-la-inmortalidad/"
   },
   {
-    "title": "PETA le pidió a Cage The Elephant que cambie su nombre a Free The Elephant",
-    "tag": "MÚSICA",
+    "title": "Crítica: Bait ",
+    "tag": "TENDENCIAS",
     "date": "Wed, 11 Nov 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/11/cage-the-elephant.webp",
-    "url": "https://indiehoy.com/noticias/peta-le-pidio-a-cage-the-elephant-que-cambie-su-nombre-a-free-the-elephant/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/critica-bait/"
   },
   {
-    "title": "Qué ver en Netflix: 4 películas que son furor y todos están mirando",
-    "tag": "MÚSICA",
+    "title": "Gara Durán reflexiona sobre la nostalgia del pasado en Gara ",
+    "tag": "TENDENCIAS",
     "date": "Wed, 11 Nov 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/11/Dennis-Quaid-con-un-perro-en-brazos.webp",
-    "url": "https://indiehoy.com/cine/que-ver-en-netflix-4-peliculas-que-son-furor-y-todos-estan-mirando/"
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/11/2-Gara-Duran-reflexiona-sobre-la-nostalgia-del-pasado-en-Gara-.jpg",
+    "url": "https://es.rollingstone.com/gara-duran-reflexiona-sobre-la-nostalgia-del-pasado-en-gara/"
   },
   {
-    "title": "The Strokes se burla de los multimillonarios más poderosos en su nuevo videoclip",
-    "tag": "MÚSICA",
+    "title": "Juez fija fecha para el juicio de Steven Tyler por abuso sexual",
+    "tag": "TENDENCIAS",
     "date": "Wed, 11 Nov 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/11/the-strokes-video-lonely-in-the-future.webp",
-    "url": "https://indiehoy.com/noticias/the-strokes-se-burla-de-los-multimillonarios-mas-poderosos-en-su-nuevo-videoclip/"
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/juez-fija-fecha-para-el-juicio-de-steven-tyler-por-abuso-sexual/"
+  },
+  {
+    "title": "James Gunn deja la dirección de DC Studios: ¿Qué pasará ahora con el universo cinematográfico?",
+    "tag": "TENDENCIAS",
+    "date": "Wed, 11 Nov 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/james-gunn-deja-la-direccion-de-dc-studios-que-pasara-ahora-con-el-universo-cinematografico/"
+  },
+  {
+    "title": "Attaque 77 vuelve a los escenarios: ¿qué dijo Ciro Pertusi?",
+    "tag": "TENDENCIAS",
+    "date": "Wed, 11 Nov 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2021/11/Attaque-77-33-anos-de-punk-rock-en-Latinoamerica-1024x616.jpg",
+    "url": "https://es.rollingstone.com/arg-attaque-77-vuelve-a-los-escenarios-que-dijo-ciro-pertusi/"
+  },
+  {
+    "title": "La fiscalía pidió 18 años y seis meses de prisión para Pity Álvarez",
+    "tag": "TENDENCIAS",
+    "date": "Wed, 11 Nov 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/arg-la-fiscalia-pidio-xxx-anos-de-prision-para-pity-alvarez/"
+  },
+  {
+    "title": "Crítica: el sonido de U2 se revitaliza en ‘Carnaval de Luz’",
+    "tag": "TENDENCIAS",
+    "date": "Wed, 11 Nov 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/arg-critica-el-sonido-de-u2-se-revitaliza-en-carnaval-de-luz/"
+  },
+  {
+    "title": "Simpatía por el Papa: esperando el milagro en la gira argentina de León XIV",
+    "tag": "TENDENCIAS",
+    "date": "Wed, 11 Nov 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/11/DSC2577.jpg",
+    "url": "https://es.rollingstone.com/arg-simpatia-por-el-papa-esperando-el-milagro-en-la-gira-argentina-de-leon-xiv/"
   }
 ]
