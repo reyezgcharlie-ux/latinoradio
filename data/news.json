@@ -1,5 +1,40 @@
 [
   {
+    "title": "Quién escribió Another One Bites the Dust de Queen",
+    "tag": "MÚSICA",
+    "date": "Sat, 14 Nov 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2023/06/queen.jpg",
+    "url": "https://indiehoy.com/historias/quien-escribio-another-one-bites-the-dust-de-queen/"
+  },
+  {
+    "title": "El guitarrista que Neil Young tenía como ídolo: Héroe",
+    "tag": "MÚSICA",
+    "date": "Sat, 14 Nov 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/04/neil-young.jpg",
+    "url": "https://indiehoy.com/historias/el-guitarrista-que-neil-young-tenia-como-idolo-heroe/"
+  },
+  {
+    "title": "El mejor compositor de los últimos 100 años según Ritchie Blackmore",
+    "tag": "MÚSICA",
+    "date": "Sat, 14 Nov 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/05/ritchie-blackmore.webp",
+    "url": "https://indiehoy.com/historias/el-mejor-compositor-de-los-ultimos-100-anos-segun-ritchie-blackmore/"
+  },
+  {
+    "title": "Qué ver en Netflix: 4 series nuevas que vale la pena descubrir",
+    "tag": "MÚSICA",
+    "date": "Sat, 14 Nov 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/11/el-cuerpo.webp",
+    "url": "https://indiehoy.com/series/que-ver-en-netflix-4-series-nuevas-que-vale-la-pena-descubrir/"
+  },
+  {
+    "title": "Los 5 mejores discos de post punk de los años 80 según la crítica",
+    "tag": "MÚSICA",
+    "date": "Sat, 14 Nov 2026",
+    "img": "https://indiehoy.com/wp-content/uploads/2026/11/5-discos-post-punk-anos-80.webp",
+    "url": "https://indiehoy.com/historias/los-5-mejores-discos-de-post-punk-de-los-anos-80-segun-la-critica/"
+  },
+  {
     "title": "Crítica de Broken English: un original acercamiento a la vida y obra de Marianne Faithfull",
     "tag": "MÚSICA",
     "date": "Fri, 13 Nov 2026",
@@ -35,38 +70,73 @@
     "url": "https://indiehoy.com/noticias/latin-grammy-2026-milo-j-ca7riel-y-paco-amoroso-y-mas-entre-los-ganadores/"
   },
   {
-    "title": "10 discos nuevos para escuchar hoy",
-    "tag": "MÚSICA",
+    "title": "Super Ratones lanza Camouflage, un compendio exquisito de grabaciones encontradas",
+    "tag": "TENDENCIAS",
     "date": "Fri, 13 Nov 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/11/portada-indiehoy-noviembre-2026.jpg",
-    "url": "https://indiehoy.com/noticias/10-discos-nuevos-para-escuchar-hoy-2hollis-u2-mas/"
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/11/SUPER-RATONES-CON-PERSON-1-1024x616.jpg",
+    "url": "https://es.rollingstone.com/arg-super-ratones-lanza-camouflage-un-compendio-exquisito-de-grabaciones-encontradas/"
   },
   {
-    "title": "Los 3 mejores discos de David Bowie según Indie Hoy",
-    "tag": "MÚSICA",
+    "title": "Tangles: ¿qué queda de nosotros cuando desaparecen nuestros recuerdos? ",
+    "tag": "TENDENCIAS",
     "date": "Fri, 13 Nov 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2025/08/david-bowie.webp",
-    "url": "https://indiehoy.com/historias/los-3-mejores-discos-de-david-bowie-segun-indie-hoy/"
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/11/2-Tangles-¿que-queda-de-nosotros-cuando-desaparecen-nuestros-recuerdos-.jpg",
+    "url": "https://es.rollingstone.com/tangles-que-queda-de-nosotros-cuando-desaparecen-nuestros-recuerdos/"
   },
   {
-    "title": "Una de las mejores canciones de la historia según Bob Dylan: Misteriosa y revolucionaria",
-    "tag": "MÚSICA",
+    "title": "Hotel Arts Barcelona: Lujo del más alto nivel frente al Mediterráneo",
+    "tag": "TENDENCIAS",
     "date": "Fri, 13 Nov 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2025/04/bob-dylan.jpg",
-    "url": "https://indiehoy.com/historias/una-de-las-mejores-canciones-de-la-historia-segun-bob-dylan-misteriosa-y-revolucionaria/"
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/11/2-Hotel-Arts-Barcelona-Lujo-del-mas-alto-nivel-frente-al-Mediterraneo-.jpg",
+    "url": "https://es.rollingstone.com/hotel-arts-barcelona-lujo-del-mas-alto-nivel-frente-al-mediterraneo/"
   },
   {
-    "title": "Las 15 peores canciones de The Beatles",
-    "tag": "MÚSICA",
+    "title": "Bienvenida de soltera: una nueva cara de Yami Safdie",
+    "tag": "TENDENCIAS",
     "date": "Fri, 13 Nov 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2025/03/beatles.jpg",
-    "url": "https://indiehoy.com/historias/15-peores-canciones-de-the-beatles/"
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/11/2-Bienvenida-de-soltera-una-nueva-cara-de-Yami-Safdie-.jpg",
+    "url": "https://es.rollingstone.com/bienvenida-de-soltera-una-nueva-cara-de-yami-safdie/"
   },
   {
-    "title": "Qué ver en Disney+: 3 series para maratonear sin perder tiempo",
-    "tag": "MÚSICA",
+    "title": "Casa Cubel en Bogotá: Un espacio donde convergen la moda, el diseño y la arquitectura",
+    "tag": "TENDENCIAS",
     "date": "Fri, 13 Nov 2026",
-    "img": "https://indiehoy.com/wp-content/uploads/2026/11/the-dropout.webp",
-    "url": "https://indiehoy.com/series/que-ver-en-disney-3-series-para-maratonear-sin-perder-tiempo/"
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/11/2-Casa-Cubel-en-Bogota-Un-espacio-donde-convergen-la-moda-el-diseno-y-la-arquitectura-.jpg",
+    "url": "https://es.rollingstone.com/casa-cubel-en-bogota-un-espacio-donde-convergen-la-moda-el-diseno-y-la-arquitectura/"
+  },
+  {
+    "title": "María Becerra comienza su serie de diez shows en el Movistar Arena: ¿qué se sabe del Quimera Tour?",
+    "tag": "TENDENCIAS",
+    "date": "Fri, 13 Nov 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2023/12/maria-becerra-tapa-rolling-stone.jpg",
+    "url": "https://es.rollingstone.com/arg-maria-becerra-comienza-su-serie-de-diez-shows-en-el-movistar-arena-que-se-sabe-del-quimera-tour/"
+  },
+  {
+    "title": "La Pestilencia, así será la despedida",
+    "tag": "TENDENCIAS",
+    "date": "Fri, 13 Nov 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/la-pestilencia-asi-sera-la-despedida/"
+  },
+  {
+    "title": "Cindy Cats: Los músicos invisibles que crearon su propia superbanda",
+    "tag": "TENDENCIAS",
+    "date": "Fri, 13 Nov 2026",
+    "img": "https://es.rollingstone.com/wp-content/uploads/2026/11/CINDY-CATS-6-683x1024.jpg",
+    "url": "https://es.rollingstone.com/arg-cindy-cats-los-musicos-invisibles-que-crearon-su-propia-superbanda/"
+  },
+  {
+    "title": "Milo J se quedó con cuatro Latin Grammy: todos los premiados de 2026",
+    "tag": "TENDENCIAS",
+    "date": "Fri, 13 Nov 2026",
+    "img": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f3b6.png",
+    "url": "https://es.rollingstone.com/arg-milo-j-se-quedo-con-cuatro-latin-grammy-todos-los-premiados-de-2026/"
+  },
+  {
+    "title": "Jensen Huang renuncia como CEO de Nvidia, comienza la búsqueda de un sucesor",
+    "tag": "TENDENCIAS",
+    "date": "Fri, 13 Nov 2026",
+    "img": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+    "url": "https://es.rollingstone.com/jensen-huang-renuncia-como-ceo-de-nvidia-comienza-la-busqueda-de-un-sucesor/"
   }
 ]
